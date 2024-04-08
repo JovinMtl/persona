@@ -129,6 +129,8 @@ export default {
 @media screen and (max-width: 340px) {
     .one{
         font-size: 12px;
+        align-content: center;
+        align-items: center;
     }
 }
 /* @media screen and (min-width: 340px) {
