@@ -1,0 +1,7 @@
+{
+  "name": "jovePersona",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
