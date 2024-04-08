@@ -14,6 +14,9 @@ ion-toolbar{
 ion-title{
     --background: gray;
 }
+.center router-link {
+    text-decoration: none;
+  }
 /* body {
     font-family: 'Quicksand', sans-serif;
   } */
@@ -22,7 +25,7 @@ ion-title{
     text-align: center;
 }
 .menu{
-    background-color: #F08800;
+    /* background-color: #F08800; */
     background-color: #c5b5a1;
     /* font-family: Quicksand,Arial, Helvetica, sans-serif; */
     /* font-family: 'Quicksand', sans-serif; */
@@ -33,5 +36,29 @@ ion-title{
 .welcomeText{
     /* font-family: 'Quicksand', sans-serif; */
     font-family: Satisfy, sans-serif;
+    /* font-family: Raleway; */
     font-size: 16px;
+}
+.feuilleContainer{
+    text-align: center;
+    display: inline-flex;
+    /* position: relative; */
+    text-align: center;
+    width: 90vw;
+    /* height: 40px; */
+    border-radius: 25px;
+}
+.openImage{
+    text-align: center;
+    display: inline-block;
+    /* position: relative; */
+    text-align: center;
+    width: 90vw;
+    background-color: red;
+    /* height: 40px; */
+    border-radius: 25px;
+}
+.menuSticky{
+    position: sticky;
+    top: 2px;
 }

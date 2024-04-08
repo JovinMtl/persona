@@ -1,12 +1,23 @@
 <template>
     <ion-page>
       <ion-content>
-        <div class="centered welcomeText">
-            <p>Bienvenue sur la Page officielle de Muteule.</p>
+        
+        <div>
+            <wel-come></wel-come>
         </div>
-        <div class="menuContainer">
+        <!-- <div class="menuContainer">
+            <show-pic></show-pic>
+        </div> -->
+        <div class="menuContainer menuSticky">
             <me-nu></me-nu>
         </div>
+        <div class="menuContainer">
+            <show-pic></show-pic>
+        </div>
+        <div class="centered">
+            <open-pic></open-pic>
+        </div>
+        
         
         
       </ion-content>
@@ -18,10 +29,16 @@
     IonContent, IonHeader, IonPage, IonTitle, IonToolbar 
   } from '@ionic/vue';
   import menu from '../auxiliaire/menu.vue';
+  import welcome from '../auxiliaire/welcome.vue'
+  import showPic from '../operations/show-pic.vue'
+  import openPic from '../operations/open-pic.vue'
   export default{
     components: {
       IonContent, IonHeader, IonPage, IonTitle, IonToolbar, 
-      'me-nu': menu
+      'me-nu': menu,
+      'wel-come': welcome,
+      'show-pic': showPic,
+      'open-pic': openPic,
     },
     setup(){
       return {}
