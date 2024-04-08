@@ -22,7 +22,17 @@
 </template>
 
 <script>
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import { 
+  IonContent, IonHeader, IonPage, IonTitle, IonToolbar 
+} from '@ionic/vue';
+export default{
+  components: {
+    IonContent, IonHeader, IonPage, IonTitle, IonToolbar, 
+  },
+  setup(){
+    return {}
+  }
+}
 </script>
 
 <style scoped>

@@ -1,0 +1,17 @@
+
+ion-page{
+    --background: green;
+}
+ion-content{
+    --background: yellow;
+    --background: transparent;
+}
+ion-toolbar{
+    --background: blue;
+}
+ion-title{
+    --background: gray;
+}
+.centered{
+    background-color: red;
+}
