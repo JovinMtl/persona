@@ -11,19 +11,12 @@
             <router-link to="/" class="noLine">contact</router-link> -->
             <div class="left one two">
                 <router-link to="/" class="noLine one two">home</router-link>
-                <!-- <router-link to="/" class="noLine one">home</router-link>
-                <span style="margin-right: .6rem;">&nbsp;</span>
-                <router-link to="/home"  class="noLine one">portfolio</router-link> -->
             </div>
             <div class="center one">
                 <router-link to="/" class="noLine one">portfolio</router-link>
-                <!-- Thierry Jovin Nsanzumukiza -->
             </div>
             <div class="right one">
                 <router-link to="/" class="noLine one">interests</router-link>
-                <!-- <router-link to="/home" class="noLine">whatsapp</router-link>
-                <span style="margin-right: .6rem;">&nbsp;</span>
-                <router-link to="/" class="noLine">github</router-link> -->
             </div>
             <div class="fourth one">
                 <router-link to="/" class="noLine one">contact</router-link>
@@ -132,6 +125,11 @@ export default {
 }
 .two{
     background-color: black;
+}
+@media screen and (max-width: 340px) {
+    .one{
+        font-size: 12px;
+    }
 }
 /* @media screen and (min-width: 340px) {
     .menuContent{
