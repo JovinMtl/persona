@@ -12,13 +12,13 @@ export default {
     setup() {
         const images = [
             {
-            url : "url('/public/personaFoto/jove1.png')",
+            url : "url('/personaFoto/jove1.png')",
             },
             {
-            url : "url('/public/personaFoto/jove2.png')",
+            url : "url('/personaFoto/jove2.png')",
             },
             {
-            url : "url('/public/personaFoto/jove3.png')",
+            url : "url('/personaFoto/jove3.png')",
             },
             {
             url : "url('/personaFoto/jove4.png')",
