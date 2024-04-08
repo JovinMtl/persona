@@ -4,7 +4,9 @@ ion-page{
 }
 ion-content{
     --background: rgb(255, 196, 0);
+    --background: rgba(240, 136, 0, 0.699);
     --background: transparent;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 ion-toolbar{
     --background: blue;
@@ -12,6 +14,24 @@ ion-toolbar{
 ion-title{
     --background: gray;
 }
+/* body {
+    font-family: 'Quicksand', sans-serif;
+  } */
+  
 .centered{
-    background-color: red;
+    text-align: center;
+}
+.menu{
+    background-color: #F08800;
+    background-color: #c5b5a1;
+    /* font-family: Quicksand,Arial, Helvetica, sans-serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+}
+.menuContainer{
+    text-align: center;
+}
+.welcomeText{
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: Satisfy, sans-serif;
+    font-size: 16px;
 }

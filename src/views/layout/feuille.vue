@@ -1,8 +1,14 @@
 <template>
     <ion-page>
       <ion-content>
-        <me-nu></me-nu>
-        <p>Hello world</p>
+        <div class="centered welcomeText">
+            <p>Bienvenue sur la Page officielle de Muteule.</p>
+        </div>
+        <div class="menuContainer">
+            <me-nu></me-nu>
+        </div>
+        
+        
       </ion-content>
     </ion-page>
   </template>
