@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h4> 
+    <div class="offerContainer">
+        <h4 style="font-weight: bold;"> 
             I offer two possible packages of Services, and you can unfold what you want.
         </h4>
         <!-- <div class="offerPlate"></div> -->
@@ -26,6 +26,14 @@
     </div>
 </template>
 <style scoped>
+.offerContainer{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 90vw;
+    /* height: 40px; */
+    border-radius: 25px;
+}
 .button-container{
     display: inline-flex;
     width: 300px;
