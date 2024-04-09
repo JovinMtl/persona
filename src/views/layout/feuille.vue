@@ -20,7 +20,9 @@
         <div class="centered">
           <summ-ary></summ-ary>
         </div>
-        
+        <div class="centered">
+          <my-offer></my-offer>
+        </div>
         
         
       </ion-content>
@@ -36,6 +38,7 @@
   import showPic from '../operations/show-pic.vue'
   import openPic from '../operations/open-pic.vue'
   import summary from '../auxiliaire/summary.vue';
+  import myOffer from '../auxiliaire/my-offer.vue';
   export default{
     components: {
       IonContent, IonHeader, IonPage, IonTitle, IonToolbar, 
@@ -44,6 +47,7 @@
       'show-pic': showPic,
       'open-pic': openPic,
       'summ-ary': summary,
+      'my-offer': myOffer,
     },
     setup(){
       return {}
