@@ -6,7 +6,8 @@
         <!-- <div class="offerPlate"></div> -->
         <div class="button-container">
             <div class="button">
-                <router-link to="/" style="color: white;">
+                <router-link @click="TurnA"
+                    to="/" style="color: white;">
                     <div class="mtl1 mtl">
                         <div style="font-size: small">
                             Muteule Software Freelancing   
@@ -14,7 +15,9 @@
                     </div>
                 </router-link>
                 
-                <router-link to="/" style="color: white;">
+                <router-link 
+                    @click="TurnB"
+                    to="/" style="color: white;">
                     <div class="mtl2 mtl">
                         <div style="font-size: small">
                             Muteule Strategy Freelancing  
@@ -23,8 +26,49 @@
                 </router-link>
             </div>
         </div>
+        <div class="offercontent">
+            <!-- // -->
+            <offer-content :option="actualValue"></offer-content>
+        </div>
     </div>
 </template>
+<script>
+import { ref } from 'vue'
+import offerContent from '../operations/offer-content.vue';
+export default {
+    components:{
+        'offer-content':offerContent,
+    },
+    setup() {
+
+        const actualValue = ref(0)
+        const cateA = ref(false)
+        const cateB = ref(false)
+        const TurnA = ()=>{
+            actualValue.value = 1
+            cateA.value = !cateA.value
+            cateB.value = false
+            console.log("You clicked A: ", actualValue.value)
+            if(!cateA.value){
+                actualValue.value = 0
+            }
+        }
+        const TurnB = ()=>{
+            actualValue.value = 2
+            cateB.value = !cateB.value
+            cateA.value = false
+            console.log("You clicked B: ", actualValue.value)
+            if(!cateB.value){
+                actualValue.value = 0
+            }
+        }
+        
+        return {
+            actualValue, cateA, cateB, TurnA, TurnB,
+        }
+    },
+}
+</script>
 <style scoped>
 .offerContainer{
     display: inline-block;
@@ -103,3 +147,4 @@
     background-color: red;
 }
 </style>
+
