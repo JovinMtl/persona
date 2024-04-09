@@ -9,8 +9,9 @@
             {{ offers[actualOption].content }}
         </div>
     </div>
+    <br>
     <div class="footer">
-        Next Page: <router-link>Portofolio</router-link>
+        Next Page: <router-link to="/">Portofolio</router-link>
     </div>
     <!-- //copright -->
 </template>

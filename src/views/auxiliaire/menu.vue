@@ -1,5 +1,5 @@
 <template>
-    <div class="centered menu">
+    <div class="centered menu" style="z-index: -19;">
         <!-- <div>jove</div> -->
         <div class="menuContent">
             <!-- <router-link to="/" class="noLine one">home</router-link>
@@ -49,7 +49,7 @@ export default {
     width: 90vw;
     height: 40px;
     border-radius: 25px;
-    align-items: safe;
+    z-index: -5
 }
 .menuContent{
     height: 100%;
@@ -59,6 +59,7 @@ export default {
     /* margin-left: 20px; */
     /* border-radius: 25px; */
     transform: translate(4%,0%);
+    z-index: 6;
 }
 .left{
     display: inline-block;
@@ -73,6 +74,7 @@ export default {
     left: 0%;
     margin-right: 2px;
     margin-left: 2px;
+    z-index: -5;
 }
 .center{
     display: inline-block;
