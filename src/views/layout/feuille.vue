@@ -17,6 +17,9 @@
         <div class="centered">
             <open-pic></open-pic>
         </div>
+        <div class="centered">
+          <summ-ary></summ-ary>
+        </div>
         
         
         
@@ -32,6 +35,7 @@
   import welcome from '../auxiliaire/welcome.vue'
   import showPic from '../operations/show-pic.vue'
   import openPic from '../operations/open-pic.vue'
+  import summary from '../auxiliaire/summary.vue';
   export default{
     components: {
       IonContent, IonHeader, IonPage, IonTitle, IonToolbar, 
@@ -39,6 +43,7 @@
       'wel-come': welcome,
       'show-pic': showPic,
       'open-pic': openPic,
+      'summ-ary': summary,
     },
     setup(){
       return {}
