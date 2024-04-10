@@ -1,10 +1,9 @@
 <template>
     <div class="summary">
-        This is my summary
         <h3>Who is Thierry ?</h3>
-        <div class="summaryContent" style="text-align: justify; text-indent: 2em;">
+        <div style="text-align: justify; text-indent: 2em;">
             <p>
-                He is a Burundian Freelancer, studied Computer Science at ETS Kamenge  and graduated in 2016. 
+                He is a Burundian Freelancer Business Strategist and Fullstack Developer , studied Computer Science at ETS Kamenge  and graduated in 2016. 
                 First wrote his "hello world" in 2013. Forth in 2014, he discovered C programming language from the computer science course.  
                 Got addicted on Linux the same year, he could jump some course whereas reading Linux book in the library. 
                 He learned to Vim in 2015 and various UNIX commands as well as Bash scripting. 
@@ -34,13 +33,3 @@
         
     </div>
 </template>
-<style scoped>
-.summary{
-    display: inline-block;
-    /* position: relative; */
-    text-align: center;
-    width: 90vw;
-    height: 40px;
-    border-radius: 25px;
-}
-</style>

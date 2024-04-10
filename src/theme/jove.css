@@ -89,6 +89,14 @@ ion-title{
     border: 3px solid black;
     margin-left: 1vw;
 }
+.summary{
+    display: inline-block;
+    text-align: center;
+    width: 90vw;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
 @media screen and (max-width: 259px) {
     .moveX{
         color: green;
@@ -183,5 +191,12 @@ ion-title{
         border-radius: 25px;
         border: 3px solid black;
         margin-left: 1vw;
+    }
+    .summary{
+        display: inline-block;
+        text-align: center;
+        width: 75vw;
+        height: 40px;
+        border-radius: 25px;
     }
 }
