@@ -69,6 +69,17 @@ ion-title{
     position: sticky;
     top: 2px;
 }
+.menu{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 40px;
+    border-radius: 25px;
+    padding-right: 1vw;
+}
 @media screen and (max-width: 259px) {
     .moveX{
         color: green;
@@ -143,5 +154,16 @@ ion-title{
     }
     .fs{
         font-size: 20px;
+    }
+    .menu{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        width: 75vw;
+        height: 40px;
+        border-radius: 25px;
+        padding-right: 1vw;
     }
 }
