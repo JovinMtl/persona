@@ -1,7 +1,6 @@
 <template>
-    <div class="centered menu" style="z-index: -19;">
-        <!-- <div>jove</div> -->
-        <div class="menuContent">
+    <div class="centered menu">
+        <div class="menuContent" @click="testD">
             <!-- <router-link to="/" class="noLine one">home</router-link>
             <span style="margin-right: .6rem;">&nbsp;</span>
             <router-link to="/home"  class="noLine one">portfolio</router-link>
@@ -9,16 +8,16 @@
             <router-link to="/home" class="noLine">interests</router-link>
             <span style="margin-right: .6rem;">&nbsp;</span>
             <router-link to="/" class="noLine">contact</router-link> -->
-            <div class="left one two">
-                <router-link to="/" class="noLine one two">home</router-link>
+            <div class="left one two" @click="TurnA">
+                <router-link to="/home"  class="noLine one two">home</router-link>
             </div>
-            <div class="center one">
-                <router-link to="/" class="noLine one">portfolio</router-link>
+            <div class="center one" >
+                <router-link to="/" :class="!opt2 ? 'noLine one':'noLine one two'" @click="TurnB">portfolio</router-link>
             </div>
-            <div class="right one">
+            <div class="right one" @click="TurnC">
                 <router-link to="/" class="noLine one">interests</router-link>
             </div>
-            <div class="fourth one">
+            <div class="fourth one" @click="testD">
                 <router-link to="/" class="noLine one">contact</router-link>
             </div>
         </div>
@@ -27,15 +26,47 @@
     </div>
 </template>
 <script>
- import { 
-    IonButton
-  } from '@ionic/vue';
+import { ref } from 'vue'
 export default {
-    components:{
-        IonButton,
-    },
     setup() {
-        
+        const opt1 = ref(false)
+        const opt2 = ref(false)
+        const opt3 = ref(false)
+        const opt4 = ref(false)
+        const TurnA = ()=>{
+            opt1.value = true
+            opt2.value = false
+            opt3.value = false
+            opt4.value = false
+        }
+        const TurnB = ()=>{
+            opt2.value = true
+            opt1.value = false
+            opt3.value = false
+            opt4.value = false
+            console.log("You clicked option B")
+        }
+        const TurnC = ()=>{
+            opt3.value = true
+            opt2.value = false
+            opt1.value = false
+            opt4.value = false
+            console.log("You clicked option C")
+        }
+        const TurnD = ()=>{
+            opt4.value = true
+            opt2.value = false
+            opt3.value = false
+            opt1.value = false
+            console.log("You pressed option D")
+        }
+        function testD(){
+            console.log("You pressed oe")
+        }
+        return {
+            opt1, opt2, opt3, opt4,
+            TurnA, TurnB, TurnC, TurnD, testD,
+        }
     },
 }
 </script>
