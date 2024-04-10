@@ -1,28 +1,20 @@
 <template>
     <div class="centered menu">
-        <div class="menuContent" @click="testD">
-            <!-- <router-link to="/" class="noLine one">home</router-link>
-            <span style="margin-right: .6rem;">&nbsp;</span>
-            <router-link to="/home"  class="noLine one">portfolio</router-link>
-            <span style="margin-right: .6rem;">&nbsp;</span>
-            <router-link to="/home" class="noLine">interests</router-link>
-            <span style="margin-right: .6rem;">&nbsp;</span>
-            <router-link to="/" class="noLine">contact</router-link> -->
-            <div class="left one two" @click="TurnA">
-                <router-link to="/home"  class="noLine one two">home</router-link>
+            <div style="display: inline-flex;">
+                <div @click="TurnA" 
+                    :class="!opt1 ? 'unclicked':'clicked'">
+                    <router-link to="/" class="unline">home</router-link>
+                </div>
+                <div @click="TurnB" :class="!opt2 ? 'unclicked':'clicked'">
+                    <router-link to="/" class="unline">portfolio</router-link>
+                </div>
+                <div @click="TurnC" :class="!opt3 ? 'unclicked':'clicked'">
+                    <router-link to="/" class="unline">interests</router-link>
+                </div>
+                <div @click="TurnD" :class="!opt4 ? 'unclicked':'clicked'">
+                    <router-link to="/" class="unline">contact</router-link>
+                </div>
             </div>
-            <div class="center one" >
-                <router-link to="/" :class="!opt2 ? 'noLine one':'noLine one two'" @click="TurnB">portfolio</router-link>
-            </div>
-            <div class="right one" @click="TurnC">
-                <router-link to="/" class="noLine one">interests</router-link>
-            </div>
-            <div class="fourth one" @click="testD">
-                <router-link to="/" class="noLine one">contact</router-link>
-            </div>
-        </div>
-        
-        <!-- Ceci est le menu -->
     </div>
 </template>
 <script>
@@ -38,6 +30,7 @@ export default {
             opt2.value = false
             opt3.value = false
             opt4.value = false
+            console.log("you pressed option A")
         }
         const TurnB = ()=>{
             opt2.value = true
@@ -61,7 +54,7 @@ export default {
             console.log("You pressed option D")
         }
         function testD(){
-            console.log("You pressed oe")
+            console.log("You pressed Test")
         }
         return {
             opt1, opt2, opt3, opt4,
@@ -74,13 +67,17 @@ export default {
 <style scoped>
 
 .menu{
-    display: inline-flex;
+    display: inline-block;
     position: relative;
     text-align: center;
+    align-content: center;
+    align-items: center;
     width: 90vw;
     height: 40px;
     border-radius: 25px;
-    z-index: -5
+    padding-right: 1vw;
+    /* margin-left: 6px; */
+    /* z-index: -5 */
 }
 .menuContent{
     height: 100%;
@@ -92,12 +89,34 @@ export default {
     transform: translate(4%,0%);
     z-index: 6;
 }
+.unclicked{
+    height: 41px; 
+    width: 20vw; 
+    background-color: red;
+    align-content: center; 
+    border-radius: 25px;
+    border: 3px solid black;
+    margin-left: 1vw;
+}
+.clicked{
+    height: 41px; 
+    width: 20vw; 
+    background-color: black;
+    align-content: center; 
+    border-radius: 25px;
+    border: 3px solid black;
+    margin-left: 1vw;
+}
+.unline{
+    text-decoration: none;
+    color: white;
+}
 .left{
-    display: inline-block;
+    display: inline-flex;
     position: sticky;
     height: auto;
     width: 30vw;
-    background-color: green;
+    /* background-color: green; */
     border: 3px solid black;
     border-radius: 25px;
     align-content: center;
