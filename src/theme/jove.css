@@ -97,6 +97,10 @@ ion-title{
     margin-top: 10px;
     border-radius: 25px;
 }
+.textIndented{
+    text-align: justify; 
+    text-indent: 2em;
+}
 @media screen and (max-width: 259px) {
     .moveX{
         color: green;
