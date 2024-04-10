@@ -3,16 +3,18 @@
             <div style="display: inline-flex;">
                 <div @click="TurnA" 
                     :class="!opt1 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline">home</router-link>
+                    <router-link to="/" class="unline fs">
+                        home
+                    </router-link>
                 </div>
                 <div @click="TurnB" :class="!opt2 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline">portfolio</router-link>
+                    <router-link to="/" class="unline fs">portfolio</router-link>
                 </div>
                 <div @click="TurnC" :class="!opt3 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline">interests</router-link>
+                    <router-link to="/" class="unline fs">interests</router-link>
                 </div>
                 <div @click="TurnD" :class="!opt4 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline">contact</router-link>
+                    <router-link to="/" class="unline fs">contact</router-link>
                 </div>
             </div>
     </div>

@@ -60,7 +60,7 @@ ion-title{
     border-radius: 25px;
 }
 .moveX{
-    color: green;
+    color: saddlebrown;
     position: relative;
     top: 30px; 
     left: 23%;
@@ -69,10 +69,54 @@ ion-title{
     position: sticky;
     top: 2px;
 }
+@media screen and (max-width: 259px) {
+    .moveX{
+        color: green;
+        position: relative;
+        top: 30px; 
+        left: 10%;
+    }
+    .fs{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 260px) {
+    .moveX{
+        color: green;
+        position: relative;
+        top: 30px; 
+        left: 15%;
+    }
+}
+@media screen and (min-width: 311px) {
+    .moveX{
+        color: red;
+        position: relative;
+        top: 30px; 
+        left: 18%;
+    }
+}
+@media screen and (min-width: 370px) {
+    .moveX{
+        color: red;
+        position: relative;
+        top: 30px; 
+        left: 22%;
+    }
+}
+@media screen and (min-width: 470px) {
+    .moveX{
+        color: red;
+        position: relative;
+        top: 30px; 
+        left: 28%;
+    }
+}
+
 
 @media screen and (min-width: 600px) {
     .moveX{
-        color: red;
+        color: saddlebrown;
         position: relative;
         top: 30px; 
         left: 32%;
