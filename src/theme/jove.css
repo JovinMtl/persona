@@ -82,10 +82,13 @@ ion-title{
 }
 @media screen and (min-width: 260px) {
     .moveX{
-        color: green;
+        color: brown;
         position: relative;
         top: 30px; 
         left: 15%;
+    }
+    .fs{
+        font-size: 11px;
     }
 }
 @media screen and (min-width: 311px) {
@@ -98,10 +101,13 @@ ion-title{
 }
 @media screen and (min-width: 370px) {
     .moveX{
-        color: red;
+        color: green;
         position: relative;
         top: 30px; 
         left: 22%;
+    }
+    .fs{
+        font-size: 13px;
     }
 }
 @media screen and (min-width: 470px) {
@@ -110,6 +116,9 @@ ion-title{
         position: relative;
         top: 30px; 
         left: 28%;
+    }
+    .fs{
+        font-size: 16px;
     }
 }
 
@@ -121,12 +130,18 @@ ion-title{
         top: 30px; 
         left: 32%;
     }
+    .fs{
+        font-size: 18px;
+    }
 }
 @media screen and (min-width: 850px) {
     .moveX{
-        color: saddlebrown;
+        color: white;
         position: relative;
         top: 30px; 
         left: 35%;
+    }
+    .fs{
+        font-size: 20px;
     }
 }

@@ -68,19 +68,6 @@ export default {
 
 <style scoped>
 
-.menu{
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    width: 90vw;
-    height: 40px;
-    border-radius: 25px;
-    padding-right: 1vw;
-    /* margin-left: 6px; */
-    /* z-index: -5 */
-}
 .menuContent{
     height: 100%;
     align-content: center;
