@@ -78,15 +78,7 @@ export default {
     transform: translate(4%,0%);
     z-index: 6;
 }
-.unclicked{
-    height: 41px; 
-    width: 20vw; 
-    background-color: red;
-    align-content: center; 
-    border-radius: 25px;
-    border: 3px solid black;
-    margin-left: 1vw;
-}
+
 .clicked{
     height: 41px; 
     width: 20vw; 
