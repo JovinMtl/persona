@@ -58,7 +58,7 @@
 
         <div>
             <h3>Embracing Freelancing as a Fusion of Skills</h3>
-            <p>
+            <p class="textIndented">
                 With this diverse background and a blend of technical proficiency and business acumen, I am ready to address challenges 
                 as a Business Strategist and Fullstack Developer in the world of freelancing.
             </p>
@@ -66,7 +66,7 @@
 
         <div>
             <h3>Engage with Me</h3>
-            <p>
+            <p class="textIndented">
                 Let's connect to explore synergies and opportunities for collaboration in the dynamic realms of technology, 
                 business strategy, and web development.
             </p>
@@ -74,3 +74,8 @@
         
     </div>
 </template>
+<style scoped>
+h3{
+    font-weight: bold;
+}
+</style>

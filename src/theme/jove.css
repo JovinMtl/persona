@@ -91,6 +91,8 @@ ion-title{
 }
 .summary{
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
     text-align: center;
     width: 90vw;
     height: 40px;
