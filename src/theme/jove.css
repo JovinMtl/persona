@@ -54,9 +54,16 @@ ion-title{
     /* position: relative; */
     text-align: center;
     width: 90vw;
+    height: auto;
     background-color: red;
     /* height: 40px; */
     border-radius: 25px;
+}
+.moveX{
+    color: green;
+    position: relative;
+    top: 30px; 
+    left: 23%;
 }
 .menuSticky{
     position: sticky;
