@@ -69,3 +69,20 @@ ion-title{
     position: sticky;
     top: 2px;
 }
+
+@media screen and (min-width: 600px) {
+    .moveX{
+        color: red;
+        position: relative;
+        top: 30px; 
+        left: 32%;
+    }
+}
+@media screen and (min-width: 850px) {
+    .moveX{
+        color: saddlebrown;
+        position: relative;
+        top: 30px; 
+        left: 35%;
+    }
+}
