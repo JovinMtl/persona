@@ -1,7 +1,8 @@
 <template>
     <div class="summary">
         <div>
-            <h3>About Me: Business Strategist and Fullstack Web Developer</h3>
+            <h3>
+                About Me: Business Strategist and Fullstack Web Developer</h3>
             <p class="textIndented">
                 I am a Burundian Business Strategist and Freelance Fullstack Web Developer, driven by a passion for 
                 strategic thinking and a deep-seated love for problem-solving. My academic journey at 
@@ -57,7 +58,8 @@
         </div>
 
         <div>
-            <h3>Embracing Freelancing as a Fusion of Skills</h3>
+            <h3>
+                Embracing Freelancing as a Fusion of Skills</h3>
             <p class="textIndented">
                 With this diverse background and a blend of technical proficiency and business acumen, I am ready to address challenges 
                 as a Business Strategist and Fullstack Developer in the world of freelancing.
