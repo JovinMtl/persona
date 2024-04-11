@@ -23,7 +23,7 @@
 import { ref } from 'vue'
 export default {
     setup() {
-        const opt1 = ref(false)
+        const opt1 = ref(true)
         const opt2 = ref(false)
         const opt3 = ref(false)
         const opt4 = ref(false)
