@@ -105,7 +105,7 @@ ion-title{
 }
 @media screen and (max-width: 259px) {
     .moveX{
-        color: green;
+        color: brown;
         position: relative;
         top: 30px; 
         left: 10%;
@@ -127,7 +127,7 @@ ion-title{
 }
 @media screen and (min-width: 311px) {
     .moveX{
-        color: red;
+        color: brown;
         position: relative;
         top: 30px; 
         left: 18%;
@@ -135,7 +135,7 @@ ion-title{
 }
 @media screen and (min-width: 370px) {
     .moveX{
-        color: green;
+        color: brown;
         position: relative;
         top: 30px; 
         left: 22%;
@@ -170,7 +170,7 @@ ion-title{
 }
 @media screen and (min-width: 850px) {
     .moveX{
-        color: white;
+        color: saddlebrown;
         position: relative;
         top: 30px; 
         left: 35%;
