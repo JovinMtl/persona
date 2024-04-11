@@ -81,13 +81,20 @@ ion-title{
     padding-right: 1vw;
 }
 .unclicked{
+    display: inline-flex;
+    margin: auto;
     height: 41px; 
     width: 20vw; 
     background-color: red;
-    align-content: center; 
+    /* align-content: center;  */
     border-radius: 25px;
     border: 3px solid black;
     margin-left: 1vw;
+}
+.tex{
+    display: inline-flex; 
+    text-align: center;
+    margin: auto;
 }
 .summary{
     display: inline-block;
