@@ -5,7 +5,7 @@
             <span  class="moveX">
                 <ion-icon :src="close" size="larger"></ion-icon>
             </span>
-            <ion-img src="/personaFoto/jove16.jpg"/>
+            <ion-img src="/personaFoto/jove17.jpeg"/>
             <span class="mantra">Embracing Vision, Inspiring Innovation</span>
             
     </div>
