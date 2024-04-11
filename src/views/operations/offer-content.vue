@@ -4,6 +4,8 @@
         <div v-if="actualOption"  :style="{
             border: `2px solid ${offers[actualOption].color}`,
             borderRadius: '20px',
+            margin: '5px 20px',
+            padding: '10px 10px',
             }">
             <span style="font-weight: bolder;">{{ offers[actualOption].title }}</span>  <br>
             {{ offers[actualOption].content }}
@@ -11,7 +13,7 @@
     </div>
     <br>
     <div class="footer">
-        Next Page: <router-link to="/">Portofolio</router-link>
+        Contact Me : <router-link to="/">Portofolio</router-link>
     </div>
     <!-- //copright -->
 </template>
@@ -30,7 +32,7 @@ export default {
             },
             {
                 'title' : "FullStack Developer",
-                'content' : "As an independent Business Strategist and Freelancer Fullstack Developer, I specialize in collaborating with individuals to create cutting-edge digital solutions and innovative algorithms. I am currently seeking dynamic partners to join me in leveraging my expertise in Python (Django and DRF), Vue.js, HTML, and CSS.",
+                'content' : "As a Freelancer Fullstack Developer, I specialize in collaborating with individuals to create cutting-edge digital solutions and innovative algorithms. I am currently seeking dynamic partners to join me in leveraging my expertise in Python (Django and DRF), Vue.js, HTML, and CSS.",
                 'color' : 'black'
             },
             {
