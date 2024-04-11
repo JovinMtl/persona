@@ -34,7 +34,7 @@
   
   <script>
   import { 
-    IonContent, IonHeader, IonPage, IonTitle, IonToolbar 
+    IonContent, IonHeader, IonPage,
   } from '@ionic/vue';
   import menu from '../auxiliaire/menu.vue';
   import welcome from '../auxiliaire/welcome.vue'
@@ -45,7 +45,7 @@
   import copyright from '../auxiliaire/copyright.vue'
   export default{
     components: {
-      IonContent, IonHeader, IonPage, IonTitle, IonToolbar, 
+      IonContent, IonHeader, IonPage,
       'me-nu': menu,
       'wel-come': welcome,
       'show-pic': showPic,
