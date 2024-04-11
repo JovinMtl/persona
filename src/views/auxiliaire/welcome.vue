@@ -1,5 +1,6 @@
 <template>
     <div class="centered welcomeText">
-            <p>Bienvenue sur la Page officielle de Muteule.</p>
+            <!-- <p>Bienvenue sur la Page officielle de Muteule.</p> -->
+            <p>Welcome to the Official Website of Thierry Jovin.</p>
         </div>
 </template>
