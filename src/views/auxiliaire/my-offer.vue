@@ -9,8 +9,11 @@
                 <router-link @click="TurnA"
                     to="/" style="color: white;">
                     <div class="mtl1 mtl">
-                        <div style="font-size: small">
-                            Muteule Software Freelancing   
+                        <div style="font-size: small;">
+                            <!-- Muteule Software Freelancing   -->
+                            <span style="margin-left: .6rem;">&nbsp;</span>
+                            <span style="text-align: center;">FullStack Developer</span>
+                            <!-- Web Developer  -->
                         </div> 
                     </div>
                 </router-link>
@@ -19,8 +22,11 @@
                     @click="TurnB"
                     to="/" style="color: white;">
                     <div class="mtl2 mtl">
-                        <div style="font-size: small">
-                            Muteule Strategy Freelancing  
+                        <div style="font-size: small;">
+                            <!-- Muteule Software Freelancing   -->
+                            <span style="margin-left: .7rem;">&nbsp;</span>
+                            <span style="text-align: center;">Business Strategist</span>
+                            <!-- Web Developer  -->
                         </div> 
                     </div>
                 </router-link>
