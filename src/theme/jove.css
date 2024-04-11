@@ -158,6 +158,27 @@ ion-title{
 
 
 @media screen and (min-width: 600px) {
+    .menu{
+        display: inline-block;
+        position: relative;
+        background-color: transparent;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        width: 75vw;
+        height: 40px;
+        border-radius: 25px;
+        padding-right: 1vw;
+    }
+    .unclicked{
+        height: 41px; 
+        width: 12vw; 
+        /* background-color: red; */
+        align-content: center; 
+        border-radius: 25px;
+        border: 3px solid black;
+        margin-left: 1vw;
+    }
     .moveX{
         color: saddlebrown;
         position: relative;
@@ -177,26 +198,6 @@ ion-title{
     }
     .fs{
         font-size: 20px;
-    }
-    .menu{
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-        width: 75vw;
-        height: 40px;
-        border-radius: 25px;
-        padding-right: 1vw;
-    }
-    .unclicked{
-        height: 41px; 
-        width: 12vw; 
-        /* background-color: red; */
-        align-content: center; 
-        border-radius: 25px;
-        border: 3px solid black;
-        margin-left: 1vw;
     }
     .summary{
         display: inline-block;
