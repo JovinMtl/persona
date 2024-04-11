@@ -3,17 +3,15 @@
         <h4 style="font-weight: bold; margin-top: 15px;"> 
             I offer two possible packages of Services, and you can pick what you want.
         </h4>
-        <!-- <div class="offerPlate"></div> -->
         <div class="button-container">
             <div class="button">
                 <router-link @click="TurnA"
                     to="/" style="color: white;">
                     <div class="mtl1 mtl">
-                        <div style="font-size: small;">
-                            <!-- Muteule Software Freelancing   -->
-                            <span style="margin-left: .6rem;">&nbsp;</span>
-                            <span style="text-align: center;">FullStack Developer</span>
-                            <!-- Web Developer  -->
+                        <div style="font-size: 0.74rem; text-align: center; margin: auto">
+                            <!-- <span style="margin-left: .6rem;">&nbsp;</span> -->
+                            <!-- <span style="text-align: center;">FullStack Developer</span> -->
+                            <span>FullStack Developer</span>
                         </div> 
                     </div>
                 </router-link>
@@ -22,18 +20,14 @@
                     @click="TurnB"
                     to="/" style="color: white;">
                     <div class="mtl2 mtl">
-                        <div style="font-size: small;">
-                            <!-- Muteule Software Freelancing   -->
-                            <span style="margin-left: .7rem;">&nbsp;</span>
-                            <span style="text-align: center;">Business Strategist</span>
-                            <!-- Web Developer  -->
+                        <div style="font-size: 0.74rem; text-align: center; margin: auto">
+                            <span>Business Strategist</span>
                         </div> 
                     </div>
                 </router-link>
             </div>
         </div>
         <div class="offercontent">
-            <!-- // -->
             <offer-content :option="actualValue"></offer-content>
         </div>
     </div>
