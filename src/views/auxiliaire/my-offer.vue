@@ -80,6 +80,8 @@ export default {
 }
 .button-container{
     display: inline-flex;
+    position: sticky;
+    top: 3rem;
     width: 300px;
     height: 40px;
     background-color: red;
