@@ -110,6 +110,10 @@ ion-title{
     text-align: justify; 
     text-indent: 2em;
 }
+.mantra{
+    color: white;
+    font-weight: bold;
+}
 @media screen and (max-width: 259px) {
     .moveX{
         color: brown;
@@ -119,6 +123,13 @@ ion-title{
     }
     .fs{
         font-size: 11px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .mantra{
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
     }
 }
 @media screen and (min-width: 260px) {
