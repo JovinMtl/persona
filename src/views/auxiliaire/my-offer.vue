@@ -72,7 +72,7 @@ export default {
 <style scoped>
 .offerContainer{
     display: inline-block;
-    position: relative;
+    /* position: relative; */
     text-align: center;
     width: 90vw;
     /* height: 40px; */
