@@ -6,15 +6,15 @@ import Feuille from '../views/layout/feuille.vue'
 const routes = [
   {
     path: '/',
-    redirect: '/feuille'
+    redirect: '/home'
   },
   {
-    path: '/home',
+    path: '/homes',
     name: 'Home',
     component: HomePage
   },
   {
-    path: '/feuille',
+    path: '/home',
     component: Feuille
   },
 ]
