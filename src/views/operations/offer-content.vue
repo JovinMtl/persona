@@ -7,7 +7,15 @@
             margin: '5px 20px',
             padding: '10px 10px',
             }">
-            <span style="font-weight: bolder;">{{ offers[actualOption].title }}</span>  <br>
+            <span :style="{
+                fontWeight: 'bolder', 
+                borderBottom: `2px solid ${offers[actualOption].color}`,
+                display:'block',
+                margin: '0px -12px',
+                paddingBottom: '5px',
+                }">
+                {{ offers[actualOption].title }}
+            </span>  <br>
             {{ offers[actualOption].content }}
         </div>
     </div>
