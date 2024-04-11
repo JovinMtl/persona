@@ -12,14 +12,28 @@
         </div>
     </div>
     <br>
-    <div class="footer">
-        Contact Me : <router-link to="/">Portofolio</router-link>
+    <div class="footer welcomeText" style="font-weight: bolder;">
+        <!-- <span>Reach Out</span>   -->
+        <span style="color: brown">Connect with me</span>  
+        <span style="position: relative; top: .6rem; 
+                font-size: 2rem;">
+            <span style="margin-left: .6rem; top: 3rem;">&nbsp;</span>
+            <ion-icon :icon="logoWhatsapp"></ion-icon>
+            <span style="margin-left: .9rem;">&nbsp;</span>
+            <ion-icon :icon="mailOutline"></ion-icon>
+        </span>
+        
     </div>
     <!-- //copright -->
 </template>
 <script>
 import { computed } from 'vue'
+import { IonIcon } from '@ionic/vue'
+import { logoWhatsapp, mailOutline, } from 'ionicons/icons'
 export default {
+    components:{
+        IonIcon,
+    },
     props:[
         'option',
     ],
@@ -46,6 +60,7 @@ export default {
         })
         return {
             actualOption, offers,
+            logoWhatsapp, mailOutline,
         }
     },
 }
