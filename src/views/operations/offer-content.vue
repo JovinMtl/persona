@@ -18,9 +18,15 @@
         <span style="position: relative; top: .6rem; 
                 font-size: 2rem;">
             <span style="margin-left: .6rem; top: 3rem;">&nbsp;</span>
-            <ion-icon :icon="logoWhatsapp"></ion-icon>
+            <a href="https://wa.me/+25779071453" style="color: green;">
+                <ion-icon :icon="logoWhatsapp"></ion-icon>
+            </a>
             <span style="margin-left: .9rem;">&nbsp;</span>
-            <ion-icon :icon="mailOutline"></ion-icon>
+            <a href="mailto:nsanzumukizath@gmail.com">
+                <ion-icon :icon="mailOutline"></ion-icon>
+            </a>
+            
+            
         </span>
         
     </div>
