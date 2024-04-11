@@ -3,18 +3,26 @@
             <div style="display: inline-flex;">
                 <div @click="TurnA" 
                     :class="!opt1 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline fs">
+                    <router-link to="/" class="unline fs tex">
                         Home
                     </router-link>
                 </div>
+                <!-- <div @click="TurnA" 
+                    style="text-align: center; align-content: center; 
+                    align-items: center; display: inline-flex;
+                    background-color: black; width: 20%; ">
+                    <router-link to="/" class="unline fs tex">
+                        Home
+                    </router-link>
+                </div> -->
                 <div @click="TurnB" :class="!opt2 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline fs">Portfolio</router-link>
+                    <router-link to="/" class="unline fs tex">Portfolio</router-link>
                 </div>
                 <div @click="TurnC" :class="!opt3 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline fs">Interests</router-link>
+                    <router-link to="/" class="unline fs tex">Interests</router-link>
                 </div>
                 <div @click="TurnD" :class="!opt4 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline fs">Contact</router-link>
+                    <router-link to="/" class="unline fs tex">Contact</router-link>
                 </div>
             </div>
     </div>
@@ -80,13 +88,17 @@ export default {
 }
 
 .clicked{
+    display: inline-flex;
+    align-content: center; 
+    align-items: center;
+    text-align: center;
     height: 41px; 
     width: 20vw; 
     background-color: black;
-    align-content: center; 
     border-radius: 25px;
     border: 3px solid black;
     margin-left: 1vw;
+
 }
 .unline{
     text-decoration: none;
