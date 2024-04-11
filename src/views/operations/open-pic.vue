@@ -5,8 +5,9 @@
             <span  class="moveX">
                 <ion-icon :src="close" size="larger"></ion-icon>
             </span>
-            <ion-img src="/personaFoto/jove2.png"/>
-        jove
+            <ion-img src="/personaFoto/jove16.jpg"/>
+            <span style="color: white;">Embracing Vision, Inspiring Innovation</span>
+            
     </div>
 </template>
 <script>
