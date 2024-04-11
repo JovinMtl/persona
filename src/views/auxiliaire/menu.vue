@@ -98,6 +98,8 @@ export default {
     border-radius: 25px;
     border: 3px solid black;
     margin-left: 1vw;
+    transition-duration: 1s;
+    transition-property: all;
 
 }
 .unline{
