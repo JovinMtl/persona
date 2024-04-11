@@ -67,7 +67,9 @@
         </div>
 
         <div>
-            <h3>Engage with Me</h3>
+            <h3>
+                Engage with Me
+            </h3>
             <p class="textIndented">
                 Let's connect to explore synergies and opportunities for collaboration in the dynamic realms of technology, 
                 business strategy, and web development.

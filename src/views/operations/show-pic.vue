@@ -1,6 +1,8 @@
 <template>
     <div>
-        <div style="margin-top: 20px;">Nsanzumukiza Thierry Jovin</div> 
+        <div style="margin-top: 20px; font-weight: bolder;">
+            Nsanzumukiza Thierry Jovin
+        </div> 
         <div class="imageContainer">
             <div class="imgContent" v-for="image in images" :style="{
                 backgroundImage: image.url}"></div>
