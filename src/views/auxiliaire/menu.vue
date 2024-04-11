@@ -4,17 +4,17 @@
                 <div @click="TurnA" 
                     :class="!opt1 ? 'unclicked':'clicked'">
                     <router-link to="/" class="unline fs">
-                        home
+                        Home
                     </router-link>
                 </div>
                 <div @click="TurnB" :class="!opt2 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline fs">portfolio</router-link>
+                    <router-link to="/" class="unline fs">Portfolio</router-link>
                 </div>
                 <div @click="TurnC" :class="!opt3 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline fs">interests</router-link>
+                    <router-link to="/" class="unline fs">Interests</router-link>
                 </div>
                 <div @click="TurnD" :class="!opt4 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline fs">contact</router-link>
+                    <router-link to="/" class="unline fs">Contact</router-link>
                 </div>
             </div>
     </div>
