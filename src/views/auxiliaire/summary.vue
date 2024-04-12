@@ -30,9 +30,14 @@
     </div>
 </template>
 <script>
+import { ref } from 'vue'
 export default {
     setup() {
-        const contents = [
+        const seeDetail = ref(false)
+        const turnDetail = (index)=>{
+
+        }
+        const contents = ref([
             {
                 'title': 'About Me: Fullstack Developer & Business Strategist',
                 'content': `I am a Burundian Business Strategist and Freelance Fullstack Developer, driven by a passion for 
@@ -48,28 +53,32 @@ export default {
                 geared towards showcasing my multifaceted skills and establishing a strong presence in the realm of freelancing.
                 This versatile blend of business strategy acumen and technical prowess empowers me to navigate 
                 the dynamic landscape with dexterity, embracing strategic thinking and technological innovation in equal measure.
-            `
+            `,
+                'detail':false
             },
             {
                 'title':'Tech Passion and Learning Journey',
                 'content' : `In 2014, my passion for Linux was ignited, leading me to explore the system extensively, 
                 often substituting formal courses with self-study using Linux books at the library. 
                 The year 2015 introduced me to Vim, UNIX commands, and Bash scripting, 
-                expanding my technical toolkit.`
+                expanding my technical toolkit.`,
+                'detail':false
             },
             {
                 'title': 'Collaborative Spirit with Jonathan NKURUNZIZA',
                 'content':`My partnership with my close friend Jonathan NKURUNZIZA (Github: INGANZAMARUMPU) 
                 since 2012 has been instrumental in my growth in the field of computer science. Together, 
                 we have shared knowledge, motivation, and support, shaping my journey.
-           `
+           `,
+                'detail':false
             },
             {
                 'title': 'Professional Milestone: C Programming Project',
                 'content' : `A pivotal moment in my career was working on a significant project in 2017, focusing on C programming. 
                 This experience deepened my understanding of "POINTERS" and the responsibility 
                 that comes with navigating computer memory, a realm typically reserved for C/C++ experts.
-           `
+           `,
+                'detail':false
             }, 
             {
                 'title':'Diversification into Trade and Marketing',
@@ -77,20 +86,23 @@ export default {
                 This exploration introduced me to various crucial areas such as Ethics, Economics, Consumer Behavior, 
                 Citizenship Values, Public Administration, and Marketing Principles. 
                 It also emphasized the importance of personal development to bridge the gap between my technical and business expertise.
-           `
+           `,
+                'detail':false
             },
             {
                 'title':'Embracing Freelancing as a Fusion of Skills',
                 'content':`With this diverse background and a blend of technical proficiency and business acumen, I am ready to address challenges 
                 as a Business Strategist and Fullstack Developer in the world of freelancing.
-          `
+          `,
+                'detail':false
             }, 
             {
                 'title':'Engage with Me',
                 'content':`Let's connect to explore synergies and opportunities for collaboration in the dynamic realms of technology, 
-                business strategy, and web development.`
+                business strategy, and web development.`,
+                'detail':false
             }
-        ]
+        ])
 
         return {
             contents,
