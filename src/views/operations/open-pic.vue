@@ -3,9 +3,9 @@
         Ubuzima Butyoroye.
         <!-- <ion-buttons> -->
             <span  class="moveX">
-                <ion-icon :src="close" size="larger"></ion-icon>
+                <ion-icon size="larger"></ion-icon>
             </span>
-            <ion-img src="/personaFoto/jove17.jpeg"/>
+            <ion-img src="/personaFoto/jove18.png"/>
             <span class="mantra">Embracing Vision, Inspiring Innovation</span>
             
     </div>
