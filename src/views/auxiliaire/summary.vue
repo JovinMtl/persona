@@ -3,7 +3,7 @@
         <div v-for="(content, index) in contents" class="summaryElement">
             <div>
                 <h3 :class="index%3 ? 'elementTitle2':'elementTitle'" 
-                    style="font-size: small;">
+                    style="font-size: small;" @click="turnDetail(index)">
                     {{ (content.title).slice(0,35) }}...
                 </h3></div> <br>
             <div><p style="display: block; margin-top: -30px; margin-left: 20px;
