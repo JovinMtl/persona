@@ -1,12 +1,17 @@
 <template>
-    <div>
+    <div class="centered welcomeText">
         <div style="margin-top: 20px; font-weight: bolder;">
             Nsanzumukiza Thierry Jovin
         </div> 
-        <div class="imageContainer">
+        <div style="margin: 20px 20px; color: brown; 
+        font-family: 'Open Sans', sans-serif;">
+            Crafting cutting-edge digital solutions as a Fullstack Developer 
+            and transforming business strategies for success. Explore more!
+    </div>
+        <!-- <div class="imageContainer">
             <div class="imgContent" v-for="image in images" :style="{
                 backgroundImage: image.url}"></div>
-        </div>
+        </div> -->
     </div>
 </template>
 <script>
