@@ -1,10 +1,41 @@
 <template>
     <div class="summary">
-        <div>
-            <h3>
-                About Me: Business Strategist and Fullstack Web Developer</h3>
-            <p class="textIndented">
-                I am a Burundian Business Strategist and Freelance Fullstack Web Developer, driven by a passion for 
+        <div v-for="(content, index) in contents" class="summaryElement">
+            <div>
+                <h3 :class="index%3 ? 'elementTitle2':'elementTitle'" 
+                    style="font-size: small;">
+                    {{ (content.title).slice(0,35) }}...
+                </h3></div> <br>
+            <div><p style="display: block; margin-top: -30px; margin-left: 20px;
+            margin-right: 20px;">
+                <span v-if="(content.content).length > 200"> {{ (content.content).slice(0,199) }}...
+                        <!-- <ion-button @click="oPen(1)" mode="ios" color="black"
+                            style="color: gray; text-align: right;
+                            position: relative; z-index: 1">
+                            See more
+                        </ion-button> -->
+                        <div style="background-color: transparent; text-align: center;
+                            color: gray; margin-top: 0px;"
+                            @click="console.log('You want to see more')">
+                            See more
+                        </div>
+                    
+                </span>
+                <span v-else>{{ content.content }}</span>
+            </p></div>
+            
+            
+        </div>
+        
+    </div>
+</template>
+<script>
+export default {
+    setup() {
+        const contents = [
+            {
+                'title': 'About Me: Fullstack Developer & Business Strategist',
+                'content': `I am a Burundian Business Strategist and Freelance Fullstack Developer, driven by a passion for 
                 strategic thinking and a deep-seated love for problem-solving. My academic journey at 
                 the University of Burundi honed my skills in the realm of business strategy, fostering my affinity for strategic planning, 
                 critical thinking, and collaborative solution-finding. This profound interest led me to nourish my strategic mindset, 
@@ -17,69 +48,119 @@
                 geared towards showcasing my multifaceted skills and establishing a strong presence in the realm of freelancing.
                 This versatile blend of business strategy acumen and technical prowess empowers me to navigate 
                 the dynamic landscape with dexterity, embracing strategic thinking and technological innovation in equal measure.
-            </p>     
-        </div>
-        
-        <div>
-            <h3>Tech Passion and Learning Journey</h3>
-            <p class="textIndented">In 2014, my passion for Linux was ignited, leading me to explore the system extensively, 
+            `,
+            'size': '85vw'
+            },
+            {
+                'title':'Tech Passion and Learning Journey',
+                'content' : `In 2014, my passion for Linux was ignited, leading me to explore the system extensively, 
                 often substituting formal courses with self-study using Linux books at the library. 
                 The year 2015 introduced me to Vim, UNIX commands, and Bash scripting, 
-                expanding my technical toolkit.
-            </p>
-        </div>
-
-        <div>
-            <h3>Collaborative Spirit with Jonathan NKURUNZIZA</h3>
-            <p class="textIndented">
-                My partnership with my close friend Jonathan NKURUNZIZA (Github: INGANZAMARUMPU) 
+                expanding my technical toolkit.`,
+            'size': '70vw'
+            },
+            {
+                'title': 'Collaborative Spirit with Jonathan NKURUNZIZA',
+                'content':`My partnership with my close friend Jonathan NKURUNZIZA (Github: INGANZAMARUMPU) 
                 since 2012 has been instrumental in my growth in the field of computer science. Together, 
                 we have shared knowledge, motivation, and support, shaping my journey.
-            </p>
-        </div>
-
-        <div>
-            <h3>Professional Milestone: C Programming Project</h3>
-            <p class="textIndented">
-                A pivotal moment in my career was working on a significant project in 2017, focusing on C programming. 
+           `,
+            'size': '80vw'
+            },
+            {
+                'title': 'Professional Milestone: C Programming Project',
+                'content' : `A pivotal moment in my career was working on a significant project in 2017, focusing on C programming. 
                 This experience deepened my understanding of "POINTERS" and the responsibility 
                 that comes with navigating computer memory, a realm typically reserved for C/C++ experts.
-            </p>
-        </div>
-
-        <div>
-            <h3>Diversification into Trade and Marketing</h3>
-            <p class="textIndented">
-                From 2018 to 2021, I ventured into studying Trade and Marketing at the University of Burundi to complement my skill set. 
+           `,
+            'size': '85vw'
+            }, 
+            {
+                'title':'Diversification into Trade and Marketing',
+                'content':`From 2018 to 2021, I ventured into studying Trade and Marketing at the University of Burundi to complement my skill set. 
                 This exploration introduced me to various crucial areas such as Ethics, Economics, Consumer Behavior, 
                 Citizenship Values, Public Administration, and Marketing Principles. 
                 It also emphasized the importance of personal development to bridge the gap between my technical and business expertise.
-            </p>
-        </div>
-
-        <div>
-            <h3>
-                Embracing Freelancing as a Fusion of Skills</h3>
-            <p class="textIndented">
-                With this diverse background and a blend of technical proficiency and business acumen, I am ready to address challenges 
+           `,
+            'size': '75vw'
+            },
+            {
+                'title':'Embracing Freelancing as a Fusion of Skills',
+                'content':`With this diverse background and a blend of technical proficiency and business acumen, I am ready to address challenges 
                 as a Business Strategist and Fullstack Developer in the world of freelancing.
-            </p>
-        </div>
+          `,
+            'size': '65vw'
+            }, 
+            {
+                'title':'Engage with Me',
+                'content':`Let's connect to explore synergies and opportunities for collaboration in the dynamic realms of technology, 
+                business strategy, and web development.`,
+            'size': '65vw'
+            }
+        ]
 
-        <div>
-            <h3>
-                Engage with Me
-            </h3>
-            <p class="textIndented">
-                Let's connect to explore synergies and opportunities for collaboration in the dynamic realms of technology, 
-                business strategy, and web development.
-            </p>
-        </div>
-        
-    </div>
-</template>
+        return {
+            contents,
+        }
+    },
+}
+</script>
 <style scoped>
 h3{
     font-weight: bold;
+}
+.summaryElement{
+    width: 33vw; 
+    display: inline-block; 
+    margin: 20px 20px;
+    background-color: rgba(128, 128, 128, 0.555); 
+    border-radius: 25px; 
+    box-shadow: 0 0 20px gray; 
+    text-align: justify;
+}
+.elementTitle{
+    display: block; 
+    /* padding-top: 15px;  */
+    height: 30px;
+    margin-top: -5px;
+    /* padding-bottom: -6vh;  */
+    background-color: red; 
+    background-color: gray;
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px;
+    padding: 0px 10px; 
+    text-align: center; 
+    font-size: .9rem;
+    align-items: center; 
+    align-content: center;
+}
+.elementTitle2{
+    display: block; 
+    /* padding-top: 15px;  */
+    height: 30px;
+    margin-top: -5px;
+    /* padding-bottom: -6vh;  */
+    background-color: red; 
+    /* background-color: gray; */
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px;
+    padding: 0px 10px; 
+    text-align: center; 
+    font-size: .9rem;
+    align-items: center; 
+    align-content: center;
+}
+@media screen and (max-width: 600px) {
+.summaryElement{
+    width: 85vw; 
+    display: block; 
+    margin: 10px 10px;
+    background-color: rgba(128, 128, 128, 0.555); 
+    background-color: yellow; 
+    background-color: white; 
+    border-radius: 25px; 
+    box-shadow: 0 0 20px gray; 
+    /* text-align: justify; */
+}
 }
 </style>
