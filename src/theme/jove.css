@@ -107,6 +107,8 @@ ion-title{
     height: 40px;
     margin-top: 10px;
     border-radius: 25px;
+    /* transition-duration: 1s;
+    transition-property: all; */
 }
 .textIndented{
     text-align: justify; 

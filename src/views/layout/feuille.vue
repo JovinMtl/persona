@@ -57,16 +57,16 @@
       'copy-right': copyright,
     },
     setup(){
-      const store = useStore()
-      const viewportWidth = ref(window.innerWidth);
-      const updateViewportWidth = () => {
-        viewportWidth.value = window.innerWidth;
-      };
-      onMounted(() => {
-        window.addEventListener('resize', updateViewportWidth);
-      });
+      // const store = useStore()
+      // const viewportWidth = ref(window.innerWidth);
+      // const updateViewportWidth = () => {
+      //   viewportWidth.value = window.innerWidth;
+      // };
+      // onMounted(() => {
+      //   window.addEventListener('resize', updateViewportWidth);
+      // });
       return {
-        viewportWidth
+        // viewportWidth
       }
     }
   }

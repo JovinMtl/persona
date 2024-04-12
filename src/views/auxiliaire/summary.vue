@@ -8,7 +8,8 @@
                 </h3></div> <br>
             <div><p style="display: block; margin-top: -30px; margin-left: 20px;
             margin-right: 20px;">
-                <span v-if="(content.content).length > 200"> {{ (content.content).slice(0,199) }}...
+                <span v-if="!(content.detail) && (content.content).length > 199"> 
+                    {{ (content.content).slice(0,199) }}...
                         <!-- <ion-button @click="oPen(1)" mode="ios" color="black"
                             style="color: gray; text-align: right;
                             position: relative; z-index: 1">
@@ -16,12 +17,21 @@
                         </ion-button> -->
                         <div style="background-color: transparent; text-align: center;
                             color: gray; margin-top: 0px;"
-                            @click="console.log('You want to see more')">
+                            @click="turnDetail(index)">
                             See more
                         </div>
                     
                 </span>
-                <span v-else>{{ content.content }}</span>
+                <span v-else>
+                    {{ content.content }}
+                    <span v-show="(content.content).length > 199">
+                        <a style="background-color: transparent; text-align: center;
+                            color: gray; margin-top: 0px;"
+                            @click="turnDetail(index)">
+                            Show less
+                    </a>
+                    </span>
+                </span>
             </p></div>
             
             
@@ -35,7 +45,8 @@ export default {
     setup() {
         const seeDetail = ref(false)
         const turnDetail = (index)=>{
-
+            // console.log("We want to work on index: ", index)
+            (contents.value[index]).detail = !(contents.value[index]).detail
         }
         const contents = ref([
             {
@@ -106,6 +117,7 @@ export default {
 
         return {
             contents,
+            turnDetail
         }
     },
 }
@@ -158,6 +170,7 @@ h3{
 @media screen and (max-width: 600px) {
 .summaryElement{
     width: 85vw; 
+    height: auto;
     display: block; 
     margin: 10px 10px;
     background-color: rgba(128, 128, 128, 0.555); 
