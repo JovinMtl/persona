@@ -1,6 +1,6 @@
 <template>
     <div class="offerContainer">
-        <h4 style="font-weight: bold; margin-top: 15px;"> 
+        <h4 style="font-weight: bold; margin-top: 35px;"> 
             I offer two possible packages of Services, and you can pick what you want.
         </h4>
         <div class="button-container">
