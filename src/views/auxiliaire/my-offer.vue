@@ -72,10 +72,8 @@ export default {
 <style scoped>
 .offerContainer{
     display: inline-block;
-    /* position: relative; */
     text-align: center;
     width: 90vw;
-    /* height: 40px; */
     border-radius: 25px;
 }
 .button-container{
@@ -110,8 +108,6 @@ export default {
     height: 100%;
     top: 0;
     transform: skewX(30deg);
-    /* transform: skewX(0deg); */
-    /* transform: skewY(-29deg); */
     z-index: -1;
     box-sizing: 0 0 10px #000;
 }
