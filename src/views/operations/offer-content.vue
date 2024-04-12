@@ -20,7 +20,7 @@
         </div>
     </div>
     <br>
-    <div class="footer welcomeText" style="font-weight: bolder;">
+    <div id="litteContact" class="footer welcomeText" style="font-weight: bolder;">
         <!-- <span>Reach Out</span>   -->
         <span style="color: brown">Connect with me</span>  
         <span style="position: relative; top: .6rem; 
