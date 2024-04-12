@@ -36,6 +36,8 @@
   import { 
     IonContent, IonHeader, IonPage,
   } from '@ionic/vue';
+  import { ref } from 'vue'
+  import { useStore } from 'vuex'
   import menu from '../auxiliaire/menu.vue';
   import welcome from '../auxiliaire/welcome.vue'
   import showPic from '../operations/show-pic.vue'
@@ -55,7 +57,17 @@
       'copy-right': copyright,
     },
     setup(){
-      return {}
+      const store = useStore()
+      const viewportWidth = ref(window.innerWidth);
+      const updateViewportWidth = () => {
+        viewportWidth.value = window.innerWidth;
+      };
+      onMounted(() => {
+        window.addEventListener('resize', updateViewportWidth);
+      });
+      return {
+        viewportWidth
+      }
     }
   }
   </script>
