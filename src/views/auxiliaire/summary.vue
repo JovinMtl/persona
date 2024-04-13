@@ -3,7 +3,7 @@
         <div v-for="(content, index) in contents" class="summaryElement">
             <div>
                 <h3 :class="index%3 ? 'elementTitle2':'elementTitle'" 
-                    style="font-size: small;" @click="turnDetail(index)">
+                    style="font-size: small;" @click="titleAlert(content.title)">
                     {{ (content.title).slice(0,35) }}...
                 </h3></div> <br>
             <div><p style="display: block; margin-top: -30px; margin-left: 20px;
@@ -40,7 +40,8 @@
     </div>
 </template>
 <script>
-import { ref } from 'vue'
+import { ref, onUpdated } from 'vue'
+import { alertController } from '@ionic/vue'
 export default {
     setup() {
         const seeDetail = ref(false)
@@ -48,6 +49,21 @@ export default {
             // console.log("We want to work on index: ", index)
             (contents.value[index]).detail = !(contents.value[index]).detail
         }
+        const titleAlert = async (content) => {
+            const alert = await alertController.create({
+            header: content,
+            // message: 'Veuillez vous reconnecter encore.',
+            buttons: ['Ok'],
+            mode: 'ios',
+            });
+
+            await alert.present();
+        };
+
+        onUpdated(()=>{
+            // tokenExpiredAlert()
+        })
+
         const contents = ref([
             {
                 'title': 'About Me: Fullstack Developer & Business Strategist',
@@ -116,8 +132,8 @@ export default {
         ])
 
         return {
-            contents,
-            turnDetail
+            contents, alertController,
+            turnDetail, titleAlert,
         }
     },
 }
