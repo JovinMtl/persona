@@ -1,6 +1,7 @@
 <template>
     <div class="summary">
-        <div v-for="(content, index) in contents" class="summaryElement">
+        <div v-for="(content, index) in contents" 
+        :class="content.detail ? 'summaryElementActive':'summaryElement'">
             <div>
                 <h3 :class="index%3 ? 'elementTitle2':'elementTitle'" 
                     style="font-size: small;" @click="titleAlert(content.title)">
@@ -25,6 +26,7 @@
                 <span v-else>
                     {{ content.content }}
                     <span v-show="(content.content).length > 199">
+                        <span style="margin-left: .6rem;">&nbsp;</span> 
                         <a style="background-color: transparent; text-align: center;
                             color: gray; margin-top: 0px;"
                             @click="turnDetail(index)">
@@ -40,29 +42,25 @@
     </div>
 </template>
 <script>
-import { ref, onUpdated } from 'vue'
+import { ref } from 'vue'
 import { alertController } from '@ionic/vue'
 export default {
     setup() {
-        const seeDetail = ref(false)
         const turnDetail = (index)=>{
-            // console.log("We want to work on index: ", index)
+            //will enable or disable the content to be expanded
             (contents.value[index]).detail = !(contents.value[index]).detail
         }
         const titleAlert = async (content) => {
             const alert = await alertController.create({
             header: content,
             // message: 'Veuillez vous reconnecter encore.',
+            cssClass: 'customAlert', 
             buttons: ['Ok'],
             mode: 'ios',
             });
 
             await alert.present();
         };
-
-        onUpdated(()=>{
-            // tokenExpiredAlert()
-        })
 
         const contents = ref([
             {
@@ -102,7 +100,7 @@ export default {
             {
                 'title': 'Professional Milestone: C Programming Project',
                 'content' : `A pivotal moment in my career was working on a significant project in 2017, focusing on C programming. 
-                This experience deepened my understanding of "POINTERS" and the responsibility 
+                This experience deepened my understanding of POINTERS and the responsibility 
                 that comes with navigating computer memory, a realm typically reserved for C/C++ experts.
            `,
                 'detail':false
@@ -151,6 +149,15 @@ h3{
     box-shadow: 0 0 20px gray; 
     text-align: justify;
 }
+.summaryElementActive{
+    width: 53vw; 
+    display: inline-block; 
+    margin: 20px 20px;
+    background-color: white; 
+    border-radius: 25px; 
+    box-shadow: 0 0 20px gray; 
+    text-align: justify;
+}
 .elementTitle{
     display: block; 
     /* padding-top: 15px;  */
@@ -183,6 +190,10 @@ h3{
     align-items: center; 
     align-content: center;
 }
+.customAlert {
+    background-color: #f0f0f0; /* Custom background color */
+    color: #333; /* Custom text color */
+}
 @media screen and (max-width: 600px) {
 .summaryElement{
     width: 85vw; 
@@ -194,7 +205,19 @@ h3{
     background-color: white; 
     border-radius: 25px; 
     box-shadow: 0 0 20px gray; 
+    padding-bottom: 5px;
+    margin-bottom: 20px;
     /* text-align: justify; */
+}
+.summaryElementActive{
+    width: 85vw; 
+    display: block; 
+    margin: 20px 10px;
+    background-color: rgba(128, 128, 128, 0.555); 
+    border-radius: 25px; 
+    box-shadow: 0 0 20px gray; 
+    text-align: justify;
+    padding-bottom: 5px;
 }
 }
 </style>
