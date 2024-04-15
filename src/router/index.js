@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import HomePage from '../views/HomePage.vue'
 
 import Feuille from '../views/layout/feuille.vue'
 
@@ -7,11 +6,6 @@ const routes = [
   {
     path: '/',
     redirect: '/home'
-  },
-  {
-    path: '/homes',
-    name: 'Home',
-    component: HomePage
   },
   {
     path: '/home',
