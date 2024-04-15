@@ -21,24 +21,32 @@
     </div>
 </template>
 <script>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 export default {
-    setup() {
+    setup(props, {emit}) {
         const opt1 = ref(true)
         const opt2 = ref(false)
         const opt3 = ref(false)
         const opt4 = ref(false)
+        onMounted(()=>{
+            emit('initial', '1')
+        })
+        
         const TurnA = ()=>{
             opt1.value = true
             opt2.value = false
             opt3.value = false
             opt4.value = false
+            // console.log("Have clicked A")
+            emit('initial', '1')
         }
         const TurnB = ()=>{
             opt2.value = true
             opt1.value = false
             opt3.value = false
             opt4.value = false
+            // console.log("Have clicked B")
+            emit('initial', '2')
         }
         const TurnC = ()=>{
             opt3.value = true
