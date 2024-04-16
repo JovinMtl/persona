@@ -140,4 +140,18 @@ export default {
 h3{
     font-weight: bold;
 }
+.customAlert {
+  background-color: var(--background);
+  color: #333; /* Text color */
+  position: relative;
+}
+
+.customAlert::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid black; /* Separator line color */
+}
 </style>

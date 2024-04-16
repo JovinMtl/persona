@@ -294,13 +294,19 @@ ion-title{
     align-items: center; 
     align-content: center;
 }
-.customAlert {
+/* .customAlert {
   --background: #f0f0f0;
-  /* background-color: #f0f0f0; */
   --line-color: #000;
   --line: #000;
-  color: #333; /* Text color */
-}
+  color: #333; 
+} */
+
+/* Global style section */
+.customAlert {
+    --background: #f0f0f0; /* Background color */
+    --line-color: #000; /* Separator line color */
+    color: #333; /* Text color */
+  }
 @media screen and (max-width: 600px) {
 .summaryElement{
     width: 85vw; 
