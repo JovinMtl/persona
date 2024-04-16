@@ -306,6 +306,7 @@ ion-title{
     --background: #f0f0f0; /* Background color */
     --line-color: #000; /* Separator line color */
     color: #333; /* Text color */
+    /* border-bottom: 1px solid red; */
   }
 @media screen and (max-width: 600px) {
 .summaryElement{
