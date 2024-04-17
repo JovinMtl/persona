@@ -32,7 +32,6 @@
         </div>   
         <div v-if="actual==2" class="centered">
           <port-folio></port-folio>
-          
         </div>
         <div v-if="actual==3" class="centered">
           <intere-st></intere-st>
@@ -90,6 +89,8 @@
         } else if(actual.value==2){
           title.value="You are seeing my achievements"
           // console.log("Setting title to B")
+        } else if(actual.value==3){
+          title.value='You are supposed to see my interests '
         }
         }
       }
