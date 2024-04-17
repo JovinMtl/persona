@@ -32,12 +32,12 @@ export default {
             {
                 'title':'',
                 'image':'/personaFoto/jove3.png',
-                'description': 'This also feels good when used as a Loader, the dots rolls magnetically horizontally as flowing motion. the idea behind is that the main dots which stays fixed in the center representing the server, is pushing for the User's request.'
+                'description': "This also feels good when used as a Loader, the dots rolls magnetically horizontally as flowing motion. the idea behind is that the main dots which stays fixed in the center representing the server, is pushing for the User's request."
             },
             {
                 'title':'title two',
                 'image':'/personaFoto/jove4.png',
-                'description': ''
+                'description': "A piece of User Interface(lde_ui) that serves into consuming the API(LidAPI). Built as mobile Web App and Android native code. I made this for my esteemed Customer."
             },
             {
                 'title':'',
