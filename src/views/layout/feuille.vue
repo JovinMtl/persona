@@ -1,18 +1,9 @@
 <template>
     <ion-page>
       <ion-content>
-        
-        <!-- <div>
-            <wel-come :title="title"></wel-come>
-        </div> -->
         <div  class="centered welcomeText" style="font-size: 1.2rem;">
-              <!-- <p>Bienvenue sur la Page officielle de Muteule.</p> -->
-              <!-- <p>Welcome to the Official Website of Thierry.</p> -->
               <p>{{ title }}</p>
       </div>
-        <!-- <div class="menuContainer">
-            <show-pic></show-pic>
-        </div> -->
         <div class="menuContainer menuSticky">
             <me-nu @initial="actualMenu"></me-nu>
         </div>
@@ -49,7 +40,6 @@
     defineAsyncComponent, 
     ref,
     onBeforeUpdate } from 'vue'
-  // import { useStore } from 'vuex'
   import menu from '../auxiliaire/menu.vue';
   import home from '../pages/home.vue';
   import welcome from '../auxiliaire/welcome.vue'
@@ -82,13 +72,10 @@
       const actualMenu = (value)=>{
         if(value){
           actual.value = Number(value)
-          // console.log("The actual Menu is: ", actual.value)
           if(actual.value==1){
           title.value='Welcome to the Official Website of Thierry.'
-          // console.log("Setting title to A")
         } else if(actual.value==2){
           title.value="You are seeing my achievements"
-          // console.log("Setting title to B")
         } else if(actual.value==3){
           title.value='You are supposed to see my interests '
         }
@@ -100,16 +87,7 @@
         console.log("The actual Value is : ", actual.value)
         
       })
-      // const store = useStore()
-      // const viewportWidth = ref(window.innerWidth);
-      // const updateViewportWidth = () => {
-      //   viewportWidth.value = window.innerWidth;
-      // };
-      // onMounted(() => {
-      //   window.addEventListener('resize', updateViewportWidth);
-      // });
       return {
-        // viewportWidth,
         title,
         actual,
         actualMenu,
