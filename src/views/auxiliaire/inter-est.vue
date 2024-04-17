@@ -1,7 +1,9 @@
 <template>
     <div>
-        <p style="margin: 20px 20px;">
-            "I have not yet provided my interests yet. Soon, I will provide it.", 
+        <p style="margin-top: 40px; margin-bottom: 67vh;">
+           <span style="font-family: Satisfy; color: brown;">
+            "I have not yet provided my interests here. Soon, I will provide it.", 
+           </span> 
             says Thierry Jovin.
         </p>
     </div>
