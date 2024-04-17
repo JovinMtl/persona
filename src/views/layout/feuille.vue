@@ -34,6 +34,9 @@
           <port-folio></port-folio>
           
         </div>
+        <div v-if="actual==3" class="centered">
+          <intere-st></intere-st>
+        </div>
         <copy-right></copy-right>
       </ion-content>
     </ion-page>
@@ -58,6 +61,7 @@
   import copyright from '../auxiliaire/copyright.vue'
 
   const Porto = defineAsyncComponent(()=>import('../auxiliaire/port-folio.vue'))
+  const Interests = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   export default{
     components: {
       IonContent, IonHeader, IonPage,
@@ -70,6 +74,7 @@
       'my-offer': myOffer,
       'copy-right': copyright,
       'port-folio': Porto,
+      'intere-st': Interests,
     },
     setup(){
       const actual = ref(1)

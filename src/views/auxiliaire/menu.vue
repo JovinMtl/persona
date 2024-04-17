@@ -53,12 +53,14 @@ export default {
             opt2.value = false
             opt1.value = false
             opt4.value = false
+            emit('initial', '3')
         }
         const TurnD = ()=>{
             opt4.value = true
             opt2.value = false
             opt3.value = false
             opt1.value = false
+            emit('initial', '4')
         }
         return {
             opt1, opt2, opt3, opt4,
