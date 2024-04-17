@@ -15,6 +15,7 @@
     
 </template>
 <script>
+import { heart} from 'ionicons/icons'
 export default {
     
     setup() {
@@ -52,16 +53,20 @@ export default {
             {
                 'title':'',
                 'image':'/personaFoto/jove7.png',
-                'description': ''
+                'description': `As I metioned in my Bio, I practiced C programming language since 2014. However i came into its depts in 2017 when used the pointers enough to understand their use in dealing with any kind of data. I mean int, char, array, structure, function, pointer of pointer, and pointer of pointer of pointer, ...
+Since then, a friend of mine proposed me to take this challenge of building a "School Management" project which would run in the console.
+
+(-: {{ heart }}ONLY pointers were used, no simple variable.`
             },
             {
                 'title':'title two',
                 'image':'/personaFoto/jove8.png',
-                'description': ''
+                'description': "Not my every code were shared here, but this one makes me happy when i see its results in my Backend's operations. I helps me to generate a unique code to record every transaction made by the users. It is flexible as you can give it the length of the code to generate. "
             },
         ];
         return {
             proofs,
+            heart,
         }
         
     },
