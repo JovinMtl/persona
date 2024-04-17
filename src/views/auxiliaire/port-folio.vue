@@ -42,7 +42,7 @@ export default {
             {
                 'title':'',
                 'image':'/personaFoto/jove5.png',
-                'description': ''
+                'description': 'Written in Vue3.js(Composition API) + Ionic. '
             },
             {
                 'title':'title two',
