@@ -60,7 +60,7 @@ export default {
             opt2.value = false
             opt3.value = false
             opt1.value = false
-            emit('initial', '4')
+            emit('initial', '1')
         }
         return {
             opt1, opt2, opt3, opt4,
