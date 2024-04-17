@@ -30,7 +30,7 @@
                 <ion-icon :icon="logoWhatsapp"></ion-icon>
             </a>
             <span style="margin-left: .9rem;">&nbsp;</span>
-            <a href="mailto:nsanzumukizath@gmail.com">
+            <a href="mailto:nsanzumukizath@gmail.com" style="color: blue;">
                 <ion-icon :icon="mailOutline"></ion-icon>
             </a>
             
