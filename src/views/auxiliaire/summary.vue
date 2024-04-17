@@ -149,5 +149,6 @@ h3{
 .separator-line{
     color: red;
     background-color: green;
+    border: 3px solid green;
 }
 </style>
