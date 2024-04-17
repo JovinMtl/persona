@@ -4,7 +4,8 @@
         :class="content.detail ? 'summaryElementActive':'summaryElement'">
             <div>
                 <h3 :class="index%3 ? 'elementTitle2':'elementTitle'" 
-                    style="font-size: small;" @click="titleAlert(content.title)">
+                    style="font-size: small;" 
+                    @click="titleAlert(content.title)">
                     {{ (content.title).slice(0,35) }}...
                 </h3></div> <br>
             <div><p style="display: block; margin-top: -30px; margin-left: 20px;
@@ -141,7 +142,7 @@ export default {
     },
 }
 </script>
-<style>
+<style scoped>
 h3{
     font-weight: bold;
 }
