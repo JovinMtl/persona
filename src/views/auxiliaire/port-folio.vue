@@ -42,7 +42,7 @@ export default {
             {
                 'title':'',
                 'image':'/personaFoto/jove5.png',
-                'description': 'Written in Vue3.js(Composition API) + Ionic. '
+                'description': "Written in Vue3.js(Composition API) + Ionic.  the same code served for Web app and Android. It's on this project that i loved the concept to Composition API and made me migrate from Options API. Moreover, i am happy of the algorithm of currency conversion implemented here that made me realize the reactivity of Vue.Js. "
             },
             {
                 'title':'title two',
