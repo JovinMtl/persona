@@ -22,12 +22,12 @@ export default {
             {
                 'title':'title one',
                 'image':'/personaFoto/jove1.png',
-                'description':'I am a Burundian Business Strategist and Freelance Fullstack Developer, driven by a passion for strategic thinking and a deep-seated love for problem-solving. My academic journey at the University of Burundi honed my skills in the realm of business strategy, fostering my affinity for strategic planning, critical thinking, and collaborative solution-finding.'
+                'description':'This same site is one of my craft work. Entirely coded with Vue3(I used the composition API) alongside with Ionic. It took me almost 3 days to finish up with the composition of meaning of my presentation. The architecture, the connection of devices composing text, images according to the philosophy of "Say less, describe more". Take a closer look on the technical functionalities hidden in the simplicity of this work.'
             },
             {
                 'title':'title two',
                 'image':'/personaFoto/jove2.png',
-                'description': ''
+                'description': 'This is the loader or Spinner that i love. I made it as a mean to apply the knowledge gained in CSS and challenge myself. It can be taloired to your projects and make your Users wait happily while the server is processing. In connecting with Customer emotion i came to realize how it could be great to complete the User satisfaction on your platform. Simply DM to be in touch.'
             },
             {
                 'title':'',
@@ -90,17 +90,6 @@ export default {
     /* text-align: justify; */
 }
 @media screen and (max-width: 600px) {
-/* .portoContent{
-    width: 80vw; 
-    border-radius: 25px 25px 0px 0px;
-    border-radius: 25px;
-    background-color: gray; 
-    text-align: center; 
-    border: 1px solid gray;
-    margin: 20px 20px;
-    padding: 10px 10px;
-    text-align: justify;
-} */
 .portoContent{
     width: 80vw; 
     /* border-radius: 25px 25px 0px 0px; */
