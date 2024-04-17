@@ -32,7 +32,7 @@ export default {
             {
                 'title':'',
                 'image':'/personaFoto/jove3.png',
-                'description': ''
+                'description': 'This also feels good when used as a Loader, the dots rolls magnetically horizontally as flowing motion. the idea behind is that the main dots which stays fixed in the center representing the server, is pushing for the User's request.'
             },
             {
                 'title':'title two',
