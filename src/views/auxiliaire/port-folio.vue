@@ -47,7 +47,7 @@ export default {
             {
                 'title':'title two',
                 'image':'/personaFoto/jove6.png',
-                'description': ''
+                'description': 'LidAPI is the project entrusted to me by my Client. I used Django and DRF mainly to deal with requestes sent by Vue3 mobile app.'
             },
             {
                 'title':'',
