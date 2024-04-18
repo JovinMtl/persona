@@ -4,7 +4,7 @@
         
         <div style="width: 58vw; height: auto; display: inline-block;
         background-color: salmon; padding: 1.5vh 10vw;
-        border-radius: 25px;
+        border-radius: 25px; border: 12px solid gray;
         text-align: left">
             <!-- my profile -->
             <!-- Here will contain my infos -->
@@ -71,6 +71,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 .logoLarge{
     font-size: xx-large;
 }
@@ -85,7 +86,8 @@ export default {
     font-weight: 700;
     font-size: x-large;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Sen, sans-serif;
 }
 </style>
 
