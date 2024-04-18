@@ -2,39 +2,48 @@
     <div style="margin: 20px 20px;">
         <div>First of all, I am Burundian</div>
         
-        <div style="width: 58vw; height: 50vh; display: inline-block;
-        background-color: salmon; padding: 10px 10vw;
+        <div style="width: 58vw; height: auto; display: inline-block;
+        background-color: salmon; padding: 1.5vh 10vw;
+        border-radius: 25px;
         text-align: left">
             <!-- my profile -->
             <!-- Here will contain my infos -->
-
-            <br>
             <div class="makeList">
                 <ion-icon :src="personOutline" class="logoLarge"></ion-icon>
                 <span class="textAdjust">
-                Nsanzumukiza Thierry Jovin
-            </span>    
+                    Nsanzumukiza Thierry Jovin
+                </span>    
                 
             </div>
             <div class="makeList">
                 <ion-icon :src="phonePortraitOutline" class="logoLarge"></ion-icon>
-                (+257) 79 071 453  |  61 966 892
+                <span class="textAdjust">
+                    (+257) 79 071 453  |  61 966 892
+                </span>   
             </div>
             <div class="makeList">
                 <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
-                nsanzumukizath@gmail.com
+                <span class="textAdjust">
+                    nsanzumukizath@gmail.com
+                </span>   
             </div>
             <div class="makeList">
                 <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
-                muteule
+                <span class="textAdjust">
+                    muteule
+                </span> 
             </div>
             <div class="makeList">
                 <ion-icon :src="logoGithub" class="logoLarge"></ion-icon>
-                JovinMtl
+                <span class="textAdjust">
+                    JovinMtl
+                </span> 
             </div>
             <div class="makeList">
                 <ion-icon :src="logoDribbble" class="logoLarge"></ion-icon>
-                muteule
+                <span class="textAdjust">
+                    muteule
+                </span> 
             </div>
             
         </div>
@@ -74,6 +83,9 @@ export default {
     top: -9px; 
     left: 20px; 
     font-weight: 700;
+    font-size: x-large;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 </style>
 
