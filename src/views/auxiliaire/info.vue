@@ -6,7 +6,9 @@
             <div class="infoText" style="background-color: transparent;
             width: 80%;">
                 <div class="makeList">
-                    <ion-icon :src="personOutline" class="logoLarge"></ion-icon>
+                    <a class="logoColor" href="http://wa.me/+25779071453">
+                        <ion-icon :src="personOutline" class="logoLarge"></ion-icon>
+                    </a>
                     <span class="textAdjust" style="font-weight: 500;">
                         Nsanzumukiza Thierry Jovin
                     </span>    
