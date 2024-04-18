@@ -8,7 +8,7 @@
             <me-nu @initial="actualMenu"></me-nu>
         </div>
         <div v-if="actual==1">
-            <div class="menuContainer">
+            <div id="e" class="menuContainer">
           <show-pic></show-pic>
           </div>
           <div class="centered">
