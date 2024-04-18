@@ -2,34 +2,37 @@
     <div style="margin: 20px 20px;">
         <div>First of all, I am Burundian</div>
         
-        <div style="width: 58vw; height: 50vh; display: inline-flex;
-        background-color: salmon; padding: 30px 30px;">
+        <div style="width: 58vw; height: 50vh; display: inline-block;
+        background-color: salmon; padding: 10px 10vw;
+        text-align: left">
             <!-- my profile -->
             <!-- Here will contain my infos -->
 
             <br>
-            <div>
+            <div class="makeList">
                 <ion-icon :src="personOutline" class="logoLarge"></ion-icon>
+                <span class="textAdjust">
                 Nsanzumukiza Thierry Jovin
+            </span>    
+                
             </div>
-            <br>
-            <div>
+            <div class="makeList">
                 <ion-icon :src="phonePortraitOutline" class="logoLarge"></ion-icon>
-                (+257) 79071453  <br>  61966892
+                (+257) 79 071 453  |  61 966 892
             </div>
-            <div>
+            <div class="makeList">
                 <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
                 nsanzumukizath@gmail.com
             </div>
-            <div>
+            <div class="makeList">
                 <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
                 muteule
             </div>
-            <div>
+            <div class="makeList">
                 <ion-icon :src="logoGithub" class="logoLarge"></ion-icon>
                 JovinMtl
             </div>
-            <div>
+            <div class="makeList">
                 <ion-icon :src="logoDribbble" class="logoLarge"></ion-icon>
                 muteule
             </div>
@@ -61,6 +64,16 @@ export default {
 <style scoped>
 .logoLarge{
     font-size: xx-large;
+}
+.makeList{
+    display: block;
+    margin: 5px 5px;
+}
+.textAdjust{
+    position: relative;
+    top: -9px; 
+    left: 20px; 
+    font-weight: 700;
 }
 </style>
 
