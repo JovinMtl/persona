@@ -22,6 +22,12 @@
                 </span>   
             </div>
             <div class="makeList">
+                <ion-icon :src="navigateOutline" class="logoLarge"></ion-icon>
+                <span class="textAdjust">
+                    Bujumbura  -  Burundi
+                </span>   
+            </div>
+            <div class="makeList">
                 <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
                 <span class="textAdjust">
                     nsanzumukizath@gmail.com
@@ -52,7 +58,7 @@
 <script>
 import { 
     logoWhatsapp, phonePortraitOutline, personOutline, mailOutline,
-    logoGithub, logoDribbble, logoLinkedin,
+    logoGithub, logoDribbble, logoLinkedin, compassOutline,
 } from 'ionicons/icons'
 import { 
     IonIcon,
@@ -65,6 +71,7 @@ export default {
         return {
             logoWhatsapp, phonePortraitOutline, personOutline, 
             mailOutline, logoGithub, logoDribbble, logoLinkedin,
+            compassOutline,
         }
     },
 }
