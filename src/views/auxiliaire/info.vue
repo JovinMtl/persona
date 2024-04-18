@@ -10,7 +10,7 @@
             <!-- Here will contain my infos -->
             <div class="makeList">
                 <ion-icon :src="personOutline" class="logoLarge"></ion-icon>
-                <span class="textAdjust">
+                <span class="textAdjust" style="font-weight: 500;">
                     Nsanzumukiza Thierry Jovin
                 </span>    
                 
@@ -79,6 +79,8 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 .logoLarge{
     font-size: xx-large;
 }
@@ -90,11 +92,12 @@ export default {
     position: relative;
     top: -9px; 
     left: 20px; 
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: x-large;
     color: white;
     /* font-family: 'Open Sans', sans-serif; */
     font-family: Sen, sans-serif;
+    font-family: Rubik;
 }
 </style>
 
