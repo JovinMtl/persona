@@ -13,37 +13,49 @@
                     
                 </div>
                 <div class="makeList">
-                    <ion-icon :src="phonePortraitOutline" class="logoLarge"></ion-icon>
+                    <a class="logoColor" href="tel:+25779071453">
+                        <ion-icon :src="phonePortraitOutline" class="logoLarge"></ion-icon>
+                    </a>
                     <span class="textAdjust">
                         (+257) 79 071 453  |  61 966 892
                     </span>   
                 </div>
                 <div class="makeList">
-                    <ion-icon :src="navigateOutline" class="logoLarge"></ion-icon>
+                    <a class="logoColor" href="https://www.google.com/maps/place/Burundi/@-3.3858868,28.6051708,8z/data=!3m1!4b1!4m6!3m5!1s0x19c144d33654f15b:0xb1234d0e5631ec8d!8m2!3d-3.373056!4d29.918886!16zL20vMDE2OXQ?hl=fr&entry=ttu">
+                        <ion-icon :src="locationOutline" class="logoLarge"></ion-icon>
+                    </a>
                     <span class="textAdjust">
                         Bujumbura  -  Burundi
                     </span>   
                 </div>
                 <div class="makeList">
-                    <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
+                    <a class="logoColor" href="mailto:nsanzumukizath@gmail.com">
+                        <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
+                    </a>
                     <span class="textAdjust">
                         nsanzumukizath@gmail.com
                     </span>   
                 </div>
                 <div class="makeList">
-                    <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
+                    <a class="logoColor" href="http://https://www.linkedin.com/in/thierry-jovin-9b8bb1109">
+                        <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
+                    </a>
                     <span class="textAdjust">
                         thierry-jovin-9b8bb1109
                     </span> 
                 </div>
                 <div class="makeList">
-                    <ion-icon :src="logoGithub" class="logoLarge"></ion-icon>
+                    <a class="logoColor" href="http://https://github.com/JovinMtl">
+                        <ion-icon :src="logoGithub" class="logoLarge"></ion-icon>
+                    </a>
                     <span class="textAdjust">
                         JovinMtl
                     </span> 
                 </div>
                 <div class="makeList">
-                    <ion-icon :src="logoDribbble" class="logoLarge"></ion-icon>
+                    <a class="logoColor" href="mailto:https://dribbble.com/muteule">
+                        <ion-icon :src="logoDribbble" class="logoLarge"></ion-icon>
+                    </a>
                     <span class="textAdjust">
                         muteule
                     </span> 
@@ -67,7 +79,7 @@
 <script>
 import { 
     logoWhatsapp, phonePortraitOutline, personOutline, mailOutline,
-    logoGithub, logoDribbble, logoLinkedin, navigateOutline,
+    logoGithub, logoDribbble, logoLinkedin, locationOutline,
 } from 'ionicons/icons'
 import { 
     IonIcon,
@@ -80,7 +92,7 @@ export default {
         return {
             logoWhatsapp, phonePortraitOutline, personOutline, 
             mailOutline, logoGithub, logoDribbble, logoLinkedin,
-            navigateOutline,
+            locationOutline,
         }
     },
 }
@@ -124,6 +136,10 @@ export default {
 }
 .logoLarge{
     font-size: xx-large;
+}
+.logoColor{
+    color: black;
+    text-shadow: 3px 3px 4px red;
 }
 .makeList{
     display: block;
