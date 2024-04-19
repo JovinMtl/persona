@@ -8,10 +8,12 @@
                     <div class="makeList">
                     <a class="logoColor" href="http://wa.me/+25779071453">
                         <ion-icon :src="personOutline" class="logoLarge"></ion-icon>
-                    </a>
-                    <span class="textAdjust" style="font-weight: 500;">
-                        Nsanzumukiza Thierry Jovin
-                    </span>    
+                    
+                        <span class="textAdjust" style="font-weight: 500;
+                        top: -8px">
+                            Nsanzumukiza Thierry Jovin
+                        </span>   
+                    </a> 
                     
                 </div>
                 <div class="makeList">
@@ -140,6 +142,7 @@ export default {
 }
 .logoColor{
     color: black;
+    text-decoration: none;
 }
 .makeList{
     width: 100%;
