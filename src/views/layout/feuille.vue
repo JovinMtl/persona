@@ -75,6 +75,7 @@
       const title = ref('Welcome to the official Website of jove.')
 
       const actualMenu = (value)=>{
+        //Setting title dynamically
         if(value){
           actual.value = Number(value)
           if(actual.value==1){
@@ -84,7 +85,7 @@
         } else if(actual.value==3){
           title.value='You are supposed to see my interests '
         }
-        }
+      }
       }
 
       onBeforeUpdate(()=>{
