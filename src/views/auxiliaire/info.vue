@@ -238,6 +238,7 @@ export default {
 @media screen and (max-width: 430px){
 .infoContainer{
     width: 84vw !important; 
+    background: linear-gradient(to top, #f04444,#f08080, #ddb8ac);
 }
 .textAdjust{
     left: 2px !important;
