@@ -41,7 +41,7 @@
                     </span>   
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="http://https://www.linkedin.com/in/thierry-jovin-9b8bb1109">
+                    <a class="logoColor" href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109">
                         <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
                     </a>
                     <span class="textAdjust">
@@ -49,7 +49,7 @@
                     </span> 
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="http://https://github.com/JovinMtl">
+                    <a class="logoColor" href="https://github.com/JovinMtl">
                         <ion-icon :src="logoGithub" class="logoLarge"></ion-icon>
                     </a>
                     <span class="textAdjust">
@@ -57,7 +57,7 @@
                     </span> 
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="mailto:https://dribbble.com/muteule">
+                    <a class="logoColor" href="https://dribbble.com/muteule">
                         <ion-icon :src="logoDribbble" class="logoLarge"></ion-icon>
                     </a>
                     <span class="textAdjust">
