@@ -15,7 +15,6 @@
     
 </template>
 <script>
-import { heart} from 'ionicons/icons'
 export default {
     
     setup() {
@@ -66,7 +65,6 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
         ];
         return {
             proofs,
-            heart,
         }
         
     },
