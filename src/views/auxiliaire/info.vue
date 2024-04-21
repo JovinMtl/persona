@@ -24,6 +24,7 @@
                     <a href="tel:+25779071453" 
                         title="Primary" class="textAdjust logoColor">
                         (+257) 79 071 453  </a>
+                        <!-- <span style="margin-left: .6rem;">&nbsp;</span> -->
                         |  
                     <a href="tel:+25761966892" 
                         title="Secondary" class="textAdjust logoColor">
