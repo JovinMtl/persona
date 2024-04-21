@@ -57,7 +57,8 @@
                     </span> 
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="https://dribbble.com/muteule">
+                    <a class="logoColor" href="https://dribbble.com/muteule" 
+                    title="muteule">
                         <ion-icon :src="logoDribbble" class="logoLarge"></ion-icon>
                     </a>
                     <span class="textAdjust">
