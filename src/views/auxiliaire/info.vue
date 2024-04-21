@@ -31,7 +31,7 @@
                         <ion-icon :src="locationOutline" class="logoLarge"></ion-icon>
                     </a>
                     <a href="https://www.google.com/maps/place/Burundi/@-3.3858868,28.6051708,8z/data=!3m1!4b1!4m6!3m5!1s0x19c144d33654f15b:0xb1234d0e5631ec8d!8m2!3d-3.373056!4d29.918886!16zL20vMDE2OXQ?hl=fr&entry=ttu"
-                        title="Location" class="textAdjust logoColor">
+                        title="Location" class="textAdjust">
                         Bujumbura  -  Burundi
                     </a>   
                 </div>
@@ -41,7 +41,7 @@
                         <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
                     </a>
                     <a href="mailto:nsanzumukizath@gmail.com"
-                    title="Mail" class="textAdjust logoColor">
+                    title="Mail" class="textAdjust">
                         nsanzumukizath@gmail.com
                     </a>   
                 </div>
@@ -51,7 +51,7 @@
                         <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
                     </a>
                     <a href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109"
-                    title="LinkedIn" class="textAdjust logoColor">
+                    title="LinkedIn" class="textAdjust">
                         thierry-jovin-9b8bb1109
                     </a> 
                 </div>
@@ -61,7 +61,7 @@
                         <ion-icon :src="logoGithub" class="logoLarge"></ion-icon>
                     </a>
                     <a href="https://github.com/JovinMtl"
-                     title="GitHub" class="textAdjust logoColor">
+                     title="GitHub" class="textAdjust">
                         JovinMtl
                     </a> 
                 </div>
@@ -71,7 +71,7 @@
                         <ion-icon :src="logoDribbble" class="logoLarge"></ion-icon>
                     </a>
                         <a href="https://dribbble.com/muteule" 
-                    title="Dribble" class="textAdjust logoColor">
+                    title="Dribble" class="textAdjust">
                             muteule
                         </a> 
                     
@@ -153,7 +153,7 @@ export default {
     font-size: xx-large;
 }
 .logoColor{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .makeList{
@@ -176,6 +176,8 @@ export default {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: Sen, sans-serif;
     font-family: Rubik;
+    text-decoration: none;
+    color: black;
 }
 
 
