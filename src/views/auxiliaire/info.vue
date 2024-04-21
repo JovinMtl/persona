@@ -21,15 +21,9 @@
                         title="Phone Number">
                         <ion-icon :src="phonePortraitOutline" class="logoLarge"></ion-icon>
                     </a>
-                    <a href="tel:+25779071453" 
-                        title="Primary" class="textAdjust logoColor">
-                        (+257) 79 071 453  </a>
-                        <!-- <span style="margin-left: .6rem;">&nbsp;</span> -->
-                        |  
-                    <a href="tel:+25761966892" 
-                        title="Secondary" class="textAdjust logoColor">
-                        61 966 892
-                    </a>   
+                    <span class="textAdjust">
+                        (+257) 79 071 453  |  61 966 892
+                    </span>   
                 </div>
                 <div class="makeList">
                     <a class="logoColor" href="https://www.google.com/maps/place/Burundi/@-3.3858868,28.6051708,8z/data=!3m1!4b1!4m6!3m5!1s0x19c144d33654f15b:0xb1234d0e5631ec8d!8m2!3d-3.373056!4d29.918886!16zL20vMDE2OXQ?hl=fr&entry=ttu"
