@@ -174,7 +174,7 @@ export default {
     font-size: x-large;
     /* color: white; */
     /* font-family: 'Open Sans', sans-serif; */
-    font-family: Sen, sans-serif;
+    /* font-family: Sen, sans-serif; */
     font-family: Rubik;
     text-decoration: none;
     color: black;
