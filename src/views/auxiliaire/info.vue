@@ -17,53 +17,69 @@
                     
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="tel:+25779071453">
+                    <a class="logoColor" href="tel:+25779071453" 
+                        title="Phone Number">
                         <ion-icon :src="phonePortraitOutline" class="logoLarge"></ion-icon>
                     </a>
-                    <span class="textAdjust">
-                        (+257) 79 071 453  |  61 966 892
-                    </span>   
+                    <a href="tel:+25779071453" 
+                        title="Primary" class="textAdjust logoColor">
+                        (+257) 79 071 453  </a>
+                        |  
+                    <a href="tel:+25761966892" 
+                        title="Secondary" class="textAdjust logoColor">
+                        61 966 892
+                    </a>   
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="https://www.google.com/maps/place/Burundi/@-3.3858868,28.6051708,8z/data=!3m1!4b1!4m6!3m5!1s0x19c144d33654f15b:0xb1234d0e5631ec8d!8m2!3d-3.373056!4d29.918886!16zL20vMDE2OXQ?hl=fr&entry=ttu">
+                    <a class="logoColor" href="https://www.google.com/maps/place/Burundi/@-3.3858868,28.6051708,8z/data=!3m1!4b1!4m6!3m5!1s0x19c144d33654f15b:0xb1234d0e5631ec8d!8m2!3d-3.373056!4d29.918886!16zL20vMDE2OXQ?hl=fr&entry=ttu"
+                        title="Location">
                         <ion-icon :src="locationOutline" class="logoLarge"></ion-icon>
                     </a>
-                    <span class="textAdjust">
+                    <a href="https://www.google.com/maps/place/Burundi/@-3.3858868,28.6051708,8z/data=!3m1!4b1!4m6!3m5!1s0x19c144d33654f15b:0xb1234d0e5631ec8d!8m2!3d-3.373056!4d29.918886!16zL20vMDE2OXQ?hl=fr&entry=ttu"
+                        title="Location" class="textAdjust logoColor">
                         Bujumbura  -  Burundi
-                    </span>   
+                    </a>   
                 </div>
                 <div class="makeList gmailClass">
-                    <a class="logoColor" href="mailto:nsanzumukizath@gmail.com">
+                    <a class="logoColor" href="mailto:nsanzumukizath@gmail.com"
+                    title="Mail">
                         <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
                     </a>
-                    <span class="textAdjust">
+                    <a href="mailto:nsanzumukizath@gmail.com"
+                    title="Mail" class="textAdjust logoColor">
                         nsanzumukizath@gmail.com
-                    </span>   
+                    </a>   
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109">
+                    <a class="logoColor" href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109"
+                    title="LinkedIn">
                         <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
                     </a>
-                    <span class="textAdjust">
+                    <a href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109"
+                    title="LinkedIn" class="textAdjust logoColor">
                         thierry-jovin-9b8bb1109
-                    </span> 
+                    </a> 
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="https://github.com/JovinMtl">
+                    <a class="logoColor" href="https://github.com/JovinMtl"
+                     title="GitHub">
                         <ion-icon :src="logoGithub" class="logoLarge"></ion-icon>
                     </a>
-                    <span class="textAdjust">
+                    <a href="https://github.com/JovinMtl"
+                     title="GitHub" class="textAdjust logoColor">
                         JovinMtl
-                    </span> 
+                    </a> 
                 </div>
                 <div class="makeList">
                     <a class="logoColor" href="https://dribbble.com/muteule" 
-                    title="muteule">
+                    title="Dribble">
                         <ion-icon :src="logoDribbble" class="logoLarge"></ion-icon>
                     </a>
-                    <span class="textAdjust">
-                        muteule
-                    </span> 
+                        <a href="https://dribbble.com/muteule" 
+                    title="Dribble" class="textAdjust logoColor">
+                            muteule
+                        </a> 
+                    
                 </div>
                 </div>
                 
