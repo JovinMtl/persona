@@ -9,7 +9,7 @@
     <div style="display: inline-block;" v-for="proof in proofs">
         <div class="portoContent">
             <img :src="proof.image" class="imgProofCss"/>
-            <div class="textCss">{{ proof.description }}.</div> 
+            <div class="textCss">{{ proof.description }}</div> 
         </div>
     </div>
     
@@ -19,6 +19,11 @@ export default {
     
     setup() {
         const proofs = [
+            {
+                'title': 'title zero',
+                'image': '/personaFoto/jove0.png',
+                'description': 'Started on April 22, 2024. This UI is for Dawa-Pharma project. A tool for managing io on Pharmacy operations.'
+            },
             {
                 'title':'title one',
                 'image':'/personaFoto/jove1.png',
