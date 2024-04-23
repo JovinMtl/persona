@@ -6,7 +6,8 @@
             <div class="infoText">
                 <div class="textContainer">
                     <div class="makeList">
-                    <a class="logoColor" href="http://wa.me/+25779071453">
+                    <a class="logoColor" href="http://wa.me/+25779071453"
+                        title="Connect to my Whatsapp number">
                         <ion-icon :src="personOutline" class="logoLarge"></ion-icon>
                     
                         <span class="textAdjust" style="font-weight: 500;
