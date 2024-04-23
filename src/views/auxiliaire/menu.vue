@@ -14,7 +14,8 @@
                     <router-link to="/" class="unline fs tex">Interests</router-link>
                 </div>
                 <div @click="TurnD" :class="!opt4 ? 'unclicked':'clicked'">
-                    <a href="/home#connect" class="unline fs tex">Contact</a>
+                    <!-- <a href="/home" class="unline fs tex">Contact</a> -->
+                    <router-link to="/" class="unline fs tex">Contact</router-link>
                     <!-- <a href=""></a> -->
                 </div>
             </div>
