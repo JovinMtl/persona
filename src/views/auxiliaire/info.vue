@@ -70,7 +70,7 @@
                 <div class="makeList">
                     <a class="logoColor" href="https://dribbble.com/muteule" 
                     title="Booking Calendar">
-                        <ion-icon :src="calendarClearOutline" class="logoLarge"></ion-icon>
+                        <ion-icon :src="calendarOutline" class="logoLarge"></ion-icon>
                     </a>
                     <!-- <iframe src="https://calendar.google.com/calendar/embed?src=f54719134f0e766c5c2530acf21b763f81da2e6ab1c67b4b9b6dec561d4a8774%40group.calendar.google.com&ctz=Africa%2FMaputo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
                     <a href="https://calendar.google.com/calendar/embed?src=f54719134f0e766c5c2530acf21b763f81da2e6ab1c67b4b9b6dec561d4a8774%40group.calendar.google.com&ctz=Africa%2FMaputo" title="Let me know it on Google Calendar" class="textAdjust">Book me</a>
@@ -94,7 +94,7 @@
 <script>
 import { 
     logoWhatsapp, phonePortraitOutline, personOutline, mailOutline,
-    logoGithub, calendarClearOutline, logoLinkedin, mapOutline,
+    logoGithub, calendarOutline, logoLinkedin, mapOutline,
 } from 'ionicons/icons'
 import { 
     IonIcon,
@@ -106,7 +106,7 @@ export default {
     setup() {
         return {
             logoWhatsapp, phonePortraitOutline, personOutline, 
-            mailOutline, logoGithub, calendarClearOutline, logoLinkedin,
+            mailOutline, logoGithub, calendarOutline, logoLinkedin,
             mapOutline,
         }
     },
