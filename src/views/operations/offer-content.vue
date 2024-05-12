@@ -40,7 +40,7 @@
     </div>
     <!-- //copright -->
 </template>
-<script>
+<script lang="ts">
 import { computed, defineComponent } from 'vue'
 import { IonIcon } from '@ionic/vue'
 import { logoWhatsapp, mailOutline, } from 'ionicons/icons'
