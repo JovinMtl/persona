@@ -48,11 +48,11 @@ import { alertController } from '@ionic/vue'
 import { Intro } from '../auxiliaire/types'
 export default defineComponent ({
     setup() {
-        const turnDetail = (index)=>{
+        const turnDetail = (index:number)=>{
             //will enable or disable the content to be expanded
             (contents.value[index]).detail = !(contents.value[index]).detail
         }
-        const titleAlert = async (content) => {
+        const titleAlert = async (content:string) => {
             const alert = await alertController.create({
             header: content,
             // message: 'Veuillez vous reconnecter encore.',
