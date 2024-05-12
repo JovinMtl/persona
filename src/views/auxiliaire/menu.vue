@@ -25,10 +25,10 @@
 import { ref,defineComponent, onMounted } from 'vue'
 export default defineComponent({
     setup(props, {emit}) {
-        const opt1 = ref(true)
-        const opt2 = ref(false)
-        const opt3 = ref(false)
-        const opt4 = ref(false)
+        const opt1:boolean = ref(true)
+        const opt2:boolean = ref(false)
+        const opt3:boolean = ref(false)
+        const opt4:boolean = ref(false)
         onMounted(()=>{
             emit('initial', '1')
         })
