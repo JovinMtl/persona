@@ -46,7 +46,6 @@
     onBeforeUpdate } from 'vue'
   import menu from '../auxiliaire/menu.vue';
   import home from '../pages/home.vue';
-  import welcome from '../auxiliaire/welcome.vue'
   import showPic from '../operations/show-pic.vue'
   import openPic from '../operations/open-pic.vue'
   import summary from '../auxiliaire/summary.vue';
@@ -62,7 +61,6 @@
       IonContent, IonHeader, IonPage,
       'me-nu': menu,
       'hom-e' : home,
-      'wel-come': welcome,
       'show-pic': showPic,
       'open-pic': openPic,
       'summ-ary': summary,
