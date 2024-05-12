@@ -16,10 +16,11 @@
 </template>
 <script lang="ts">
 import { defineComponent} from 'vue'
+import { Proof } from '../auxiliaire/types'
 export default defineComponent ({
     
     setup() {
-        const proofs = [
+        const proofs:Proof = [
             {
                 'title': 'title zero',
                 'image': '/personaFoto/jove0.png',

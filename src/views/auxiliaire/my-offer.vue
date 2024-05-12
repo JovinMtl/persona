@@ -42,8 +42,8 @@ export default defineComponent ({
     setup() {
 
         const actualValue = ref(0)
-        const cateA = ref(false)
-        const cateB = ref(false)
+        const cateA:boolean = ref(false)
+        const cateB:boolean = ref(false)
         const TurnA = ()=>{
             actualValue.value = 1
             cateA.value = !cateA.value
