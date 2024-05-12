@@ -6,7 +6,7 @@ const routes = [
   {
     path: '/:anyThing(.*)',
     component: Feuille
-  },
+  }
 ]
 
 const router = createRouter({
