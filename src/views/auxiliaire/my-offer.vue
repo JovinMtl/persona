@@ -35,13 +35,14 @@
 <script lang="ts">
 import { ref, defineComponent } from 'vue'
 import offerContent from '../operations/offer-content.vue';
+import { MyOffer } from '../auxiliaire/types'
 export default defineComponent ({
     components:{
         'offer-content':offerContent,
     },
     setup() {
 
-        const actualValue = ref(0)
+        const actualValue:MyOffer = ref(0)
         const cateA:boolean = ref(false)
         const cateB:boolean = ref(false)
         const TurnA = ()=>{
