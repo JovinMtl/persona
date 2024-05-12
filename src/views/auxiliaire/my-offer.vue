@@ -32,10 +32,10 @@
         </div>
     </div>
 </template>
-<script>
-import { ref } from 'vue'
+<script lang="ts">
+import { ref, defineComponent } from 'vue'
 import offerContent from '../operations/offer-content.vue';
-export default {
+export default defineComponent ({
     components:{
         'offer-content':offerContent,
     },
@@ -67,7 +67,7 @@ export default {
             actualValue, cateA, cateB, TurnA, TurnB,
         }
     },
-}
+})
 </script>
 <style scoped>
 .offerContainer{
