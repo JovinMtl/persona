@@ -61,12 +61,12 @@ export default defineComponent ({
             mode: 'ios',
             });
 
-            // await alert.present();
-            const alertElement = await alert.present();
-            const customAlert = alertElement.querySelector('.alert-wrapper');
-            const line = document.createElement('div');
-            line.classList.add('separator-line');
-            customAlert.appendChild(line);
+            await alert.present();
+            // const alertElement = await alert.present();
+            // const customAlert = alertElement.querySelector('.alert-wrapper');
+            // const line = document.createElement('div');
+            // line.classList.add('separator-line');
+            // customAlert.appendChild(line);
         };
 
         const contents:Intro = ref([
