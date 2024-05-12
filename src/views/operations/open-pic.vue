@@ -6,8 +6,8 @@
                 <ion-icon size="larger"></ion-icon>
             </span>
             <ion-img src="/personaFoto/jove18.png"/>
-            <!-- <span class="mantra">Embracing Vision, Inspiring Innovation</span> -->
-            <span class="mantra">Simplicity makes it great!</span>
+            <span class="mantra">Embracing Vision, Inspiring Innovation</span>
+            <!-- <span class="mantra">Simplicity makes it great!</span> -->
             
     </div>
 </template>
