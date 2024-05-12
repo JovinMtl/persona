@@ -44,6 +44,7 @@
 import { computed, defineComponent } from 'vue'
 import { IonIcon } from '@ionic/vue'
 import { logoWhatsapp, mailOutline, } from 'ionicons/icons'
+import { Offer } from '../auxiliaire/types'
 export default defineComponent ({
     components:{
         IonIcon,
@@ -52,7 +53,7 @@ export default defineComponent ({
         'option',
     ],
     setup(props) {
-        const offers = [
+        const offers:Offer = [
             {
                 'title':'',
                 'content':'',
