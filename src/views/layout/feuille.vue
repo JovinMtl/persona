@@ -72,10 +72,10 @@
       'in-fo': Info,
     },
     setup(){
-      const actual = ref(1)
-      const title = ref('Welcome to the official Website of jove.')
+      const actual:number = ref(1)
+      const title:string = ref('Welcome to the official Website of jove.')
 
-      const actualMenu = (value)=>{
+      const actualMenu = (value:number)=>{
         //Setting title dynamically
         if(value){
           actual.value = Number(value)
