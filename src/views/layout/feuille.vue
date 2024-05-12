@@ -52,6 +52,7 @@
   import summary from '../auxiliaire/summary.vue';
   import myOffer from '../auxiliaire/my-offer.vue';
   import copyright from '../auxiliaire/copyright.vue'
+  import { MenuNumber } from '../auxiliaire/types'
 
   const Porto = defineAsyncComponent(()=>import('../auxiliaire/port-folio.vue'))
   const Interests = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
@@ -72,7 +73,7 @@
       'in-fo': Info,
     },
     setup(){
-      const actual:number = ref(1)
+      const actual:MenuNumber = ref(1)
       const title:string = ref('Welcome to the official Website of jove.')
 
       const actualMenu = (value:number)=>{
