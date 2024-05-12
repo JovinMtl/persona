@@ -3,12 +3,17 @@ import { createRouter, createWebHistory } from '@ionic/vue-router';
 import Feuille from '../views/layout/feuille.vue'
 
 const routes = [
+  // {
+  //   path: '/',
+  //   redirect: '/home'
+  // },
   {
-    path: '/',
-    redirect: '/home'
+    path: '',
+    component: Feuille,
+    alias: '/home'
   },
   {
-    path: '/home',
+    path: '/:notFound(.*)',
     component: Feuille
   },
 ]
