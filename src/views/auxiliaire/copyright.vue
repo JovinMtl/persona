@@ -9,13 +9,14 @@
         <span style="font-weight: 800;">Bujumbura - Burundi.</span> 
     </div>
 </template>
-<script>
-export default {
+<script lang="ts">
+import { defineComponent} from 'vue'
+export default defineComponent ({
     setup() {
         var year = (String(new Date())).slice(11, 15)
         return {
             year,
         }
     },
-}
+})
 </script>
