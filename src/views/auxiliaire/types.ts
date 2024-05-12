@@ -19,3 +19,5 @@ export interface Proof {
     image : string;
     description : string;
 }
+
+export type MyOffer = 0 | 1 | 2
