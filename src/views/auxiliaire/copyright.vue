@@ -13,7 +13,7 @@
 import { defineComponent} from 'vue'
 export default defineComponent ({
     setup() {
-        var year = (String(new Date())).slice(11, 15)
+        let year:string = (String(new Date())).slice(11, 15)
         return {
             year,
         }
