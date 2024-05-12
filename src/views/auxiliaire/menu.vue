@@ -3,7 +3,7 @@
             <div style="display: inline-flex;">
                 <div @click="TurnA" 
                     :class="!opt1 ? 'unclicked':'clicked'">
-                    <router-link to="/home#e" class="unline fs tex">
+                    <router-link to="" class="unline fs tex">
                         Home
                     </router-link>
                 </div>
