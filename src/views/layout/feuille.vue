@@ -35,12 +35,13 @@
     </ion-page>
   </template>
   
-  <script>
+  <script lang="ts">
   import { 
     IonContent, IonHeader, IonPage,
   } from '@ionic/vue';
   import { 
     defineAsyncComponent, 
+    defineComponent,
     ref,
     onBeforeUpdate } from 'vue'
   import menu from '../auxiliaire/menu.vue';
@@ -55,7 +56,7 @@
   const Porto = defineAsyncComponent(()=>import('../auxiliaire/port-folio.vue'))
   const Interests = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   const Info = defineAsyncComponent(()=>import('../auxiliaire/info.vue'))
-  export default{
+  export default defineComponent ({
     components: {
       IonContent, IonHeader, IonPage,
       'me-nu': menu,
@@ -101,6 +102,6 @@
         actualMenu,
       }
     }
-  }
+  })
   </script>
   
