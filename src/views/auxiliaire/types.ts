@@ -7,3 +7,9 @@ export interface Offer {
     content : string;
     color : string;
 }
+
+export interface  Intro {
+    title : string;
+    content : string;
+    detail : boolean;
+}
