@@ -41,10 +41,10 @@
     <!-- //copright -->
 </template>
 <script>
-import { computed } from 'vue'
+import { computed, defineComponent } from 'vue'
 import { IonIcon } from '@ionic/vue'
 import { logoWhatsapp, mailOutline, } from 'ionicons/icons'
-export default {
+export default defineComponent ({
     components:{
         IonIcon,
     },
@@ -77,5 +77,5 @@ export default {
             logoWhatsapp, mailOutline,
         }
     },
-}
+})
 </script>
