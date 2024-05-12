@@ -21,9 +21,9 @@
             </div>
     </div>
 </template>
-<script>
-import { ref, onMounted } from 'vue'
-export default {
+<script lang="ts">
+import { ref,defineComponent, onMounted } from 'vue'
+export default defineComponent({
     setup(props, {emit}) {
         const opt1 = ref(true)
         const opt2 = ref(false)
@@ -68,7 +68,7 @@ export default {
             TurnA, TurnB, TurnC, TurnD,
         }
     },
-}
+})
 </script>
 
 <style scoped>
