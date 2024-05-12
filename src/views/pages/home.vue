@@ -23,7 +23,6 @@
   // import { ref } from 'vue'
   // import { useStore } from 'vuex'
   import menu from '../auxiliaire/menu.vue';
-  import welcome from '../auxiliaire/welcome.vue'
   import showPic from '../operations/show-pic.vue'
   import openPic from '../operations/open-pic.vue'
   import summary from '../auxiliaire/summary.vue';
@@ -34,7 +33,6 @@
     components: {
       IonContent, IonHeader, IonPage,
       'me-nu': menu,
-      'wel-come': welcome,
       'show-pic': showPic,
       'open-pic': openPic,
       'summ-ary': summary,
