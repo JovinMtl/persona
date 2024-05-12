@@ -14,8 +14,9 @@
     </div>
     
 </template>
-<script>
-export default {
+<script lang="ts">
+import { defineComponent} from 'vue'
+export default defineComponent ({
     
     setup() {
         const proofs = [
@@ -73,7 +74,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
         }
         
     },
-}
+})
 </script>
 
 <style scoped>
