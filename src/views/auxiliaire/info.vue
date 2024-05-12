@@ -91,7 +91,8 @@
         </div>
     </div>
 </template>
-<script>
+<script lang="ts">
+import { defineComponent } from "vue"
 import { 
     logoWhatsapp, phonePortraitOutline, personOutline, mailOutline,
     logoGithub, calendarOutline, logoLinkedin, mapOutline,
@@ -99,7 +100,7 @@ import {
 import { 
     IonIcon,
 } from '@ionic/vue'
-export default {
+export default defineComponent ({
     components:{
         IonIcon,
     },
@@ -110,7 +111,7 @@ export default {
             mapOutline,
         }
     },
-}
+})
 </script>
 
 <style scoped>
