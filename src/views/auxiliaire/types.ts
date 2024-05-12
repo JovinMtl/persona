@@ -13,3 +13,9 @@ export interface  Intro {
     content : string;
     detail : boolean;
 }
+
+export interface Proof {
+    title : string;
+    image : string;
+    description : string;
+}
