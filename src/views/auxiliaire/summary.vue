@@ -42,10 +42,10 @@
         
     </div>
 </template>
-<script>
-import { ref } from 'vue'
+<script lang="ts">
+import { ref, defineComponent } from 'vue'
 import { alertController } from '@ionic/vue'
-export default {
+export default defineComponent ({
     setup() {
         const turnDetail = (index)=>{
             //will enable or disable the content to be expanded
@@ -140,7 +140,7 @@ export default {
             turnDetail, titleAlert,
         }
     },
-}
+})
 </script>
 <style scoped>
 h3{
