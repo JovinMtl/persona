@@ -11,16 +11,17 @@
             
     </div>
 </template>
-<script>
+<script lang="ts">
+import { defineComponent} from 'vue'
 import { IonImg, IonButton, IonIcon, } from '@ionic/vue'
 import { close, } from 'ionicons/icons'
-export default {
+export default defineComponent ({
     components: {
         IonImg,  IonButton, IonIcon, 
     },
     setup() {
         return {close,}
     }
-}
+})
 </script>
 
