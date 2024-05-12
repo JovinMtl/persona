@@ -21,3 +21,4 @@ export interface Proof {
 }
 
 export type MyOffer = 0 | 1 | 2
+export type MenuNumber = 1 | 2 | 3 | 4
