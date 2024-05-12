@@ -45,6 +45,7 @@
 <script lang="ts">
 import { ref, defineComponent } from 'vue'
 import { alertController } from '@ionic/vue'
+import { Intro } from '../auxiliaire/types'
 export default defineComponent ({
     setup() {
         const turnDetail = (index)=>{
@@ -68,7 +69,7 @@ export default defineComponent ({
             customAlert.appendChild(line);
         };
 
-        const contents = ref([
+        const contents:Intro = ref([
             {
                 'title': 'About Me: Fullstack Developer & Business Strategist',
                 'content': `I am a Burundian Business Strategist and Freelance Fullstack Developer, driven by a passion for 
