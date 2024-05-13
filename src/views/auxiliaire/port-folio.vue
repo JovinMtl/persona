@@ -39,7 +39,7 @@ export default defineComponent ({
             {
                 'title':'',
                 'image':'/personaFoto/jove3.png',
-                'description': "This also feels good when used as a Loader, the dots rolls magnetically horizontally as flowing motion. the idea behind is that the main dots which stays fixed in the center representing the server, is pushing for the User's request."
+                'description': "This also feels good when used as a Loader, the two extreme dots roll magnetically, horizontally as flowing motion. The idea behind is that the main dots which stays fixed in the center representing the server, is pushing for the User's request."
             },
             {
                 'title':'title two',
