@@ -24,7 +24,7 @@ export default defineComponent ({
             {
                 'title': 'grid layout',
                 'image': '/personaFoto/jove_1.png',
-                'description': "This is the layout I designed for my future estemeed client."
+                'description': "This is the layout I designed for my future estemeed client. June 05, 2024."
             },
             {
                 'title': 'title zero',
