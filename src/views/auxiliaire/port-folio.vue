@@ -22,6 +22,11 @@ export default defineComponent ({
     setup() {
         const proofs:Proof = [
             {
+                'title': 'grid layout',
+                'image': '/personaFoto/jove_1.png',
+                'description': "This is the layout I designed for my future estemeed client."
+            },
+            {
                 'title': 'title zero',
                 'image': '/personaFoto/jove0.png',
                 'description': 'Started on April 22, 2024. This UI is for Dawa-Pharma project. A tool for managing io on Pharmacy operations.'
