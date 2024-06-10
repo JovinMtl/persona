@@ -34,10 +34,21 @@ ion-title{
     text-align: center;
 }
 .welcomeText{
+    /* display: flex; */
     /* font-family: 'Quicksand', sans-serif; */
     font-family: Satisfy, sans-serif;
     /* font-family: Raleway; */
     font-size: 18px;
+
+}
+.innerText{
+    /* display: flex; */
+    /* color: red; */
+    background: linear-gradient(to right, red,orange,white, black);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content: center;
+    /* font-size: 30px; */
 }
 .feuilleContainer{
     text-align: center;
