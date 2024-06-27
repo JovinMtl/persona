@@ -8,8 +8,8 @@
             <me-nu @initial="actualMenu"></me-nu>
         </div>
         <div v-if="actual==1">
-            <div id="e" class="menuContainer">
-          <show-pic></show-pic>
+          <div id="e" class="menuContainer" style="display: flex;justify-content: center;">
+            <show-pic></show-pic>
           </div>
           <div class="centered">
               <open-pic></open-pic>
