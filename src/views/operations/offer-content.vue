@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div style="display: flex; justify-content: center;">
         <!-- Here is the content: {{ actualOption }} -->
-        <div v-if="actualOption"  :style="{
+        <div style="background-color: rgba(155,55,105,0.2); width: 80%;" v-if="actualOption"  :style="{
             border: `2px solid ${offers[actualOption].color}`,
             borderRadius: '20px',
             margin: '5px 20px',
