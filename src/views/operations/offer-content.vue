@@ -67,7 +67,7 @@ export default defineComponent ({
             {
                 'title' : "Business Strategist",
                 'content' : "My passion lies in not only delivering top-notch solutions but also in witnessing the successful launch of projects, effectively reaching and resonating with the target audience. I pride myself on navigating the challenges and triumphs of the digital landscape, consistently enhancing business success stories.",
-                'color': 'red'
+                'color': 'salmon'
             }
         ]
         const actualOption = computed(()=>{
@@ -80,3 +80,4 @@ export default defineComponent ({
     },
 })
 </script>
+
