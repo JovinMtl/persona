@@ -11,12 +11,12 @@
         <div style="margin: 20px 20px; color: brown; 
         font-family: 'Open Sans', sans-serif; font-weight: 100;">
             Discover Thierry Jovin, a Business Strategist and 
-            FullStack Developper based in 
+            FullStack Developer based in 
             <span style="font-weight: 700;">Burundi</span> . 
             With dual skill set, I offer freelance services. 
             I love thinking, and happy to contribute to Business strategy, 
             and on the other side to have a happy coding in  
-            Django&DRF,VueJs, HTML and CSS.
+            Django & DRF, VueJs, HTML and CSS.
         </div>
         <!-- <div class="imageContainer">
             <div class="imgContent" v-for="image in images" :style="{
