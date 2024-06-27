@@ -253,7 +253,11 @@ ion-title{
         border-radius: 25px;
     }
 }
-
+@media screen and (min-width: 1050px){
+    .bigWidth{
+        width: 80%;
+    }
+}
 
 .summaryElement{
     width: 33vw; 

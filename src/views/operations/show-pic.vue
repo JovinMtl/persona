@@ -1,5 +1,5 @@
 <template>
-    <div class="centered welcomeText">
+    <div class="centered welcomeText bigWidth">
         <div style="margin-top: 20px; font-weight: bolder;">
             Nsanzumukiza Thierry Jovin
         </div> 
