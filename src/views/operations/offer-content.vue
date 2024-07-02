@@ -34,7 +34,7 @@
                 <ion-icon :icon="mailOutline"></ion-icon>
             </a>
             <span style="margin-left: .9rem;">&nbsp;</span>
-            <a href="mailto:nsanzumukizath@gmail.com" style="color: blue;">
+            <a href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109" style="color: blue;">
                 <ion-icon :icon="logoLinkedin"></ion-icon>
             </a>
             
