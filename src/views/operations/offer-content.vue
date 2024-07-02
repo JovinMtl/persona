@@ -26,16 +26,16 @@
         <span style="position: relative; top: .6rem; 
                 font-size: 2rem;">
             <span style="margin-left: .6rem; top: 3rem;">&nbsp;</span>
-            <a href="https://wa.me/+25779071453" style="color: green;">
-                <ion-icon :icon="logoWhatsapp"></ion-icon>
+            <a href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109" style="color: blue;">
+                <ion-icon :icon="logoLinkedin"></ion-icon>
             </a>
             <span style="margin-left: .9rem;">&nbsp;</span>
             <a href="mailto:nsanzumukizath@gmail.com" style="color: blue;">
                 <ion-icon :icon="mailOutline"></ion-icon>
             </a>
             <span style="margin-left: .9rem;">&nbsp;</span>
-            <a href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109" style="color: blue;">
-                <ion-icon :icon="logoLinkedin"></ion-icon>
+            <a href="https://wa.me/+25779071453" style="color: green;">
+                <ion-icon :icon="logoWhatsapp"></ion-icon>
             </a>
             
             
