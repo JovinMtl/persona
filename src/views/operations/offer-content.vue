@@ -33,6 +33,11 @@
             <a href="mailto:nsanzumukizath@gmail.com" style="color: blue;">
                 <ion-icon :icon="mailOutline"></ion-icon>
             </a>
+            <span style="margin-left: .9rem;">&nbsp;</span>
+            <a href="mailto:nsanzumukizath@gmail.com" style="color: blue;">
+                <ion-icon :icon="logoLinkedin"></ion-icon>
+            </a>
+            
             
             
         </span>
@@ -43,7 +48,7 @@
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
 import { IonIcon } from '@ionic/vue'
-import { logoWhatsapp, mailOutline, } from 'ionicons/icons'
+import { logoWhatsapp, mailOutline, logoLinkedin } from 'ionicons/icons'
 import { Offer } from '../auxiliaire/types'
 export default defineComponent ({
     components:{
@@ -75,7 +80,7 @@ export default defineComponent ({
         })
         return {
             actualOption, offers,
-            logoWhatsapp, mailOutline,
+            logoWhatsapp, mailOutline, logoLinkedin,
         }
     },
 })
