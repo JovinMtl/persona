@@ -68,7 +68,6 @@ export default defineComponent({
             // will select that element with 'anime' class and 
             // remove such properties making animation
             const animatedElement = document.querySelector('.anime')
-            // console.log("THe found element is  : ", animatedElement.innerHTML)
             // get its styles properties
             const ani_s = getComputedStyle(animatedElement)
             console.log("First the animation name is : ", ani_s.getPropertyValue('animation-name'))
@@ -113,10 +112,11 @@ export default defineComponent({
 }
 @keyframes newThing {
     0%{
-        transform: rotate(45deg);
+        transform: rotate(15deg);
     }
     40%{
-        transform: rotate(-45deg);
+        transform: rotate(-15deg);
+        background-color: salmon;
     }
     90%{
         transform: rotate(0deg);
