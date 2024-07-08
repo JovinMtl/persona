@@ -67,11 +67,13 @@ export default defineComponent({
         const disablingAnime = ()=>{
             // will select that element with 'anime' class and 
             // remove such properties making animation
-            const animatedElement = document.getElementsByClassName('anime')
-            console.log("THe found element is  : ", animatedElement)
-            // get is styles properties
-            // const ani_s = getComputedStyle(animatedElement)
-            // console.log("The animation-name is : ", ani_s.getPropertyValue('animation-name'))
+            const animatedElement = document.querySelector('.anime')
+            // console.log("THe found element is  : ", animatedElement.innerHTML)
+            // get its styles properties
+            const ani_s = getComputedStyle(animatedElement)
+            console.log("First the animation name is : ", ani_s.getPropertyValue('animation-name'))
+            animatedElement.style.animationName = 'Jove'
+            console.log("Now the animation name is : ", ani_s.getPropertyValue('animation-name'))
         }
         return {
             opt1, opt2, opt3, opt4,
