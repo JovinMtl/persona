@@ -42,6 +42,7 @@ export default defineComponent({
             emit('initial', '1')
         }
         const TurnB = ()=>{
+            disablingAnime()
             opt2.value = true
             opt1.value = false
             opt3.value = false
@@ -67,9 +68,10 @@ export default defineComponent({
             // will select that element with 'anime' class and 
             // remove such properties making animation
             const animatedElement = document.getElementsByClassName('anime')
+            console.log("THe found element is  : ", animatedElement)
             // get is styles properties
-            const ani_s = getComputedStyle(animatedElement)
-            console.log("The animation-name is : ", ani_s.getPropertyValue('animation-name'))
+            // const ani_s = getComputedStyle(animatedElement)
+            // console.log("The animation-name is : ", ani_s.getPropertyValue('animation-name'))
         }
         return {
             opt1, opt2, opt3, opt4,
