@@ -1,9 +1,8 @@
 <template>
     <div class="offerContainer">
-        <h3 style="font-weight: bold; margin-top: 35px; 
-        text-shadow: 0 1px grey, 0 -1px grey, -1px 0 grey, 1px 0 grey ;"> 
+        <h4 class="offerTitle"> 
             Discover the possibilities with my two exclusive service packages! Click below to reveal more.
-        </h3>
+        </h4>
         <div class="button-container">
             <div class="button">
                 <router-link @click="TurnA"
@@ -78,6 +77,14 @@ export default defineComponent ({
     width: 90vw;
     border-radius: 25px;
 }
+.offerTitle{
+    --prefered-color: rgb(131, 131, 127);
+    font-weight: bold; margin-top: 35px; 
+    text-shadow: 0 1px var(--prefered-color),
+     0 -1px var(--prefered-color), 
+     -1px 0 var(--prefered-color), 
+     1px 0 var(--prefered-color) ;
+}
 .button-container{
     display: inline-flex;
     position: sticky;
@@ -146,5 +153,6 @@ export default defineComponent ({
     left: 50%;
     background-color: red;
 }
+
 </style>
 
