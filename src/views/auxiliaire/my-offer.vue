@@ -1,8 +1,9 @@
 <template>
     <div class="offerContainer">
-        <h4 style="font-weight: bold; margin-top: 35px;"> 
+        <h3 style="font-weight: bold; margin-top: 35px; 
+        text-shadow: 0 1px grey, 0 -1px grey, -1px 0 grey, 1px 0 grey ;"> 
             Discover the possibilities with my two exclusive service packages! Click below to reveal more.
-        </h4>
+        </h3>
         <div class="button-container">
             <div class="button">
                 <router-link @click="TurnA"
