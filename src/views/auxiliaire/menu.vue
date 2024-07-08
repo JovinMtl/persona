@@ -63,6 +63,14 @@ export default defineComponent({
             opt1.value = false
             emit('initial', '4')
         }
+        const disablingAnime = ()=>{
+            // will select that element with 'anime' class and 
+            // remove such properties making animation
+            const animatedElement = document.getElementsByClassName('anime')
+            // get is styles properties
+            const ani_s = getComputedStyle(animatedElement)
+            console.log("The animation-name is : ", ani_s.getPropertyValue('animation-name'))
+        }
         return {
             opt1, opt2, opt3, opt4,
             TurnA, TurnB, TurnC, TurnD,
@@ -98,7 +106,6 @@ export default defineComponent({
     animation-iteration-count: infinite;
     animation-duration: 1s;
     animation-timing-function: ease;
-    /* transform: rotate(45deg); */
 }
 @keyframes newThing {
     0%{
