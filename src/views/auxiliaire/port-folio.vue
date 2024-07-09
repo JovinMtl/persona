@@ -9,8 +9,13 @@
                         <div class="textContainer" 
                         style="position: absolute; word-wrap: break-word;
                         word-break: break-all;">
-                            <h3>Hello</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perspiciatis ut illo, blanditiis nesciunt quibusdam? Placeat voluptate nobis provident animi minima est nostrum accusantium odio sint! Praesentium obcaecati rerum molestias?</p>
+                            <h3>Announcement</h3>
+                            
+                            <p style="font-size: 1.3rem;padding: 10px;">
+                                Previously from June 20 to 25, 2024, I had the privilege of participating in a workshop on “virtualization and deployment in the cloud”. I gained
+useful knowledge to create and manage VMs on a cluster. More focused on cloud computing, I joined the HackerTon organized on the 22nd as
+part of the same workshop. My group got second place.
+                            </p>
                             
                         </div>
                         <div class="shapeOne"></div>
@@ -30,13 +35,10 @@
     </div>
     
 </template>
-<script lang="ts">
-import { defineComponent} from 'vue'
+<script setup lang="ts">
 import { Proof } from '../auxiliaire/types'
-export default defineComponent ({
-    
-    setup() {
-        const proofs:Proof = [
+
+const proofs:Proof = [
             {
                 'title': 'grid layout',
                 'image': '/personaFoto/jove_1.png',
@@ -91,12 +93,6 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
                 'description': "Not my every code were shared here, but this one makes me happy when i see its results in my Backend's operations. I helps me to generate a unique code to record every transaction made by the users. It is flexible as you can give it the length of the code to generate. "
             },
         ];
-        return {
-            proofs,
-        }
-        
-    },
-})
 </script>
 
 <style scoped>
