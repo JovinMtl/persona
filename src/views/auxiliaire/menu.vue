@@ -7,7 +7,7 @@
                         Home
                     </router-link>
                 </div>
-                <div @click="TurnB" :class="!opt2 ? 'unclicked anime':'clicked'">
+                <div @click="TurnB" :class="!opt2 ? 'unclicked wantClick':'clicked'">
                     <router-link to="/" class="unline fs tex">Portfolio</router-link>
                 </div>
                 <div @click="TurnC" :class="!opt3 ? 'unclicked':'clicked'">
@@ -67,7 +67,7 @@ export default defineComponent({
         const disablingAnime = ()=>{
             // will select that element with 'anime' class and 
             // remove such properties making animation
-            const animatedElement = document.querySelector('.anime')
+            const animatedElement = document.querySelector('.wantClick')
             // get its styles properties
             const ani_s = getComputedStyle(animatedElement)
             console.log("First the animation name is : ", ani_s.getPropertyValue('animation-name'))
@@ -104,7 +104,7 @@ export default defineComponent({
     text-decoration: none;
     color: white;
 }
-.anime{
+.wantClick{
     animation-name: newThing;
     animation-iteration-count: infinite;
     animation-duration: 1s;
