@@ -1,22 +1,25 @@
 <template>
-    <div style="display: inline-block;text-align: center;">
-        <div style="display: block;
-        margin-top: 20px;">
-            <!-- Here is my Portfolio -->
-            <div class="mainContainer">
-                <div class="contenerOne">
-                    <div class="shapeOne"></div>
+    <div class="prtFolio">
+        <div style="display: inline-block;text-align: center;">
+            <div style="display: block;
+            margin-top: 20px;">
+                <!-- Here is my Portfolio -->
+                <div class="mainContainer">
+                    <div class="contenerOne">
+                        <div class="shapeOne"></div>
+                    </div>
+                    <div class="contenerTwo"></div>
                 </div>
-                <div class="contenerTwo"></div>
             </div>
         </div>
-    </div>
-    
-    <div style="display: inline-block;" v-for="proof in proofs">
-        <div class="portoContent">
-            <img :src="proof.image" class="imgProofCss"/>
-            <div class="textCss">{{ proof.description }}</div> 
+        
+        <div style="display: inline-block;" v-for="proof in proofs">
+            <div class="portoContent">
+                <img :src="proof.image" class="imgProofCss"/>
+                <div class="textCss">{{ proof.description }}</div> 
+            </div>
         </div>
+
     </div>
     
 </template>
