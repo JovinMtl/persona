@@ -5,10 +5,17 @@
             margin-top: 20px;">
                 <!-- Here is my Portfolio -->
                 <div class="mainContainer">
-                    <div class="contenerOne">
+                    <div class="contenerOne" style="position: relative;">
+                        <div class="textContainer" 
+                        style="position: absolute; word-wrap: break-word;
+                        word-break: break-all;">
+                            <h3>Hello</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perspiciatis ut illo, blanditiis nesciunt quibusdam? Placeat voluptate nobis provident animi minima est nostrum accusantium odio sint! Praesentium obcaecati rerum molestias?</p>
+                            
+                        </div>
                         <div class="shapeOne"></div>
                     </div>
-                    <div class="contenerTwo"></div>
+                    <div class="contenerTwo">Hello</div>
                 </div>
             </div>
         </div>
