@@ -10,7 +10,11 @@
                         style="position: absolute; word-wrap: break-word;
                         word-break: break-all;">
                             <h3>Announcement</h3>
-                            <ion-img src="/personaFoto/annoucement1.png"></ion-img>
+                            <img src="/personaFoto/annoucement1_.png" style="width: 80%;max-height: auto;" alt="">
+                            <!-- <span style="border-bottom-right-radius: 20px;">
+                                <ion-img src="/personaFoto/annoucement1_.png"></ion-img>
+
+                            </span> -->
                             <p style="font-size: 1.3rem;padding: 10px; display: none;">
                                 Previously from June 20 to 25, 2024, I had the privilege of participating in a workshop on “virtualization and deployment in the cloud”. I gained
 useful knowledge to create and manage VMs on a cluster. More focused on cloud computing, I joined the HackerTon organized on the 22nd as
