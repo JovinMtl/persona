@@ -11,12 +11,8 @@
                         word-break: break-all;">
                             <h3 style="background-color: black;color: white;
                             border-top-right-radius: 20px; border-top-left-radius: 20px;">
-                                Announcement
-                                <span class="annouceInfo"> 
-                                    (
-                                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                                            Info
-                                        </a>)</span>
+                                 Winners of HackerTon
+                                <span style="font-size: .7rem;">(June 23, 2024)</span>
                             </h3>
                             <img src="/personaFoto/annoucement1_.jpg" class="announce" style="" alt="Thierry got HackerTon prize.">
                             <img src="/personaFoto/annoucement1.jpg" class="announceL" style="" alt="Thierry got HackerTon prize.">
