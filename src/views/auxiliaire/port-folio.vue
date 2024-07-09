@@ -1,8 +1,14 @@
 <template>
-    <div>
-        <div style="display: block; position: relative;
+    <div style="display: inline-block;text-align: center;">
+        <div style="display: block;
         margin-top: 20px;">
             <!-- Here is my Portfolio -->
+            <div class="mainContainer">
+                <div class="contenerOne">
+                    <div class="shapeOne"></div>
+                </div>
+                <div class="contenerTwo"></div>
+            </div>
         </div>
     </div>
     
@@ -84,6 +90,79 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 </script>
 
 <style scoped>
+*{
+    margin: 0;
+}
+
+.mainContainer{
+    display: flex;
+    max-width: 90vw;
+    max-height: 80vh;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.contenerOne{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(128, 128, 128);
+    /* z-index: 2; */
+    border-radius: 20px;
+}
+.contenerTwo{
+    display: none;
+    /* position: absolute; */
+    width: 595px;
+    height: 295px;
+    background-color: rgb(128, 128, 128);
+    z-index: 2;
+    border-radius: 20px;
+    /* border: 4px double transparent; */
+}
+
+.shapeOne{
+    display: flex;
+    position: relative;
+    width: 370px;
+    height: 70px;
+    background-color: linear-gradient(to right, blue, red);
+    background-color: red;
+    animation-name: circular;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.4);
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.065, 0.2); */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    top: -1%;
+    left: -1%;
+    z-index: -1;
+    box-shadow: 0 0 25px red;
+    border-radius: 20px;
+}
+
+@keyframes circular{
+    0%, 100%{
+        top: -0.1%;
+        left: -0.1%;
+    }
+    25%{
+        top: -0.1%;
+        left: 38.5%;
+    }
+    50%{
+        top: 77%;
+        left: 38.5%;
+        box-shadow: 0 0 25px red;
+    }
+    75%{
+        left: -0.1%;
+        top: 77%;
+    }
+}
+
+
+
 .imgProofCss{
     /* border: 1px solid red; */
     border-top-left-radius: 25px; 
