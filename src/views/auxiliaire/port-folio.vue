@@ -11,13 +11,20 @@
                         word-break: break-all;">
                             <h3 style="background-color: black;color: white;
                             border-top-right-radius: 20px; border-top-left-radius: 20px;">
-                                Announcement</h3>
-                            <img src="/personaFoto/annoucement1_.png" style="width: 80%;max-height: auto;" alt="">
+                                Announcement
+                                <span class="annouceInfo"> 
+                                    (
+                                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                                            Info
+                                        </a>)</span>
+                            </h3>
+                            <img src="/personaFoto/annoucement1_.png" class="announce" style="" alt="Thierry got HackerTon prize.">
+                            <img src="/personaFoto/annoucement.png" class="announceL" style="" alt="Thierry got HackerTon prize.">
                             <!-- <span style="border-bottom-right-radius: 20px;">
                                 <ion-img src="/personaFoto/annoucement1_.png"></ion-img>
 
                             </span> -->
-                            <p style="font-size: 1.3rem;padding: 10px; display: none;">
+                            <p class="annouceText" style="font-size: 1rem;padding: 10px; display: none;">
                                 Previously from June 20 to 25, 2024, I had the privilege of participating in a workshop on “virtualization and deployment in the cloud”. I gained
 useful knowledge to create and manage VMs on a cluster. More focused on cloud computing, I joined the HackerTon organized on the 22nd as
 part of the same workshop. My group got second place.
@@ -103,6 +110,48 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 </script>
 
 <style scoped>
+.announceL{
+    display: none;
+}
+.announce{
+    width: 80%;max-height: auto;
+}
+.annouceText{
+    display: none;
+}
+@media screen and (max-width: 670px) {
+    .announce{
+        width: 85%;max-height: auto;
+    }
+}
+@media screen and (max-width: 630px) {
+    .announce{
+        width: 87%;max-height: auto;
+    }
+}
+@media screen and (max-width: 570px) {
+    .announce{
+        width: 96%;max-height: auto;
+
+    }
+}
+@media screen and (max-width: 470px) {
+    .announce{
+        /* display: none; */
+        
+    }
+    .announceL{
+        display: none;
+        width: 98%;max-height: auto;
+    }
+    .annouceInfo{
+        display: none;
+    }
+    .annouceText{
+        display: block;
+    }
+}
+
 *{
     margin: 0;
 }
