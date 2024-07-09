@@ -14,9 +14,9 @@ ion-toolbar{
 ion-title{
     --background: gray;
 }
-body{
+/* body{
     background: radial-gradient(closest-side at 65% 55%, salmon, white) 300px 0;
-}
+} */
 .center router-link {
     text-decoration: none;
   }
