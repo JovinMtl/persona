@@ -9,7 +9,7 @@
                         <div class="textContainer" 
                         style="position: absolute; word-wrap: break-word;
                         word-break: break-all;">
-                            <h3>Announcement</h3>
+                            <h3 style="background-color: black;color: white;">Announcement</h3>
                             <img src="/personaFoto/annoucement1_.png" style="width: 80%;max-height: auto;" alt="">
                             <!-- <span style="border-bottom-right-radius: 20px;">
                                 <ion-img src="/personaFoto/annoucement1_.png"></ion-img>
