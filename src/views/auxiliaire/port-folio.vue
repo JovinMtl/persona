@@ -18,8 +18,8 @@
                                             Info
                                         </a>)</span>
                             </h3>
-                            <img src="/personaFoto/annoucement1_.png" class="announce" style="" alt="Thierry got HackerTon prize.">
-                            <img src="/personaFoto/annoucement1.png" class="announceL" style="" alt="Thierry got HackerTon prize.">
+                            <img src="/personaFoto/annoucement1_.jpg" class="announce" style="" alt="Thierry got HackerTon prize.">
+                            <img src="/personaFoto/annoucement1.jpg" class="announceL" style="" alt="Thierry got HackerTon prize.">
                             <!-- <span style="border-bottom-right-radius: 20px;">
                                 <ion-img src="/personaFoto/annoucement1_.png"></ion-img>
 
