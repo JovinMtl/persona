@@ -19,7 +19,7 @@
                                         </a>)</span>
                             </h3>
                             <img src="/personaFoto/annoucement1_.png" class="announce" style="" alt="Thierry got HackerTon prize.">
-                            <img src="/personaFoto/annoucement.png" class="announceL" style="" alt="Thierry got HackerTon prize.">
+                            <img src="/personaFoto/annoucement1.png" class="announceL" style="" alt="Thierry got HackerTon prize.">
                             <!-- <span style="border-bottom-right-radius: 20px;">
                                 <ion-img src="/personaFoto/annoucement1_.png"></ion-img>
 
@@ -135,14 +135,22 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 
     }
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 515px) {
     .announce{
-        /* display: none; */
-        
+        width: 100%;max-height: auto;
+
     }
+}
+@media screen and (max-width: 390px) {
     .announceL{
-        display: none;
+        display: block;
         width: 98%;max-height: auto;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin: auto;
+    }
+    .announce{
+        display: none;
     }
     .annouceInfo{
         display: none;
