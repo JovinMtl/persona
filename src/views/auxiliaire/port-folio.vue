@@ -124,8 +124,10 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 .shapeOne{
     display: flex;
     position: relative;
-    width: 370px;
+    /* width: 370px; */
+    width: 61.68%;
     height: 70px;
+    /* height: 90vw; */
     background-color: linear-gradient(to right, blue, red);
     background-color: red;
     animation-name: circular;
