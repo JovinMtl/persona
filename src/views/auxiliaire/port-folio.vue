@@ -235,8 +235,11 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     }
 }
 @keyframes AnounceTitleAnime {
-    0%{
+    0%, 10%, 18%{
         background-color: red;
+    }
+    7%, 12%{
+        background-color: black;
     }
     25%, 100%{
         background-color: black;
