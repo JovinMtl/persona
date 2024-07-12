@@ -241,7 +241,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
         scale: .8;
     }
     7%, 12%{
-        background-color: white;
+        /* background-color: #4e4e4e; */
         color: black;
     }
     25%, 100%{
