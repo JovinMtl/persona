@@ -137,6 +137,10 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     }
 }
 @media screen and (max-width: 390px) {
+    .animate-title{
+        font-size: .85rem;
+        padding: 5px;
+    }
     .announceL{
         display: block;
         width: 98%;max-height: auto;
