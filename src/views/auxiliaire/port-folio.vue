@@ -262,7 +262,6 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 
 
 .imgProofCss{
-    /* border: 1px solid red; */
     border-top-left-radius: 25px; 
     border-top-right-radius: 25px;
 }
@@ -273,24 +272,18 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 }
 .portoContent{
     width: 40vw; 
-    /* border-radius: 25px 25px 0px 0px; */
     border-radius: 25px;
     background-color: gray; 
     text-align: center; 
-    border: 1px solid gray;
     margin: 20px 20px;
-    /* text-align: justify; */
 }
 @media screen and (max-width: 600px) {
 .portoContent{
     width: 80vw; 
-    /* border-radius: 25px 25px 0px 0px; */
     border-radius: 25px;
     background-color: gray; 
     text-align: center; 
-    border: 1px solid gray;
     margin: 20px 20px;
-    /* text-align: justify; */
 }
 }
 </style>
