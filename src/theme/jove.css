@@ -14,13 +14,10 @@ ion-toolbar{
 ion-title{
     --background: gray;
 }
-/* body{
-    background: radial-gradient(closest-side at 65% 55%, salmon, white) 300px 0;
-} */
+
  .prtFolio{
     position: relative;
-    background: radial-gradient(closest-side at 55% 40%, #e4003985, salmon,rgba(0, 255, 0, 0.466), transparent 94%) 400px 0;
-    /* background: conic-gradient(orange 10%, rgb(255, 94, 0) 30%, rgb(255, 51, 0), rgb(255, 153, 0) 80%, yellow 90% 95%, orange 100%); */
+    background: radial-gradient(closest-side at 55% 40%,  lime, rgba(0, 255, 0, 0.466), transparent 94%) 400px 0;
     z-index: -2;
  }
 .center router-link {
