@@ -9,8 +9,7 @@
                         <div class="textContainer" 
                         style="position: absolute; word-wrap: break-word;
                         word-break: break-all;">
-                            <h3 style="background-color: black;color: white;
-                            border-top-right-radius: 20px; border-top-left-radius: 20px;">
+                            <h3 class="animate-title">
                                  Winners of HackerTon
                                 <span style="font-size: .7rem;">(June 23, 2024)</span>
                             </h3>
@@ -168,7 +167,14 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     justify-content: center;
     align-items: center;
 }
-
+.animate-title{
+    background-color: black;color: white;
+    border-top-right-radius: 20px; 
+    border-top-left-radius: 20px;
+    animation-name: AnounceTitleAnime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 .contenerOne{
     width: 600px;
     height: 300px;
@@ -227,6 +233,15 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
         left: -0.1%;
         top: 77%;
     }
+}
+@keyframes AnounceTitleAnime {
+    0%{
+        background-color: red;
+    }
+    25%, 100%{
+        background-color: black;
+    }
+
 }
 
 
