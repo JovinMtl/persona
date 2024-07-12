@@ -51,7 +51,7 @@ const proofs:Proof = [
             {
                 'title': 'Patt1',
                 'image': '/personaFoto/pattern1.jpg',
-                'description': "No Image as a background, Only CSS! I made this on July 11, 2024."
+                'description': "No Image as a background, Only CSS(with minimal code)! I made this on July 11, 2024."
             },
             {
                 'title': 'grid layout',
