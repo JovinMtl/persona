@@ -49,6 +49,11 @@ import { Proof } from '../auxiliaire/types'
 
 const proofs:Proof = [
             {
+                'title': 'Patt1',
+                'image': '/personaFoto/pattern1.jpg',
+                'description': "No Image as a background, Only CSS! I made this on July 11, 2024."
+            },
+            {
                 'title': 'grid layout',
                 'image': '/personaFoto/jove_1.png',
                 'description': "This is the layout I designed for my future estemeed client. June 05, 2024."
