@@ -18,6 +18,7 @@ ion-title{
  .prtFolio{
     position: relative;
     background: radial-gradient(closest-side at 55% 40%,  lime, rgba(0, 255, 0, 0.466), transparent 94%) 400px 0;
+    /* background: radial-gradient(closest-side at 55% 40%,  rgb(255, 115, 0), rgba(255, 38, 0, 0.466), transparent 94%) 400px 0; */
     z-index: -2;
  }
 .center router-link {
@@ -31,50 +32,37 @@ body {
     text-align: center;
 }
 .menu{
-    /* background-color: #F08800; */
     background-color: #c5b5a1;
-    /* font-family: Quicksand,Arial, Helvetica, sans-serif; */
-    /* font-family: 'Quicksand', sans-serif; */
 }
 .menuContainer{
     text-align: center;
 }
 .welcomeText{
-    /* display: flex; */
-    /* font-family: 'Quicksand', sans-serif; */
     font-family: Satisfy, sans-serif;
-    /* font-family: Raleway; */
     font-size: 18px;
 
 }
 .innerText{
-    /* display: flex; */
-    /* color: red; */
     background: linear-gradient(to right, red,orange,white, black);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     justify-content: center;
-    /* font-size: 30px; */
 }
 .feuilleContainer{
     text-align: center;
     display: inline-flex;
-    /* position: relative; */
     text-align: center;
     width: 90vw;
-    /* height: 40px; */
     border-radius: 25px;
 }
 .openImage{
     text-align: center;
     display: inline-block;
-    /* position: relative; */
     text-align: center;
     width: 90vw;
     height: auto;
     background-color: red;
     background-color: gray;
-    /* height: 40px; */
     border-radius: 25px;
 }
 .moveX{
@@ -104,7 +92,6 @@ body {
     height: 41px; 
     width: 20vw; 
     background-color: red;
-    /* align-content: center;  */
     border-radius: 25px;
     border: 3px solid black;
     margin-left: 1vw;
@@ -116,7 +103,6 @@ body {
 }
 .summary{
     display: inline-block;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: "Open Sans", sans-serif ;
     line-height: 1.3;
     text-align: center;
@@ -124,8 +110,6 @@ body {
     height: 40px;
     margin-top: 10px;
     border-radius: 25px;
-    /* transition-duration: 1s;
-    transition-property: all; */
 }
 .textIndented{
     text-align: justify; 
