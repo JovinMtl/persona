@@ -246,7 +246,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 @keyframes AnounceTitleAnime {
     0%, 10%, 18%{
         background-color: rgba(243, 236, 236, 0.5);
-        background-color: red;
+        background-color: #d5ccb0;
         scale: .8;
     }
     7%, 12%{
