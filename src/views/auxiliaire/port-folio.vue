@@ -224,7 +224,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     border-radius: 20px;
 }
 
-/* @media(prefers-reduced-motion){ */
+@media(prefers-reduced-motion){
     @keyframes circular{
         0%, 100%{
             top: -0.1%;
@@ -259,7 +259,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 
     }
 
-/* } */
+}
 
 
 
