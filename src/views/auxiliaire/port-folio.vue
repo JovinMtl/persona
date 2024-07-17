@@ -224,7 +224,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     border-radius: 20px;
 }
 
-@media(prefers-reduced-motion){
+
     @keyframes circular{
         0%, 100%{
             top: -0.1%;
@@ -243,6 +243,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
             top: 77%;
         }
     }
+@media(prefers-reduced-motion){
     @keyframes AnounceTitleAnime {
         0%, 10%, 18%{
             background-color: rgba(243, 236, 236, 0.5);
