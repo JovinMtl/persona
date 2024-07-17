@@ -217,47 +217,49 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.065, 0.2); */
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    top: -1%;
-    left: -1%;
+    top: -0.2%;
+    left: -0.1%;
     z-index: -1;
-    box-shadow: 0 0 25px red;
+    box-shadow: 0 0 15px red;
     border-radius: 20px;
 }
 
-@keyframes circular{
-    0%, 100%{
-        top: -0.1%;
-        left: -0.1%;
+/* @media(prefers-reduced-motion){ */
+    @keyframes circular{
+        0%, 100%{
+            top: -0.1%;
+            left: -0.1%;
+        }
+        25%{
+            top: -0.1%;
+            left: 38.5%;
+        }
+        50%{
+            top: 77%;
+            left: 38.5%;
+        }
+        75%{
+            left: -0.1%;
+            top: 77%;
+        }
     }
-    25%{
-        top: -0.1%;
-        left: 38.5%;
-    }
-    50%{
-        top: 77%;
-        left: 38.5%;
-        box-shadow: 0 0 25px red;
-    }
-    75%{
-        left: -0.1%;
-        top: 77%;
-    }
-}
-@keyframes AnounceTitleAnime {
-    0%, 10%, 18%{
-        background-color: rgba(243, 236, 236, 0.5);
-        background-color: #d5ccb0;
-        scale: .8;
-    }
-    7%, 12%{
-        /* background-color: #4e4e4e; */
-        color: black;
-    }
-    25%, 100%{
-        background-color: black;
+    @keyframes AnounceTitleAnime {
+        0%, 10%, 18%{
+            background-color: rgba(243, 236, 236, 0.5);
+            background-color: #d5ccb0;
+            scale: .8;
+        }
+        7%, 12%{
+            /* background-color: #4e4e4e; */
+            color: black;
+        }
+        25%, 100%{
+            background-color: black;
+        }
+
     }
 
-}
+/* } */
 
 
 
