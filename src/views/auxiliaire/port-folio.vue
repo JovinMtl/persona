@@ -1,9 +1,10 @@
 <template>
     <div class="prtFolio">
-        <div style="display: inline-block;text-align: center;">
+        <div style="display: flex; float: left; margin-left: 5vw;
+                    margin-top: 5vh;">
             <div style="display: block;
-            margin-top: 20px;">
-                <!-- Here is my Portfolio -->
+             text-align: center;
+            align-items: center;">
                 <div class="mainContainer">
                     <div class="contenerOne" style="position: relative;">
                         <div class="textContainer" 
@@ -13,22 +14,11 @@
                                  Winners of HackerTon
                                 <span style="font-size: .7rem;">(June 23, 2024)</span>
                             </h3>
-                            <img src="/personaFoto/annoucement1_.jpg" class="announce" style="" alt="Thierry got HackerTon prize.">
-                            <img src="/personaFoto/annoucement1.jpg" class="announceL" style="" alt="Thierry got HackerTon prize.">
-                            <!-- <span style="border-bottom-right-radius: 20px;">
-                                <ion-img src="/personaFoto/annoucement1_.png"></ion-img>
-
-                            </span> -->
-                            <p class="annouceText" style="font-size: 1rem;padding: 10px; display: none;">
-                                Previously from June 20 to 25, 2024, I had the privilege of participating in a workshop on “virtualization and deployment in the cloud”. I gained
-useful knowledge to create and manage VMs on a cluster. More focused on cloud computing, I joined the HackerTon organized on the 22nd as
-part of the same workshop. My group got second place.
-                            </p>
-                            
+                            <img  @click="zoomIn" src="/personaFoto/annoucement1_.jpg" class="announce" alt="Thierry got HackerTon prize.">
+                            <img src="/personaFoto/annoucement1.jpg" class="announceL" alt="Thierry got HackerTon prize."> 
                         </div>
                         <div class="shapeOne"></div>
                     </div>
-                    <div class="contenerTwo">Hello</div>
                 </div>
             </div>
         </div>
@@ -44,8 +34,11 @@ part of the same workshop. My group got second place.
     
 </template>
 <script setup lang="ts">
-import { IonImg } from '@ionic/vue'
 import { Proof } from '../auxiliaire/types'
+
+const zoomIn = ()=>{
+    console.log("You want to zoom in")
+}
 
 const proofs:Proof = [
             {
@@ -116,6 +109,12 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 .announce{
     width: 80%;max-height: auto;
 }
+.announce:hover{
+    width: 90%;max-height: auto;
+}
+/* .div > img {
+    scale: 2;
+} */
 .annouceText{
     display: none;
 }
