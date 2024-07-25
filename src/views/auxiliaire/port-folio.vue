@@ -11,7 +11,7 @@
                         style="position: absolute; word-wrap: break-word;
                         word-break: break-all;">
                             <h3 class="animate-title">
-                                 Winners of HackerTon
+                                 Winners of Hackathon
                                 <span style="font-size: .7rem;">(June 23, 2024)</span>
                             </h3>
                             <img  @click="zoomIn" src="/personaFoto/annoucement1_.jpg" class="announce" alt="Thierry got HackerTon prize.">
