@@ -1,6 +1,6 @@
 <template>
     <div class="prtFolio">
-        <div style="display: flex; float: left; margin-left: 5vw;
+        <div style="display: block; margin-left: 5vw;
                     margin-top: 5vh;">
             <div style="display: block;
              text-align: center;
