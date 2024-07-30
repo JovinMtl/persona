@@ -222,21 +222,21 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.065, 0.2); */
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    top: -0.2%;
+    top: 0%;
     left: -0.1%;
     z-index: -1;
-    box-shadow: 0 0 15px red;
+    box-shadow: 0 0 10px red;
     border-radius: 20px;
 }
 
 
     @keyframes circular{
         0%, 100%{
-            top: -0.1%;
+            top: 0.4%;
             left: -0.1%;
         }
         25%{
-            top: -0.1%;
+            top: -0.4%;
             left: 38.5%;
         }
         50%{
