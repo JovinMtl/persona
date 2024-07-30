@@ -271,8 +271,8 @@ body {
     height: 30px;
     margin-top: -5px;
     background-color: gray;
-    border-top-left-radius: 25px; 
-    border-top-right-radius: 25px;
+    border-top-left-radius: 18px; 
+    border-top-right-radius: 18px;
     text-align: center; 
     font-size: .9rem;
     align-items: center; 
@@ -283,8 +283,9 @@ body {
     height: 30px;
     margin-top: -5px;
     background-color: red; 
-    border-top-left-radius: 25px; 
-    border-top-right-radius: 25px;
+    color: white;
+    border-top-left-radius: 18px; 
+    border-top-right-radius: 18px;
     text-align: center; 
     font-size: .9rem;
     align-items: center; 
