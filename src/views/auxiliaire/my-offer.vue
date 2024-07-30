@@ -102,7 +102,7 @@ export default defineComponent ({
     font-family: sans-serif;
     line-height: 40px;
     position: relative;
-    box-shadow: 0 0 10px black, 0 0 20px black;
+    box-shadow: 0 0 5px black, 0 0 10px black;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     transition-property: all;
     transition-duration: 1s;
