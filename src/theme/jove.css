@@ -63,7 +63,7 @@ body {
     height: auto;
     background-color: red;
     background-color: gray;
-    border-radius: 25px;
+    border-radius: 18px;
 }
 .moveX{
     color: saddlebrown;
@@ -240,7 +240,7 @@ body {
         background-color: red;
         background-color: gray;
         /* height: 40px; */
-        border-radius: 25px;
+        border-radius: 18px;
     }
 }
 @media screen and (min-width: 1050px){
