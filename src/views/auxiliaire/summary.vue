@@ -71,8 +71,8 @@ export default defineComponent ({
 
         const contents:Intro = ref([
             {
-                'title': 'About Me: Fullstack Developer & Business Strategist',
-                'content': `I am a Burundian Business Strategist and Freelance Fullstack Developer, driven by a passion for 
+                'title': 'About Me: Full Stack Developer & Business Strategist',
+                'content': `I am a Burundian Business Strategist and Freelance Full Stack Developer, driven by a passion for 
                 strategic thinking and a deep-seated love for problem-solving. My academic journey at 
                 the University of Burundi honed my skills in the realm of business strategy, fostering my affinity for strategic planning, 
                 critical thinking, and collaborative solution-finding. This profound interest led me to nourish my strategic mindset, 
@@ -124,7 +124,7 @@ export default defineComponent ({
             {
                 'title':'Embracing Freelancing as a Fusion of Skills',
                 'content':`With this diverse background and a blend of technical proficiency and business acumen, I am ready to address challenges 
-                as a Business Strategist and Fullstack Developer in the world of freelancing.
+                as a Business Strategist and Full Stack Developer in the world of freelancing.
           `,
                 'detail':false
             }, 

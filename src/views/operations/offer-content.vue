@@ -65,8 +65,8 @@ export default defineComponent ({
                 'color': ''
             },
             {
-                'title' : "FullStack Developer",
-                'content' : "As a Freelancer Fullstack Developer, I specialize in collaborating with individuals to create cutting-edge digital solutions and innovative algorithms. I am currently seeking dynamic partners to join me in leveraging my expertise in Python (Django and DRF), Vue.js, HTML, and CSS.",
+                'title' : "Full Stack Developer",
+                'content' : "As a Freelancer Full Stack Developer, I specialize in collaborating with individuals to create cutting-edge digital solutions and innovative algorithms. I am currently seeking dynamic partners to join me in leveraging my expertise in Python (Django and DRF), Vue.js, HTML, and CSS.",
                 'color' : 'black'
             },
             {
