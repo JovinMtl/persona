@@ -30,11 +30,17 @@
             </div>
         </div>
 
+        <teleport to="body">
+            <bri-ef></bri-ef>
+        </teleport>
+
     </div>
     
 </template>
 <script setup lang="ts">
 import { Proof } from '../auxiliaire/types'
+import briEf from './brief.vue';
+
 
 const zoomIn = ()=>{
     console.log("You want to zoom in")
