@@ -38,9 +38,15 @@
     
 </template>
 <script setup lang="ts">
+import { ref } from 'vue'
 import { Proof } from '../auxiliaire/types'
 import briEf from './brief.vue';
 
+const show_brief = ref(false)
+
+setTimeout(()=>{
+    show_brief.value = true
+}, 10000)
 
 const zoomIn = ()=>{
     console.log("You want to zoom in")
