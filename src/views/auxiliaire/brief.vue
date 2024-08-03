@@ -8,6 +8,7 @@
 .mainContainer{
     width: 20vw;
     height: 5vw;
-    background-color: brown;
+    background-color: salmon;
+    border: 2px solid black;
 }
 </style>
