@@ -6,12 +6,12 @@
 
 <style scoped>
 .mainContainer{
-    width: 20vw;
-    height: 5vw;
+    width: 40vw;
+    height: 15vh;
     background-color: salmon;
     border: 2px solid black;
     position: relative;
-    top: 85vh;
-    left: 40vw;
+    top: 84vh;
+    left: 30vw;
 }
 </style>
