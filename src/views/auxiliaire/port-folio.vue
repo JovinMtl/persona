@@ -31,7 +31,7 @@
         </div>
 
         <teleport to="body">
-            <bri-ef></bri-ef>
+            <bri-ef v-if="show_brief"></bri-ef>
         </teleport>
 
     </div>
@@ -46,7 +46,7 @@ const show_brief = ref(false)
 
 setTimeout(()=>{
     show_brief.value = true
-}, 10000)
+}, 3000)
 
 const zoomIn = ()=>{
     console.log("You want to zoom in")
