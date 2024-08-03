@@ -14,7 +14,7 @@
     top: 84vh;
     left: 30vw;
     animation-name: meme;
-    animation-duration: 110ms;
+    animation-duration: 100ms;
 }
 
 @keyframes meme {
