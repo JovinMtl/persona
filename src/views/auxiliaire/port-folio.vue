@@ -49,7 +49,7 @@ setTimeout(()=>{
 }, 10000)
 
 const closeFunc = ()=>{
-    console.log("Wnat to close Brief")
+    show_brief.value = false
 }
 const zoomIn = ()=>{
     console.log("You want to zoom in")
