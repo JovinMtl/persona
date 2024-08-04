@@ -43,6 +43,8 @@ setTimeout(()=>{
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
+    animation-name: jove;
+    animation-duration: 100ms;
 }
 .briefContainer{
     display: flex;
@@ -84,6 +86,15 @@ setTimeout(()=>{
 @keyframes meme {
     from{
         scale: 1.4;
+    }
+    to{
+        scale: 1;
+    }   
+}
+@keyframes jove {
+    from{
+        scale: 1.8;
+        font-size: 2rem;
     }
     to{
         scale: 1;
