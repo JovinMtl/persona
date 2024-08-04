@@ -51,8 +51,8 @@ import { close} from 'ionicons/icons'
     max-width: 40vw;
     min-height: 5vh;
     border-radius: 20px;
-    background-color: salmon;
-    border: 2px solid black;
+    background-color: black;
+    border: 2px solid lime;
     animation-name: meme;
     animation-duration: 100ms;
     text-align: center;
