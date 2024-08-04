@@ -46,7 +46,7 @@ const show_brief = ref(false)
 
 setTimeout(()=>{
     show_brief.value = true
-}, 3000)
+}, 10000)
 
 const zoomIn = ()=>{
     console.log("You want to zoom in")
