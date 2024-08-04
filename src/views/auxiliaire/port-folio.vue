@@ -23,7 +23,8 @@
             </div>
         </div>
         
-        <div style="display: inline-block;" v-for="proof in proofs">
+        <div style="display: inline-block;" 
+            v-for="(proof, index) in proofs" :key="index">
             <div class="portoContent">
                 <img :src="proof.image" class="imgProofCss"/>
                 <div class="textCss">{{ proof.description }}</div> 
@@ -55,7 +56,7 @@ const zoomIn = ()=>{
     console.log("You want to zoom in")
 }
 
-const proofs:Proof = [
+const proofs:Proof[] = [
             {
                 'title': 'Patt1',
                 'image': '/personaFoto/pattern1.jpg',
