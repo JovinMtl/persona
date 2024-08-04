@@ -25,6 +25,7 @@ import { close} from 'ionicons/icons'
     position: relative;
 }
 .cloControl{
+    display: flex;
     width: 20px;
     height: 20px;
     border-radius: 15px;
@@ -32,6 +33,8 @@ import { close} from 'ionicons/icons'
     position: relative;
     top: -10vh;
     left: 1vw;
+    align-items: center;
+    justify-content: center;
 }
 .briefContainer{
     display: flex;
