@@ -31,7 +31,7 @@
         </div>
 
         <teleport to="body">
-            <bri-ef v-if="show_brief"></bri-ef>
+            <bri-ef v-if="show_brief" @close-brief="closeFunc"></bri-ef>
         </teleport>
 
     </div>
@@ -48,6 +48,9 @@ setTimeout(()=>{
     show_brief.value = true
 }, 10000)
 
+const closeFunc = ()=>{
+    console.log("Wnat to close Brief")
+}
 const zoomIn = ()=>{
     console.log("You want to zoom in")
 }
