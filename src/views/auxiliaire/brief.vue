@@ -17,6 +17,8 @@
 import { ref } from 'vue'
 import { close} from 'ionicons/icons'
 
+defineEmits(['closeBrief'])
+
 const activate_close = ref<boolean>(false)
 
 setTimeout(()=>{
