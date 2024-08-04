@@ -1,6 +1,6 @@
 <template>
     <div class="mainContainer">
-        Ici le briefing
+        Six front-end projects + Two back-end projects = 7 months.
     </div>
 </template>
 
