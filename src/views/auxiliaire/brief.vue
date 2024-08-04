@@ -68,7 +68,9 @@ setTimeout(()=>{
     max-width: 40vw;
     min-height: 5vh;
     border-radius: 20px;
-    background-color: black;
+    /* background-color: black; */
+    background: linear-gradient(130deg,black 50%, rgba(0, 129, 0, 0.692) 90%);
+    filter: opacity(0.95);
     border: 2px solid lime;
     box-shadow: 0 0 12px lime;
     animation-name: meme;
@@ -76,6 +78,8 @@ setTimeout(()=>{
     text-align: center;
     padding: 2vw;
     align-items: center;
+    color: white;
+    font-weight: 600;
 }
 
 @keyframes meme {
