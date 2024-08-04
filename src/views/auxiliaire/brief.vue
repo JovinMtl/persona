@@ -29,7 +29,7 @@ import { close} from 'ionicons/icons'
     width: 20px;
     height: 20px;
     border-radius: 15px;
-    background-color: salmon;
+    background-color: lime;
     position: relative;
     top: -10vh;
     left: 1vw;
@@ -60,6 +60,9 @@ import { close} from 'ionicons/icons'
 }
 .b{
     color: black;
+}
+.r{
+    color: red;
 }
 .m-2{
     margin: 0 4px;
