@@ -1,14 +1,33 @@
 <template>
     <div class="briefContainer">
         <div class="mainContainer">
+            
             <!-- <span class="b m-2 s-2">6</span> front-end projects + <span class="b m-2 s-2">2</span> back-end projects = 7 months. -->
             6 front-end projects and 2 back-end projects in 7 months.
+            <div class="contrParent">
+                <div class="cloControl"></div>
+            </div>
         </div>
     </div>
 
 </template>
 
 <style scoped>
+.contrParent{
+    width: 1px;
+    height: 1px;
+    background-color: yellow;
+    position: relative;
+}
+.cloControl{
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: salmon;
+    position: relative;
+    top: -10vh;
+    left: 1vw;
+}
 .briefContainer{
     display: flex;
     width: 100vw;
