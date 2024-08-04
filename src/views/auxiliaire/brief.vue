@@ -17,10 +17,13 @@
 import { ref } from 'vue'
 import { close} from 'ionicons/icons'
 
-defineEmits(['closeBrief'])
+const emit =  defineEmits(['closeBrief'])
 
 const activate_close = ref<boolean>(false)
 
+const closeFunc = ()=>{
+    emit('closeBrief')
+}
 setTimeout(()=>{
     activate_close.value = true
 }, 5000)
