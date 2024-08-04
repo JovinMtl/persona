@@ -35,6 +35,7 @@ import { close} from 'ionicons/icons'
     left: 2vw;
     align-items: center;
     justify-content: center;
+    font-size: 1.2rem;
 }
 .briefContainer{
     display: flex;
@@ -53,7 +54,7 @@ import { close} from 'ionicons/icons'
     border-radius: 20px;
     background-color: black;
     border: 2px solid lime;
-    box-shadow: 0 0 5px lime;
+    box-shadow: 0 0 12px lime;
     animation-name: meme;
     animation-duration: 100ms;
     text-align: center;
