@@ -77,18 +77,6 @@ setTimeout(()=>{
     padding: 2vw;
     align-items: center;
 }
-.b{
-    color: black;
-}
-.r{
-    color: red;
-}
-.m-2{
-    margin: 0 4px;
-}
-.s-2{
-    font-size: 2rem;
-}
 
 @keyframes meme {
     from{
