@@ -108,7 +108,7 @@ export default defineComponent({
     animation-name: newThing;
     animation-iteration-count: infinite;
     animation-duration: 1s;
-    animation-timing-functions: ease;
+    animation-timing-function: ease;
     animation-delay: 15s;
 }
 @keyframes newThing {
