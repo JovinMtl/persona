@@ -76,14 +76,10 @@ import { close} from 'ionicons/icons'
 
 @keyframes meme {
     from{
-        width: 50vw;
-        height: 25vh;
-        top: 78vh;
-        left: 25vw;
+        scale: 1.4;
     }
     to{
-        width: 40vw;
-        height: 15vh;
+        scale: 1;
     }   
 }
 </style>
