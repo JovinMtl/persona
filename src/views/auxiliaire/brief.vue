@@ -1,6 +1,6 @@
 <template>
     <div class="mainContainer">
-        Six front-end projects + Two back-end projects = 7 months.
+        <span class="b m-2">6</span> front-end projects + <span class="b m-2">2</span> back-end projects = 7 months.
     </div>
 </template>
 
@@ -15,6 +15,12 @@
     left: 30vw;
     animation-name: meme;
     animation-duration: 100ms;
+}
+.b{
+    color: black;
+}
+.m-2{
+    margin: 0 4px;
 }
 
 @keyframes meme {
