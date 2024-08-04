@@ -26,13 +26,13 @@ import { close} from 'ionicons/icons'
 }
 .cloControl{
     display: flex;
-    width: 20px;
-    height: 20px;
-    border-radius: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
     background-color: lime;
-    position: relative;
-    top: -10vh;
-    left: 1vw;
+    position: absolute;
+    top: -10.5vh;
+    left: 2vw;
     align-items: center;
     justify-content: center;
 }
@@ -50,6 +50,7 @@ import { close} from 'ionicons/icons'
     display: flex;
     max-width: 40vw;
     min-height: 5vh;
+    border-radius: 20px;
     background-color: salmon;
     border: 2px solid black;
     animation-name: meme;
