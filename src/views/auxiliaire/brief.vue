@@ -53,6 +53,7 @@ import { close} from 'ionicons/icons'
     border-radius: 20px;
     background-color: black;
     border: 2px solid lime;
+    box-shadow: 0 0 5px lime;
     animation-name: meme;
     animation-duration: 100ms;
     text-align: center;
