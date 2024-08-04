@@ -3,7 +3,7 @@
         <div class="mainContainer">
             
             <!-- <span class="b m-2 s-2">6</span> front-end projects + <span class="b m-2 s-2">2</span> back-end projects = 7 months. -->
-            6 front-end projects and 2 back-end projects in 7 months.
+            {{ message }}
             <div v-if="activate_close" 
                 class="contrParent" @click="closeFunc">
                 <div class="cloControl b">
@@ -22,6 +22,12 @@ import { close} from 'ionicons/icons'
 const emit =  defineEmits(['closeBrief'])
 
 const activate_close = ref<boolean>(false)
+const messages = [
+    'From January till July 2024, I did :',
+    '6 front-end projects and 2 back-end projects just in 7 months.',
+]
+let actual = 0
+const message = ref(messages[actual])
 
 const closeFunc = ()=>{
     emit('closeBrief')
@@ -29,6 +35,14 @@ const closeFunc = ()=>{
 setTimeout(()=>{
     activate_close.value = true
 }, 5000)
+setTimeout(()=>{
+    if(actual){
+        actual = 0
+    } else{
+        actual = 1
+    }
+    message.value = messages[actual]
+}, 6000)
 </script>
 
 <style scoped>
@@ -80,6 +94,8 @@ setTimeout(()=>{
     padding: 2vw;
     align-items: center;
     font-weight: bold;
+    font-size: .93em;
+    line-height: 1.25em;
 }
 
 @keyframes meme {
