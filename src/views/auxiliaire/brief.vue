@@ -4,7 +4,8 @@
             
             <!-- <span class="b m-2 s-2">6</span> front-end projects + <span class="b m-2 s-2">2</span> back-end projects = 7 months. -->
             6 front-end projects and 2 back-end projects in 7 months.
-            <div v-if="activate_close" class="contrParent">
+            <div v-if="activate_close" 
+                class="contrParent" @click="closeFunc">
                 <div class="cloControl b">
                     <ion-icon :src="close"></ion-icon>
                 </div>
@@ -15,6 +16,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
+import { IonIcon } from '@ionic/vue'
 import { close} from 'ionicons/icons'
 
 const emit =  defineEmits(['closeBrief'])
