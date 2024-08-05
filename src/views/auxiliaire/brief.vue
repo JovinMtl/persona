@@ -32,7 +32,10 @@ const message = ref(messages[actual])
 const closeFunc = ()=>{
     const briefElement = document.querySelector('.briefContainer')
     briefElement.style.scale = '.8'
-    //emit('closeBrief')
+    setTimeout(()=>{
+        emit('closeBrief')
+    }, 100)
+    
 }
 setTimeout(()=>{
     activate_close.value = true
