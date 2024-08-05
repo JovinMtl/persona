@@ -1,8 +1,6 @@
 <template>
     <div class="briefContainer">
         <div class="mainContainer">
-            
-            <!-- <span class="b m-2 s-2">6</span> front-end projects + <span class="b m-2 s-2">2</span> back-end projects = 7 months. -->
             {{ message }}
             <div v-if="activate_close" 
                 class="contrParent" @click="closeFunc">
@@ -32,6 +30,7 @@ const message = ref(messages[actual])
 const closeFunc = ()=>{
     const briefElement = document.querySelector('.briefContainer')
     briefElement.style.scale = '.8'
+    briefElement.style.filter = "blur(5px)"
     setTimeout(()=>{
         emit('closeBrief')
     }, 100)
@@ -88,7 +87,6 @@ setTimeout(()=>{
     /* background-color: black; */
     background: linear-gradient(130deg,black 50%, rgba(0, 129, 0, 0.692) 90%);
     filter: opacity(0.94);
-    /* filter: blur(); */
     border: 2px solid lime;
     box-shadow: 0 0 12px lime;
     animation-name: meme;
