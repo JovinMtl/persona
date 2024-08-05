@@ -78,13 +78,11 @@ setTimeout(()=>{
     min-height: 15vh;
     position: relative;
     bottom: -82vh;
-    /* top: 84vh; */
-    /* left: 30vw; */
     justify-content: center;
 }
 .mainContainer{
     display: flex;
-    max-width: 40vw;
+    max-width: 45vw;
     min-height: 5vh;
     border-radius: 20px;
     /* background-color: black; */
@@ -101,6 +99,13 @@ setTimeout(()=>{
     font-weight: bold;
     font-size: .93em;
     line-height: 1.25em;
+}
+
+@media screen and (max-height: 500px) {
+    .briefContainer{
+        bottom: -78vh;
+        scale: .9;
+    }
 }
 
 @keyframes meme {
