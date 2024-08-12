@@ -78,6 +78,7 @@ setTimeout(()=>{
     position: relative;
     bottom: -82vh;
     justify-content: center;
+    color: white;
 }
 .mainContainer{
     display: flex;
