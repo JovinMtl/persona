@@ -322,6 +322,7 @@ body {
     background-color: rgba(128, 128, 128, 0.555); 
     border-radius: 25px; 
     box-shadow: 0 0 20px gray; 
+    box-shadow: 0 0 20px white; 
     text-align: justify;
     padding-bottom: 5px;
 }
