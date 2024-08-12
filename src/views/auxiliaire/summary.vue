@@ -8,7 +8,7 @@
                     @click="titleAlert(content.title)">
                     {{ (content.title).slice(0,35) }}...
                 </h3></div> <br>
-            <div><p style="display: block; margin-top: -30px; margin-left: 20px;
+            <div><p style="display: block; margin-top: -25px; margin-left: 20px;
             margin-right: 20px;">
                 <span v-if="!(content.detail) && (content.content).length > 199"> 
                     {{ (content.content).slice(0,199) }}...
