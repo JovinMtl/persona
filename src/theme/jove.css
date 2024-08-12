@@ -312,6 +312,7 @@ body {
     border-radius: 25px; 
     box-shadow: 0 0 20px gray; 
     padding-bottom: 5px;
+    padding-top: 5px;
     margin-bottom: 20px;
     /* text-align: justify; */
 }
@@ -321,7 +322,6 @@ body {
     margin: 20px 10px;
     background-color: rgba(128, 128, 128, 0.555); 
     border-radius: 25px; 
-    box-shadow: 0 0 20px gray; 
     box-shadow: 0 0 20px white; 
     text-align: justify;
     padding-bottom: 5px;
