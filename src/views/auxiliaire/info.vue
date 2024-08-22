@@ -48,7 +48,7 @@
                     </a>   
                 </div>
                 <div class="makeList">
-                    <a class="logoColor" href="https://www.linkedin.com/in/thierry-jovin-9b8bb1109"
+                    <a class="logoColor" href="https://www.linkedin.com/in/thierry-nsanzumukiza-9b8bb1109/"
                     title="LinkedIn">
                         <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
                     </a>
