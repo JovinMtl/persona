@@ -10,7 +10,7 @@
         </div> -->
         <div style="margin: 20px 20px; color: brown; 
         font-family: 'Open Sans', sans-serif; font-weight: 100;">
-            Discover Thierry Jovin, a Business Strategist and 
+            Discover Thierry Nsanzumukiza, a Business Strategist and 
             Full Stack Developer based in 
             <span style="font-weight: 700;">Burundi</span> . 
             With dual skill set, I offer freelance services. 
