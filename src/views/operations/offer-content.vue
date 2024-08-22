@@ -26,7 +26,7 @@
         <span style="position: relative; top: .6rem; 
                 font-size: 2rem;">
             <span style="margin-left: .6rem; top: 3rem;">&nbsp;</span>
-            <a href="https://www.linkedin.com/in/thierry-nsanzumukiza-9b8bb1109" style="color: blue;">
+            <a href="https://www.linkedin.com/in/thierry-nsanzumukiza-9b8bb1109" target="_blank" style="color: blue;">
                 <ion-icon :icon="logoLinkedin"></ion-icon>
             </a>
             <span style="margin-left: .9rem;">&nbsp;</span>
