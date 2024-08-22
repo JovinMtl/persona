@@ -7,6 +7,7 @@
                 <div class="textContainer">
                     <div class="makeList">
                     <a class="logoColor" href="http://wa.me/+25779071453"
+                        target="_blank"  rel="noopener noreferrer" 
                         title="Connect to my Whatsapp number">
                         <ion-icon :src="personOutline" class="logoLarge"></ion-icon>
                     
@@ -19,61 +20,76 @@
                 </div>
                 <div class="makeList">
                     <a class="logoColor" href="tel:+25779071453" 
+                        target="_blank"  rel="noopener noreferrer" 
                         title="Phone Number">
                         <ion-icon :src="phonePortraitOutline" class="logoLarge"></ion-icon>
                     </a>
                     <a class="textAdjust" href="tel:+25779071453" 
+                        target="_blank"  rel="noopener noreferrer"
                         title="Phone Number">
                         (+257) 79 071 453  |  61 966 892
                     </a>   
                 </div>
                 <div class="makeList">
                     <a class="logoColor" href="https://www.google.com/maps/place/Burundi/@-3.3858868,28.6051708,8z/data=!3m1!4b1!4m6!3m5!1s0x19c144d33654f15b:0xb1234d0e5631ec8d!8m2!3d-3.373056!4d29.918886!16zL20vMDE2OXQ?hl=fr&entry=ttu"
+                        target="_blank"  rel="noopener noreferrer"
                         title="Location">
                         <ion-icon :src="mapOutline" class="logoLarge"></ion-icon>
                     </a>
                     <a href="https://www.google.com/maps/place/Burundi/@-3.3858868,28.6051708,8z/data=!3m1!4b1!4m6!3m5!1s0x19c144d33654f15b:0xb1234d0e5631ec8d!8m2!3d-3.373056!4d29.918886!16zL20vMDE2OXQ?hl=fr&entry=ttu"
+                        target="_blank"  rel="noopener noreferrer"
                         title="Location" class="textAdjust">
                         Bujumbura  -  Burundi
                     </a>   
                 </div>
                 <div class="makeList gmailClass">
                     <a class="logoColor" href="mailto:nsanzumukizath@gmail.com"
-                    title="Mail">
+                        target="_blank"  rel="noopener noreferrer"
+                        title="Mail">
                         <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
                     </a>
                     <a href="mailto:nsanzumukizath@gmail.com"
-                    title="Mail" class="textAdjust">
+                        target="_blank"  rel="noopener noreferrer"
+                        title="Mail" class="textAdjust">
                         nsanzumukizath@gmail.com
                     </a>   
                 </div>
                 <div class="makeList">
                     <a class="logoColor" href="https://www.linkedin.com/in/thierry-nsanzumukiza-9b8bb1109"
-                    title="LinkedIn">
+                        target="_blank"  rel="noopener noreferrer"
+                        title="LinkedIn">
                         <ion-icon :src="logoLinkedin" class="logoLarge"></ion-icon>
                     </a>
                     <a href="https://www.linkedin.com/in/thierry-nsanzumukiza-9b8bb1109"
-                    title="LinkedIn" class="textAdjust">
+                        target="_blank"  rel="noopener noreferrer"
+                        title="LinkedIn" class="textAdjust">
                         thierry-jovin-9b8bb1109
                     </a> 
                 </div>
                 <div class="makeList">
                     <a class="logoColor" href="https://github.com/JovinMtl"
-                     title="GitHub">
+                        target="_blank"  rel="noopener noreferrer"
+                         title="GitHub">
                         <ion-icon :src="logoGithub" class="logoLarge"></ion-icon>
                     </a>
                     <a href="https://github.com/JovinMtl"
-                     title="GitHub" class="textAdjust">
+                        target="_blank"  rel="noopener noreferrer"
+                         title="GitHub" class="textAdjust">
                         JovinMtl
                     </a> 
                 </div>
                 <div class="makeList">
                     <a class="logoColor" href="https://dribbble.com/muteule" 
-                    title="Booking Calendar">
+                        target="_blank"  rel="noopener noreferrer"
+                        title="Booking Calendar">
                         <ion-icon :src="calendarOutline" class="logoLarge"></ion-icon>
                     </a>
                     <!-- <iframe src="https://calendar.google.com/calendar/embed?src=f54719134f0e766c5c2530acf21b763f81da2e6ab1c67b4b9b6dec561d4a8774%40group.calendar.google.com&ctz=Africa%2FMaputo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-                    <a href="https://calendar.google.com/calendar/embed?src=f54719134f0e766c5c2530acf21b763f81da2e6ab1c67b4b9b6dec561d4a8774%40group.calendar.google.com&ctz=Africa%2FMaputo" title="Let me know it on Google Calendar" class="textAdjust">Book me</a>
+                    <a href="https://calendar.google.com/calendar/embed?src=f54719134f0e766c5c2530acf21b763f81da2e6ab1c67b4b9b6dec561d4a8774%40group.calendar.google.com&ctz=Africa%2FMaputo" title="Let me know it on Google Calendar" 
+                        target="_blank"  rel="noopener noreferrer"
+                        class="textAdjust">
+                        Book me
+                    </a>
                     
                 </div>
                 </div>
