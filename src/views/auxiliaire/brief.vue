@@ -77,7 +77,7 @@ setTimeout(()=>{
     min-height: 15vh;
     position: relative;
 /*     bottom: -82vh; */
-    top: 80vh;
+    top: 70vh;
     justify-content: center;
     color: white;
 }
