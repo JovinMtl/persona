@@ -77,7 +77,8 @@ setTimeout(()=>{
     min-height: 15vh;
     position: relative;
 /*     bottom: -82vh; */
-    top: 70vh;
+/*     top: 70vh; */
+    top: 80vh;
     justify-content: center;
     color: white;
 }
@@ -103,7 +104,8 @@ setTimeout(()=>{
 
 @media screen and (max-height: 500px) {
     .briefContainer{
-        bottom: -78vh;
+/*         bottom: -78vh; */
+        top: 70vh;
         scale: .9;
     }
 }
