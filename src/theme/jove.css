@@ -259,7 +259,7 @@ body {
     text-align: justify;
 }
 .summaryElement:hover{
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px lime;
 }
 .summaryElementActive{
     width: 53vw; 
