@@ -255,8 +255,11 @@ body {
     margin: 20px 20px;
     background-color: rgba(128, 128, 128, 0.555); 
     border-radius: 25px; 
-    box-shadow: 0 0 10px red; 
+    box-shadow: 0 0 10px grey; 
     text-align: justify;
+}
+.summaryElement:hover{
+    box-shadow: 0 0 10px red;
 }
 .summaryElementActive{
     width: 53vw; 
