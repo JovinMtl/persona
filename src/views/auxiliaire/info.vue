@@ -63,7 +63,7 @@
                     <a href="https://www.linkedin.com/in/thierry-nsanzumukiza-9b8bb1109"
                         target="_blank"  rel="noopener noreferrer"
                         title="LinkedIn" class="textAdjust">
-                        thierry-jovin-9b8bb1109
+                        thierry-nsanzumukiza-9b8bb1109
                     </a> 
                 </div>
                 <div class="makeList">
