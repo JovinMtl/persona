@@ -45,8 +45,9 @@ export default defineComponent ({
     margin: 20px 0; /* Margin above and below the quote */
 }
 .big-quote {
+    display: inline;
     font-size: 72px; /* Make the opening quote much larger */
-    line-height: -0.7; /* Adjust line height for alignment */
+    line-height: 0; /* Adjust line height for alignment */
     color: #333; /* Same color as the text for consistency */
     vertical-align: middle; /* Align the quote correctly with text */
     margin-top: -50px;
