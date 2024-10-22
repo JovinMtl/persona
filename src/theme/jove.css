@@ -254,6 +254,8 @@ body {
         background-color: black;
         text-align: center; 
         border-radius: 15px;
+        align-content: center;
+        align-items: center;
     }
 }
 
