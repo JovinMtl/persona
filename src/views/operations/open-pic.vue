@@ -14,7 +14,7 @@
             </span> -->
             <blockquote class="quote">
                 <span class="big-quote">“</span>
-                <span class="content">Before downloading one file, please delete two.”</span>
+                <span class="content">Before downloading one file, please delete two.</span>
                 <span class="big-quote">”</span>
                 <span class="author">— Th. Jov. Nsanzumukiza</span>
             </blockquote>
