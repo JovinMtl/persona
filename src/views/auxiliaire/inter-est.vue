@@ -8,6 +8,6 @@
             says Thierry Jovin.
         </p>
         -->
-        <div class="intere">my iterests</div>
+        <div class="intere">Interest One</div>
     </div>
 </template>
