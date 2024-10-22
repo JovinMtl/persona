@@ -42,6 +42,7 @@ export default defineComponent ({
     color: #333; /* Color of the text */
     border-left: 4px solid salmon ; /* Left border to indicate a quote #888 */
     padding-left: 20px; /* Space between border and text */
+    padding-right: 20px; /* Space between border and text */
     margin: 20px 0; /* Margin above and below the quote */
 }
 .big-quote {
