@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="padding: 20px;">
         <!--
         <p style="margin-top: 40px; margin-bottom: 67vh;">
            <span style="font-family: Cantarell; color: brown;">
