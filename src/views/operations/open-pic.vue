@@ -49,7 +49,7 @@ export default defineComponent ({
     line-height: -0.7; /* Adjust line height for alignment */
     color: #333; /* Same color as the text for consistency */
     vertical-align: middle; /* Align the quote correctly with text */
-    margin-top: -10px;
+    margin-top: -50px;
 }
 .content{
     display: inline;
