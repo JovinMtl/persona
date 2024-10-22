@@ -7,7 +7,10 @@
             </span>
             <ion-img src="/personaFoto/jove18.png"/>
             <!-- <span class="mantra">Embracing Vision, Inspiring Innovation</span> -->
-            <span class="mantra">Before downloading one file, please delete two.</span>
+            <span class="mantra">
+                Before downloading one file, please delete two.
+                <span style="font-size=5px;"> -- Th. Jov. Nsanzumukiza</span>
+            </span>
             
     </div>
 </template>
