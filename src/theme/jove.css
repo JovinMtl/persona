@@ -253,6 +253,9 @@ body {
         align-items: center;
         font-size: 1.6rem;
         margin: 20px;
+        background: linear-gradient(to right, red,orange,white, black);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
