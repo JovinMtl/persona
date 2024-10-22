@@ -243,6 +243,7 @@ body {
         width: 80%;
     }
     .intere{
+        display: flex;
         color: white;
         width: 40vw;
         height: 100px;
