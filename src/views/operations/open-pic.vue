@@ -1,7 +1,7 @@
 <template>
     <div class="openImage" style="text-align: center;">
-        Ubuzima Butyoroye.
-        <!-- <ion-buttons> 
+        <!--Ubuzima Butyoroye.
+         <ion-buttons> 
             <span  class="moveX">
                 <ion-icon size="larger"></ion-icon>
             </span>
