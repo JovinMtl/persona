@@ -13,7 +13,8 @@
                 <span style="font-size=5px;"> -- Th. Jov. Nsanzumukiza</span>
             </span> -->
             <blockquote class="quote">
-                <span class="big-quote">“</span>Before downloading one file, please delete two.” 
+                <span class="big-quote">“</span>Before downloading one file, please delete two.
+                <span class="big-quote">“</span> 
                 <span class="author">— Th. Jov. Nsanzumukiza</span>
             </blockquote>
 
