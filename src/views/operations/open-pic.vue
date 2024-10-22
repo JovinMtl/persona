@@ -14,6 +14,7 @@
             </span> -->
             <blockquote class="quote">
                 <span class="big-quote">“</span>Before downloading one file, please delete two.”
+                <span class="big-quot">”</span>
                 <span class="author">— Th. Jov. Nsanzumukiza</span>
             </blockquote>
 
@@ -49,6 +50,7 @@ export default defineComponent ({
     vertical-align: middle; /* Align the quote correctly with text */
 }
 .big-quot{
+    display: inline-block;
     font-size: 72px; /* Make the opening quote much larger */
    /* line-height: 1;  Adjust line height for alignment */
     color: #333; /* Same color as the text for consistency */
