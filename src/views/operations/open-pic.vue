@@ -48,7 +48,7 @@ export default defineComponent ({
     line-height: .7; /* Adjust line height for alignment */
     color: #333; /* Same color as the text for consistency */
     vertical-align: middle; /* Align the quote correctly with text */
-    margin: 0 -0.05em;
+    margin: 0 0em;
 }
 .big-quot{
     display: inline;
