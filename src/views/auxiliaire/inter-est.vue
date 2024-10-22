@@ -8,6 +8,7 @@
             says Thierry Jovin.
         </p>
         -->
-        <div class="intere">Interest One</div>
+        <div class="intere">Digital Discipline</div>
+        <div class="intere">Ubuzima Butyoroye</div>
     </div>
 </template>
