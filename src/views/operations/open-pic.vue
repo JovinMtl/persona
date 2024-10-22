@@ -37,7 +37,7 @@ export default defineComponent ({
 </script>
 <style>
     .quote {
-    font-size: 24px; /* Size of the quote */
+    font-size: 20px; /* Size of the quote */
     font-style: italic; /* Italicize the quote */
     color: #333; /* Color of the text */
     border-left: 4px solid salmon ; /* Left border to indicate a quote #888 */
