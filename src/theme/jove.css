@@ -251,7 +251,7 @@ body {
         justify-content: center;
         font-size: 1.6rem;
         margin: 20px;
-        background: linear-gradient(to right, red,orange);
+        background: linear-gradient(to right, red,orange,yellow);
         background-clip: text;
         -webkit-text-fill-color: transparent;
         border: 6px double grey;
