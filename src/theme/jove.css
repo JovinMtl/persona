@@ -118,6 +118,7 @@ body {
     font-weight: bold;
 }
 .intere{
+    display: inline-flex;
     width: 78vw;
     height: 100px; 
     border-radius: 12px;
@@ -256,7 +257,6 @@ body {
         width: 80%;
     }
     .intere{
-        display: inline-flex;
         width: 40vw;
     }
 }
