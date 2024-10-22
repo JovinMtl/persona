@@ -1,5 +1,5 @@
 <template>
-    <div style="padding: 30px; display: inline-flex;">
+    <div style="padding: 30px; display: inline-flex; position: absolute;">
         <!--
         <p style="margin-top: 40px; margin-bottom: 67vh;">
            <span style="font-family: Cantarell; color: brown;">
