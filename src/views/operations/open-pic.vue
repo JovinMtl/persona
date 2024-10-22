@@ -33,4 +33,23 @@ export default defineComponent ({
     }
 })
 </script>
+<style>
+    .quote {
+    font-size: 24px; /* Size of the quote */
+    font-style: italic; /* Italicize the quote */
+    color: #333; /* Color of the text */
+    border-left: 4px solid #888; /* Left border to indicate a quote */
+    padding-left: 20px; /* Space between border and text */
+    margin: 20px 0; /* Margin above and below the quote */
+}
+
+.author {
+    display: block; /* Makes the author appear on a new line */
+    font-size: 20px; /* Size of the author's name */
+    font-weight: bold; /* Bold for emphasis */
+    color: #666; /* Different color for the author's name */
+    margin-top: 10px; /* Space above the author's name */
+}
+
+</style>
 
