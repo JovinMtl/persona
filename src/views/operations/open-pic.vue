@@ -13,7 +13,7 @@
                 <span style="font-size=5px;"> -- Th. Jov. Nsanzumukiza</span>
             </span> -->
             <blockquote class="quote">
-                “Before downloading one file, please delete two.” 
+                <span class="big-quote">“</span>Before downloading one file, please delete two.” 
                 <span class="author">— Th. Jov. Nsanzumukiza</span>
             </blockquote>
 
@@ -42,7 +42,12 @@ export default defineComponent ({
     padding-left: 20px; /* Space between border and text */
     margin: 20px 0; /* Margin above and below the quote */
 }
-
+.big-quote {
+    font-size: 72px; /* Make the opening quote much larger */
+    line-height: 1; /* Adjust line height for alignment */
+    color: #333; /* Same color as the text for consistency */
+    vertical-align: middle; /* Align the quote correctly with text */
+}
 .author {
     display: block; /* Makes the author appear on a new line */
     font-size: 20px; /* Size of the author's name */
