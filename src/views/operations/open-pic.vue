@@ -40,16 +40,16 @@ export default defineComponent ({
     font-size: 24px; /* Size of the quote */
     font-style: italic; /* Italicize the quote */
     color: #333; /* Color of the text */
-    border-left: 4px solid #888; /* Left border to indicate a quote */
+    border-left: 4px solid salmon ; /* Left border to indicate a quote #888 */
     padding-left: 20px; /* Space between border and text */
     margin: 20px 0; /* Margin above and below the quote */
 }
 .big-quote {
     font-size: 72px; /* Make the opening quote much larger */
-    line-height: .7; /* Adjust line height for alignment */
+    line-height: -0.7; /* Adjust line height for alignment */
     color: #333; /* Same color as the text for consistency */
     vertical-align: middle; /* Align the quote correctly with text */
-    margin: 0 0em;
+    margin-top: -10px;
 }
 .content{
     display: inline;
