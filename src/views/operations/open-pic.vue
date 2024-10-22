@@ -50,7 +50,7 @@ export default defineComponent ({
     vertical-align: middle; /* Align the quote correctly with text */
 }
 .big-quot{
-    display: inline-block;
+    display: inline;
     font-size: 72px; /* Make the opening quote much larger */
    /* line-height: 1;  Adjust line height for alignment */
     color: #333; /* Same color as the text for consistency */
