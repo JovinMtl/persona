@@ -258,6 +258,7 @@ body {
         background: linear-gradient(to right, red,orange,white, black);
         background-clip: text;
         -webkit-text-fill-color: transparent;
+        border: 6px double grey;
     }
 }
 
