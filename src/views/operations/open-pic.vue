@@ -7,11 +7,16 @@
             </span>
         -->
             <ion-img src="/personaFoto/jove18.png"/>
-            <!-- <span class="mantra">Embracing Vision, Inspiring Innovation</span> -->
+            <!-- <span class="mantra">Embracing Vision, Inspiring Innovation</span>
             <span class="mantra">
                 Before downloading one file, please delete two.
                 <span style="font-size=5px;"> -- Th. Jov. Nsanzumukiza</span>
-            </span>
+            </span> -->
+            <blockquote class="quote">
+                “Before downloading one file, please delete two.” 
+                <span class="author">— Th. Jov. Nsanzumukiza</span>
+            </blockquote>
+
             
     </div>
 </template>
