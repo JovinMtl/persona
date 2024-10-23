@@ -9,10 +9,11 @@
 <style scoped>
   .inte-m{
     display: flex;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background-color: gray;
-    margin-top: 40vh;
     z-index: 1;
   }
   .inte{
