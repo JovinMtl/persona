@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
   }
   .inte{
     width: 40vw;
