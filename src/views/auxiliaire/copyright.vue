@@ -3,13 +3,13 @@
     margin-bottom: 10px;">
        <!-- text-shadow: 2px -1px 3px rgb(56, 54, 54), 2px 1px 8px rgb(56, 54, 54); -->
         <span style="font-weight: 900; 
-            padding:5px; border:1px solid rgba(56, 56, 56, 0.3); border-radius:3px;">
+            padding:2px; border:1px solid rgba(56, 56, 56, 0.3); border-radius:3px;">
             Thierry Nsanzumukiza 
         </span>
         <span style="margin: 0 5px; font-family:fantasy;">
         {{year}}
         </span>
-        <span style="font-weight: 800;padding:5px; border:1px solid rgba(56, 56, 56, 0.3); 
+        <span style="font-weight: 800;padding:2px; border:1px solid rgba(56, 56, 56, 0.3); 
             border-radius:3px;">
             Bujumbura - Burundi
         </span> 
