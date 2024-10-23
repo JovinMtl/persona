@@ -1,19 +1,22 @@
 <template>
-  <div class="inte-m">
-    <div class="inte">
+  <div class="f-l inte-m">
+    <div class="f-l inte">
       Merci de voir mon interet personnel
     </div>
   </div>
 </template>
 
 <style scoped>
-  .inte-m{
+  .f-l{
     display: flex;
-    width: 100vw;
-    height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.3);
+    
+  }
+  .inte-m{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(56, 56, 56, 0.6);
     position: absolute;
   }
   .inte{
