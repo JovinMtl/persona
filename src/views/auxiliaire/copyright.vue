@@ -9,7 +9,7 @@
         <span style="margin: 0 5px; font-family:fantasy;">
         {{year}}
         </span>
-        <span style="font-weight: 800;padding:5px; border:1px solid black; 
+        <span style="font-weight: 800;padding:5px; border:1px solid rgba(56, 56, 56, 0.5); 
             border-radius:3px;">
             Bujumbura - Burundi
         </span> 
