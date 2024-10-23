@@ -19,6 +19,6 @@
   .inte{
     width: 40vw;
     height: 200px;
-    background-color: red;
+    background-color: white;
   }
 </style>
