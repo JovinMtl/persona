@@ -1,6 +1,6 @@
 <template>
     <div class="centered cpr">
-        <span class="fw-9 enc"">
+        <span class="fw-9 enc">
             Thierry Nsanzumukiza 
         </span>
         <span class="y">
