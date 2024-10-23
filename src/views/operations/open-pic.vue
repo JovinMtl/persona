@@ -26,20 +26,20 @@ export default defineComponent ({
 </script>
 <style>
     .quote {
-    font-size: 20px; /* Size of the quote */
-    font-style: italic; /* Italicize the quote */
-    color: #333; /* Color of the text */
-    border-left: 4px solid salmon ; /* Left border to indicate a quote #888 */
-    padding-left: 20px; /* Space between border and text */
-    padding-right: 20px; /* Space between border and text */
-    margin: 20px 0; /* Margin above and below the quote */
+    font-size: 20px;
+    font-style: italic;
+    color: #333;
+    border-left: 4px solid salmon ;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 0;
 }
 .big-quote {
     display: inline;
-    font-size: 72px; /* Make the opening quote much larger */
-    line-height: 0; /* Adjust line height for alignment */
-    color: #333; /* Same color as the text for consistency */
-    vertical-align: middle; /* Align the quote correctly with text */
+    font-size: 72px;
+    line-height: 0;
+    color: #333;
+    vertical-align: middle;
     margin-top: -50px;
 }
 .content{
@@ -47,18 +47,18 @@ export default defineComponent ({
 }
 .big-quot {
     display: inline;
-    font-size: 42px; /* Make the opening quote much larger */
-    line-height: 0; /* Adjust line height for alignment */
-    color: #333; /* Same color as the text for consistency */
-    vertical-align: middle; /* Align the quote correctly with text */
+    font-size: 42px;
+    line-height: 0;
+    color: #333;
+    vertical-align: middle;
     margin-top: -50px;
 }
 .author {
-    display: block; /* Makes the author appear on a new line */
-    font-size: 20px; /* Size of the author's name */
-    font-weight: bold; /* Bold for emphasis */
-    color: #666; /* Different color for the author's name */
-    margin-top: 10px; /* Space above the author's name */
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 10px;
 }
 
 </style>
