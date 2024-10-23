@@ -2,7 +2,7 @@
     <div class="briefContainer">
         <div class="mainContainer">
             {{ message }}
-            <div v-if="activate_close" 
+            <div v-if="activateClose" 
                 class="contrParent" @click="closeFunc">
                 <div class="cloControl b">
                     <ion-icon :src="close"></ion-icon>
@@ -19,7 +19,7 @@ import { close} from 'ionicons/icons'
 
 const emit =  defineEmits(['closeBrief'])
 
-const activate_close = ref<boolean>(false)
+const activateClose = ref<boolean>(false)
 const messages = [
     'From January till July 2024, I did :',
     '6 front-end projects and 2 back-end projects just in 7 months.',
@@ -37,7 +37,7 @@ const closeFunc = ()=>{
     
 }
 setTimeout(()=>{
-    activate_close.value = true
+    activateClose.value = true
 }, 5000)
 setTimeout(()=>{
     if(actual){
