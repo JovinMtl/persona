@@ -22,7 +22,7 @@ export default defineComponent ({
     },
 })
 </script>
-<style>
+<style scoped>
     .cpr{
         font-size: 12px;
         margin-top: 20px;
