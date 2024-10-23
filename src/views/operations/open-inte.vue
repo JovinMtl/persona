@@ -31,6 +31,8 @@
   .inte{
     height: 200px;
     background-color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
   }
   .cl{
     height: 50px;
