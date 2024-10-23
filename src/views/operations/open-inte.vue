@@ -4,9 +4,9 @@
       Merci de voir mon interet personnel.
     </div>
     <div class="f-l w-i cl">
-      <span class="btn" @clicked="signalEnd">
+      <div class="btn" @clicked="signalEnd">
         Ok
-      </span>
+      </div>
     </div>
   </div>
 </template>
