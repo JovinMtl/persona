@@ -27,7 +27,7 @@
     height: 200px;
     background-color: white;
   }
-  @media and screen (max-width:900px){
+  @media screen and (max-width: 900px){
     .inte{
       width: 80vw;
     }
