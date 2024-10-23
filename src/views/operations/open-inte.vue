@@ -13,7 +13,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgba(255, 255, 56, 0.3);
     position: absolute;
   }
   .inte{
