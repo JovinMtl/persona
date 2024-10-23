@@ -8,10 +8,18 @@
             says Thierry Jovin.
         </p>
         -->
-        <div class="intere">Digital Discipline</div>
+        <div class="intere" id="1" @click=mentionClicked>Digital Discipline</div>
         <div class="intere">Ubuzima Butyoroye</div>
+        <open-inte v-if="openInterst"></open-inte>
     </div>
 </template>
 <script setup lang="ts">
+    import { ref } from 'vue';
     import openInte from '../operations/open-inte.vue'; 
+
+    const openInterst = ref(false);
+    
+    const mentionClicked = ()=>{
+        openInterst.value = true;
+    }
 </script>
