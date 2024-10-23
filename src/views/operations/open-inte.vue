@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
   }
   .w-i{ /* the width of the popup */
