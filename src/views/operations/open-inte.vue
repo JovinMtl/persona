@@ -4,14 +4,15 @@
       Merci de voir mon interet personnel.
     </div>
     <div class="f-l w-i cl">
-      <span class="btn">
+      <span class="btn" @clicked="signalEnd">
         Ok
       </span>
     </div>
   </div>
 </template>
 <script setup lang="ts">
-  
+
+  const signalEnd = ()=>{}
 </script>
 
 <style scoped>
