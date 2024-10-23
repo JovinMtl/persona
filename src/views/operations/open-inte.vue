@@ -49,6 +49,7 @@
     padding: 2px 12px;
     border: 4px double white;
     border-radius: 10px;
+    background-color: white;
   }
   @media screen and (max-width: 900px){
     .w-i{
