@@ -4,7 +4,7 @@
       Merci de voir mon interet personnel.
     </div>
     <div class="f-l w-i cl">
-      <div class="btn" @clicked="signalEnd">
+      <div class="btn" @click="signalEnd">
         Ok
       </div>
     </div>
