@@ -46,8 +46,9 @@
     flex-direction: column;
   }
   .btn{
-    padding: 2px 8px;
+    padding: 2px 12px;
     border: 4px double white;
+    border-radius: 10px;
   }
   @media screen and (max-width: 900px){
     .w-i{
