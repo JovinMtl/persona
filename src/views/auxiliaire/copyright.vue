@@ -1,16 +1,12 @@
 <template>
-    <div class="centered" style="font-size: 12px;margin-top: 20px;
-    margin-bottom: 10px;">
-       <!-- text-shadow: 2px -1px 3px rgb(56, 54, 54), 2px 1px 8px rgb(56, 54, 54); -->
-        <span style="font-weight: 900; 
-            padding:2px; border:1px solid rgba(56, 56, 56, 0.3); border-radius:3px;">
+    <div class="centered cpr">
+        <span class="fw-9 enc"">
             Thierry Nsanzumukiza 
         </span>
-        <span style="margin: 0 5px; font-family:fantasy;">
-        {{year}}
+        <span class="y">
+            {{ year }}
         </span>
-        <span style="font-weight: 800;padding:2px; border:1px solid rgba(56, 56, 56, 0.3); 
-            border-radius:3px;">
+        <span class="fw-8 enc">
             Bujumbura - Burundi
         </span> 
     </div>
@@ -26,3 +22,26 @@ export default defineComponent ({
     },
 })
 </script>
+<style>
+    .cpr{
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .enc{
+        padding:2px; 
+        border:1px solid rgba(56, 56, 56, 0.3); 
+        border-radius:3px;
+    }
+    .fw-9{
+        font-weight: 900;
+    }
+    .fw-8{
+        font-weight: 800;
+    }
+    .y{
+        margin: 0 5px; 
+        font-family:fantasy;
+    }
+</style>
+
