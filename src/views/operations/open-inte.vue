@@ -1,9 +1,9 @@
 <template>
-  <div class="f-l inte-m">
-    <div class="w-i inte">
+  <div class="f-l d inte-m">
+    <div class="f-l w-i inte">
       Merci de voir mon interet personnel
     </div>
-    <div class="w-i cl">
+    <div class="f-l w-i cl">
       ok
     </div>
   </div>
@@ -17,7 +17,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     
   }
   .w-i{ /* the width of the popup */
@@ -38,6 +37,9 @@
     background-color: yellow;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+  }
+  .d{
+    flex-direction: column;
   }
   @media screen and (max-width: 900px){
     .w-i{
