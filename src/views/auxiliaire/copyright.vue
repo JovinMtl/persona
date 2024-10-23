@@ -6,7 +6,7 @@
             padding:5px; border:1px solid black; border-radius:3px;">
             Thierry Nsanzumukiza 
         </span>
-        <span class="author" style="margin: 0 5px;">
+        <span class="authore" style="margin: 0 5px;">
         {{year}}
         </span>
         <span style="font-weight: 800;padding:5px; border:1px solid black; 
