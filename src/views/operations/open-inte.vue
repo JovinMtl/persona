@@ -52,6 +52,9 @@
     background-color: white;
     font-weight: bold;
   }
+  .btn:active{
+    scale: 1.3;
+  }
   @media screen and (max-width: 900px){
     .w-i{
       width: 80vw;
