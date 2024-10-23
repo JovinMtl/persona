@@ -3,7 +3,7 @@
     margin-bottom: 10px;">
         <span style="font-weight: 900; 
         text-shadow: 2px -1px 3px rgb(56, 54, 54), 2px 1px 8px rgb(56, 54, 54);
-            padding:5px; border:1px solid black 3px;">
+            padding:5px; border:1px solid black; border-radius:3px;">
             Thierry Nsanzumukiza 
         </span>
         |{{year}}| 
