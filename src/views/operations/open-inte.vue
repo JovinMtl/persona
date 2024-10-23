@@ -1,9 +1,9 @@
 <template>
   <div class="f-l inte-m">
-    <div class="f-l w-i inte">
+    <div class="w-i inte">
       Merci de voir mon interet personnel
     </div>
-    <div class="f-l w-i cl">
+    <div class="w-i cl">
       ok
     </div>
   </div>
