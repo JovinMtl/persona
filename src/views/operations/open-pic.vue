@@ -1,26 +1,13 @@
 <template>
     <div class="openImage" style="text-align: center;">
-        <!--Ubuzima Butyoroye.
-         <ion-buttons> 
-            <span  class="moveX">
-                <ion-icon size="larger"></ion-icon>
-            </span>
-        -->
-            <!-- <ion-img src="/personaFoto/jove18.png"/> -->
-            <ion-img src="/personaFoto/jove19.jfif" style="border-radius=20px;"/>
-            <!-- <span class="mantra">Embracing Vision, Inspiring Innovation</span>
-            <span class="mantra">
-                Before downloading one file, please delete two.
-                <span style="font-size=5px;"> -- Th. Jov. Nsanzumukiza</span>
-            </span> -->
-            <blockquote class="quote">
-                <span class="big-quote">“</span>
-                <span class="content">Before downloading one file, please delete two.</span>
-                <span class="big-quot">”</span>
-                <span class="author">— Th. Jov. Nsanzumukiza</span>
-            </blockquote>
-
-            
+        <!-- <ion-img src="/personaFoto/jove18.png"/> -->
+        <ion-img src="/personaFoto/jove19.jfif" style="border-radius=20px;"/>
+        <blockquote class="quote">
+            <span class="big-quote">“</span>
+            <span class="content">Before downloading one file, please delete two.</span>
+            <span class="big-quot">”</span>
+            <span class="author">— Th. Jov. Nsanzumukiza</span>
+        </blockquote>            
     </div>
 </template>
 <script lang="ts">
