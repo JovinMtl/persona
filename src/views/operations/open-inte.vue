@@ -47,7 +47,7 @@
   }
   .btn{
     padding: 2px 8px;
-    border: 6px double white;
+    border: 4px double white;
   }
   @media screen and (max-width: 900px){
     .w-i{
