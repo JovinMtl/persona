@@ -13,6 +13,7 @@
     align-items: center;
     background-color: gray;
     margin-top: 40vh;
+    z-index: 1;
   }
   .inte{
     width: 40vw;
