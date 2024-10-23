@@ -50,6 +50,7 @@
     border: 4px double white;
     border-radius: 10px;
     background-color: white;
+    font-weight: bold;
   }
   @media screen and (max-width: 900px){
     .w-i{
