@@ -1,7 +1,10 @@
 <template>
   <div class="f-l inte-m">
-    <div class="f-l inte">
+    <div class="f-l w-i inte">
       Merci de voir mon interet personnel
+    </div>
+    <div class="f-l w-i cl">
+      ok
     </div>
   </div>
 </template>
@@ -16,6 +19,9 @@
     align-items: center;
     
   }
+  .w-i{ /* the width of the popup /*
+    width: 40vw;
+  }
   .inte-m{
     width: 100vw;
     height: 100vh;
@@ -23,12 +29,14 @@
     position: absolute;
   }
   .inte{
-    width: 40vw;
     height: 200px;
     background-color: white;
   }
+  .cl{
+    height: 50px;
+  }
   @media screen and (max-width: 900px){
-    .inte{
+    .w-i{
       width: 80vw;
     }
   }
