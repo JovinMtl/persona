@@ -6,7 +6,8 @@
                 <ion-icon size="larger"></ion-icon>
             </span>
         -->
-            <ion-img src="/personaFoto/jove18.png"/>
+            <!-- <ion-img src="/personaFoto/jove18.png"/> -->
+            <ion-img src="/personaFoto/jove19.jfif"/>
             <!-- <span class="mantra">Embracing Vision, Inspiring Innovation</span>
             <span class="mantra">
                 Before downloading one file, please delete two.
