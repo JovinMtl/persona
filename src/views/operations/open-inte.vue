@@ -58,7 +58,6 @@
   }
   .btn:active{
     scale: 1.2;
-    background-color: rgba(56, 56, 56, 0.6)
   }
   @media screen and (max-width: 900px){
     .w-i{
