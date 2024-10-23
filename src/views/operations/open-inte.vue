@@ -35,6 +35,8 @@
   .cl{
     height: 50px;
     background-color: yellow;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
   @media screen and (max-width: 900px){
     .w-i{
