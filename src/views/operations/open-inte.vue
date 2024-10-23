@@ -8,7 +8,8 @@
 
 <style scoped>
   .inte-m{
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   .inte{
     width: 40vw;
