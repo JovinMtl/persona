@@ -1,7 +1,7 @@
 <template>
   <div class="f-l d inte-m">
     <div class="f-l w-i inte">
-      Merci de voir mon interet personnel
+      Merci de voir mon interet personnel.
     </div>
     <div class="f-l w-i cl">
       <span class="btn">
@@ -53,7 +53,7 @@
     font-weight: bold;
   }
   .btn:active{
-    scale: 1.3;
+    scale: 4.3;
   }
   @media screen and (max-width: 900px){
     .w-i{
