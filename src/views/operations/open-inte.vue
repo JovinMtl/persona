@@ -5,6 +5,9 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+  
+</script>
 
 <style scoped>
   .f-l{
@@ -23,5 +26,10 @@
     width: 40vw;
     height: 200px;
     background-color: white;
+  }
+  @media and screen (max-width:900px){
+    .inte{
+      width: 80vw;
+    }
   }
 </style>
