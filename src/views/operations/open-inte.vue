@@ -4,7 +4,9 @@
       Merci de voir mon interet personnel
     </div>
     <div class="f-l w-i cl">
-      ok
+      <span class="btn">
+        Ok
+      </span>
     </div>
   </div>
 </template>
@@ -42,6 +44,10 @@
   }
   .d{
     flex-direction: column;
+  }
+  .btn{
+    padding: 2px 8px;
+    border: 6px double white;
   }
   @media screen and (max-width: 900px){
     .w-i{
