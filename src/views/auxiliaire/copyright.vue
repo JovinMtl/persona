@@ -1,14 +1,14 @@
 <template>
     <div class="centered" style="font-size: 12px;margin-top: 20px;
     margin-bottom: 10px;">
-       <!-- <span style="font-weight: 900; 
-        text-shadow: 2px -1px 3px rgb(56, 54, 54), 2px 1px 8px rgb(56, 54, 54); -->
+       <!-- text-shadow: 2px -1px 3px rgb(56, 54, 54), 2px 1px 8px rgb(56, 54, 54); -->
         <span style="font-weight: 900; 
-        text-shadow: 1px -1px rgb(56, 54, 54), -1px 1px rgb(56, 54, 54);
             padding:5px; border:1px solid black; border-radius:3px;">
             Thierry Nsanzumukiza 
         </span>
-        |{{year}}| 
+        <span>
+        {{year}}
+        </span>
         <span style="font-weight: 800;padding:5px; border:1px solid black; 
             border-radius:3px;">
             Bujumbura - Burundi.
