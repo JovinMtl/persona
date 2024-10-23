@@ -13,5 +13,5 @@
     </div>
 </template>
 <script setup lang="ts">
-    import 
+    import openInte from '../operations/open-inte.vue'; 
 </script>
