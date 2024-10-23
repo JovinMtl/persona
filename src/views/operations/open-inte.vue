@@ -54,7 +54,7 @@
     font-weight: bold;
   }
   .btn:active{
-    scale: 4.3;
+    scale: 1.2;
   }
   @media screen and (max-width: 900px){
     .w-i{
