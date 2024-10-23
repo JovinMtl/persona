@@ -12,3 +12,6 @@
         <div class="intere">Ubuzima Butyoroye</div>
     </div>
 </template>
+<script setup lang="ts">
+    import 
+</script>
