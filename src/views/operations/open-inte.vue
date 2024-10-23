@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     background-color: gray;
+    margin-top: 40vh;
   }
   .inte{
     width: 40vw;
