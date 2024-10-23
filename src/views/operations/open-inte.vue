@@ -1,10 +1,15 @@
 <template>
-  <div class="inte">
-    Merci de voir mon interet personnel
+  <div class="inte-m">
+    <div class="inte">
+      Merci de voir mon interet personnel
+    </div>
   </div>
 </template>
 
 <style scoped>
+  .inte-m{
+    text-align: center;
+  }
   .inte{
     width: 40vw;
     height: 200px;
