@@ -6,7 +6,7 @@
             padding:5px; border:1px solid black; border-radius:3px;">
             Thierry Nsanzumukiza 
         </span>
-        <span class="authore" style="margin: 0 5px;">
+        <span style="margin: 0 5px; font-family:fantasy;">
         {{year}}
         </span>
         <span style="font-weight: 800;padding:5px; border:1px solid black; 
@@ -28,7 +28,4 @@ export default defineComponent ({
 </script>
 <style scoped>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
-    .author{
-        font-family:Montserrat;
-    }
 </style>
