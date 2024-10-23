@@ -2,7 +2,7 @@
     <div class="openImage" style="text-align: center;">
         <!-- <ion-img src="/personaFoto/jove18.png"/> 
         <ion-img src="/personaFoto/jove19.jfif" style="border-radius=20px;"/> -->
-        <img src="/personaFoto/jove_18.png" style="border-radius=20px;"></img>
+        <img src="/personaFoto/jove_18.png" style="border-radius:100px;"></img>
         <blockquote class="quote">
             <span class="big-quote">“</span>
             <span class="content">Before downloading one file, please delete two.</span>
