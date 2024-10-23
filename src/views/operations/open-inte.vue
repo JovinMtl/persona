@@ -10,6 +10,7 @@
   .inte-m{
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .inte{
     width: 40vw;
