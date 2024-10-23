@@ -11,8 +11,11 @@
   </div>
 </template>
 <script setup lang="ts">
+  const emit =  defineEmits(['endSignal'])
 
-  const signalEnd = ()=>{}
+  const signalEnd = ()=>{
+    emit('endSignal')
+  }
 </script>
 
 <style scoped>
