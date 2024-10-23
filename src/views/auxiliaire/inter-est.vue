@@ -10,7 +10,9 @@
         -->
         <div class="intere" id="1" @click=mentionClicked>Digital Discipline</div>
         <div class="intere">Ubuzima Butyoroye</div>
-        <open-inte v-if="openInterst"></open-inte>
+        <teleport to="body">
+            <open-inte v-if="openInterst"></open-inte>
+        </teleport>
     </div>
 </template>
 <script setup lang="ts">
