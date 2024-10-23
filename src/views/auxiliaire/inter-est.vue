@@ -25,6 +25,7 @@
         openInterst.value = true;
     }
     const closeInterst = ()=>{
+        console.log("Closing the popup...");
         openInterst.value = false;
     }
 </script>
