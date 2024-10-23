@@ -34,7 +34,7 @@
   }
   .cl{
     height: 50px;
-    background-color: yellow;
+    background-color: salmon;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
