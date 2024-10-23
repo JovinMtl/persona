@@ -11,7 +11,7 @@
         <div class="intere" id="1" @click=mentionClicked>Digital Discipline</div>
         <div class="intere">Ubuzima Butyoroye</div>
         <teleport to="body">
-            <open-inte v-if="openInterst"></open-inte>
+            <open-inte v-if="openInterst" @endSignal="closeInterst"></open-inte>
         </teleport>
     </div>
 </template>
@@ -23,5 +23,8 @@
     
     const mentionClicked = ()=>{
         openInterst.value = true;
+    }
+    const closeInterst = ()=>{
+        openInterst.value = false;
     }
 </script>
