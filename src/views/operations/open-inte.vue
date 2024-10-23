@@ -19,7 +19,7 @@
     align-items: center;
     
   }
-  .w-i{ /* the width of the popup /*
+  .w-i{ /* the width of the popup */
     width: 40vw;
   }
   .inte-m{
@@ -34,6 +34,7 @@
   }
   .cl{
     height: 50px;
+    background-color: yellow;
   }
   @media screen and (max-width: 900px){
     .w-i{
