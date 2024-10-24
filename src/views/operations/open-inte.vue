@@ -14,7 +14,6 @@
   const emit =  defineEmits(['endSignal'])
 
   const signalEnd = ()=>{
-    console.log("Reporting to close");
     emit('endSignal')
   }
 </script>
