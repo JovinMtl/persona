@@ -1,7 +1,7 @@
 <template>
   <div class="f-l d inte-m">
     <div class="f-l w-i inte">
-      I thank you for taking care of my interests. Soon I will dive deep on this subject.
+      I thank you for taking care of my interests. I will soon dive deep on this subject.
     </div>
     <div class="f-l w-i cl">
       <div class="btn" @click="signalEnd">
@@ -40,7 +40,7 @@
     background-color: white;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    padding: 0 10px;
+    padding: 0 20px;
   }
   .cl{
     height: 50px;
@@ -66,7 +66,7 @@
       width: 80vw;
     }
     .inte{
-      padding: 0 5px;
+      padding: 0 10px;
     }
   }
 </style>
