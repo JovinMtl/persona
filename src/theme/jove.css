@@ -130,6 +130,7 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 6px double grey;
+    background-color: black;
 }
 @media screen and (max-width: 259px) {
     .moveX{
