@@ -40,7 +40,7 @@
     background-color: white;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    padding: 0 5px;
+    padding: 0 10px;
   }
   .cl{
     height: 50px;
@@ -64,6 +64,9 @@
   @media screen and (max-width: 900px){
     .w-i{
       width: 80vw;
+    }
+    .inte{
+      padding: 0 5px;
     }
   }
 </style>
