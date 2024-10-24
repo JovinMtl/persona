@@ -1,7 +1,7 @@
 <template>
   <div class="f-l d inte-m">
     <div class="f-l w-i inte">
-      I thank you for taking care of my interests. I will soon dive deep on this subject.
+      I thank you for taking care of my interests. I am delving deeper on this topic, so stay tuned.
     </div>
     <div class="f-l w-i cl">
       <div class="btn" @click="signalEnd">
