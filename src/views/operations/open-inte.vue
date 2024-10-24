@@ -32,6 +32,7 @@
     width: 100vw;
     height: 100vh;
     background-color: rgba(56, 56, 56, 0.6);
+    color: black;
     position: absolute;
   }
   .inte{
