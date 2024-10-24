@@ -1,7 +1,7 @@
 <template>
   <div class="f-l d inte-m">
     <div class="f-l w-i inte">
-      Merci de voir mon interet personnel.
+      Thank you to care of my interests.
     </div>
     <div class="f-l w-i cl">
       <div class="btn" @click="signalEnd">
