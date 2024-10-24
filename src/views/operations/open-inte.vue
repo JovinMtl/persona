@@ -61,6 +61,9 @@
   .btn:active{
     scale: 1.2;
   }
+  .btn:hover{
+    cursor: pointer;
+  }
   @media screen and (max-width: 900px){
     .w-i{
       width: 80vw;
