@@ -40,6 +40,7 @@
     background-color: white;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    padding: 0 5px;
   }
   .cl{
     height: 50px;
