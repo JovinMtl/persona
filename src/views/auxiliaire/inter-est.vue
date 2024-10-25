@@ -8,7 +8,7 @@
     </div>
 </template>
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, provide } from 'vue';
     import openInte from '../operations/open-inte.vue'; 
 
     const openInterst = ref(false);
