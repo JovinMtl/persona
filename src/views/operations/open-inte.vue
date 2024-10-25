@@ -12,7 +12,7 @@
 </template>
 <script setup lang="ts">
   const emit =  defineEmits(['endSignal'])
-  const inteContent = inject('notNow')
+  const inteContent = inject('interestShow')
 
   const signalEnd = ()=>{
     emit('endSignal')
