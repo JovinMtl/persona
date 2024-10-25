@@ -18,7 +18,11 @@
     const interests = [
     {
       'content': 'Digital Discipline',
-      'detail' : 'none'
+      'detail' : "Men deserve discipline in the digital realm to protect themselves. 
+          Because digital interaction starts with excitement and ends with fatigue and 
+        dissatisfaction from endless scrolling.
+        The tool, which was supposed to save him time by sparing him tedious manual labor,
+        has in fact condemned him to endless consumption."
     },
     {
       'content': 'Ubuzima Butyoroye',
