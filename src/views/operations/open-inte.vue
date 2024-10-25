@@ -50,7 +50,7 @@
     background-color: white;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    padding: 0 20px;
+    padding: 20px;
   }
   .cl{
     height: 50px;
@@ -79,7 +79,7 @@
       width: 80vw;
     }
     .inte{
-      padding: 0 10px;
+      padding: 10px;
     }
   }
 </style>
