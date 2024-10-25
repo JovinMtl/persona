@@ -28,11 +28,13 @@
     const mentionClicked = ()=>{
         openInterst.value = true;
     }
-    const closeInterst = ()=>{
+    const closeInterst = (e)=>{
+        let index = e.target.id
+        actualInterest.value = index
         openInterst.value = false;
     }
 
     
     // space for provide 
-    provide(actualInterest, interestShow)
+    provide(actualInterest, 'interestShow')
 </script>
