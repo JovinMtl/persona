@@ -2,7 +2,7 @@
   <div class="f-l d inte-m">
     <div class="f-l w-i inte">
       <span v-if="inteContent"> 
-        {{ inteContent }}
+        <span v-html="inteContent"></span>
       </span>
       <span v-else> 
         Thank you for taking care of my interests. I am delving deeper on this topic, so stay tuned.
