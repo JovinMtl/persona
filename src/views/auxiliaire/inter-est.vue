@@ -19,4 +19,8 @@
     const closeInterst = ()=>{
         openInterst.value = false;
     }
+
+    
+    // space for provide 
+    provide(actualInterest, interestShow)
 </script>
