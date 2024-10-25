@@ -51,6 +51,7 @@
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     padding: 20px;
+    overflow: visible;
   }
   .cl{
     height: 50px;
