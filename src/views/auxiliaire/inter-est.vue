@@ -40,7 +40,7 @@
         alcohol while staying Catholic. Moreover, I turned also into to leaving soft drink, 
         to prefer only Water.
         However, I still have my right to take any of them only on honorific request.<br><br>
-        <span class='autho'>-- Th. Jov. Nsanzumukiza</span>
+        <span class='autho' style="font-style: italic;color: grey;font-weight: 600;">-- Th. Jov. Nsanzumukiza</span>
         `
     },
     ]
