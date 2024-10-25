@@ -22,7 +22,8 @@
           Because digital interaction starts with excitement and ends with fatigue and 
         dissatisfaction from endless scrolling.
         The tool, which was supposed to save him time by sparing him tedious manual labor,
-        has in fact condemned him to endless consumption.`
+        has in fact condemned him to endless consumption. <br><br>
+        -- Th. Jov. Nsanzumukiza`
     },
     {
       'content': 'Ubuzima Butyoroye',
@@ -36,7 +37,8 @@
         I shared on how I started to find it were possible for me to be independent on 
         alcohol while staying Catholic. Moreover, I turned also into to leaving soft drink, 
         to prefer only Water.
-        However, I still have my right to take any of them only on honorific request.`
+        However, I still have my right to take any of them only on honorific request.<br><br>
+        -- Th. Jov. Nsanzumukiza`
     },
     ]
     
