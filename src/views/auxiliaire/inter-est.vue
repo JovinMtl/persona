@@ -12,6 +12,18 @@
     import openInte from '../operations/open-inte.vue'; 
 
     const openInterst = ref(false);
+    const actualInterest = ref("Empty")
+
+    const interests = [
+    {
+      'content': 'Interest one',
+      'detail' : 'none'
+    },
+    {
+      'content': 'Interest two',
+      'detail' : 'nonee'
+    },
+    ]
     
     const mentionClicked = ()=>{
         openInterst.value = true;
