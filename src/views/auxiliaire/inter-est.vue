@@ -26,7 +26,13 @@
     },
     {
       'content': 'Alchol without you',
-      'detail' : 'none'
+      'detail' : "I wrote about the possibility of getting free from want to drink any drink 
+          that is regarded as special. Getting free from drinking Alcohol without religious 
+        implication, getting free from soft drink without compromising its casual need. 
+        I shared on how I started to find it were possible for me to be independent on 
+        alcohol while staying Catholic. Moreover, I turned also into to leaving soft drink, 
+        to prefer only Water.
+        However, I still have my right to take any of them only on honorific request."
     },
     ]
     
