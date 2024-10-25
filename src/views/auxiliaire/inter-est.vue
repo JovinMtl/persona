@@ -1,7 +1,8 @@
 <template>
     <div style="padding: 30px;">
-        <div class="intere" id="1" @click=mentionClicked>Digital Discipline</div>
-        <div class="intere">Ubuzima Butyoroye</div>
+        <div class="intere" v-for="(interest, index) in interests" :id="index" @click=mentionClicked>
+            {{ interest.content }}
+        </div>
         <teleport to="body">
             <open-inte v-if="openInterst" @endSignal="closeInterst"></open-inte>
         </teleport>
@@ -16,11 +17,11 @@
 
     const interests = [
     {
-      'content': 'Interest one',
+      'content': 'Digital Discipline',
       'detail' : 'none'
     },
     {
-      'content': 'Interest two',
+      'content': 'Ubuzima Butyoroye',
       'detail' : 'nonee'
     },
     ]
@@ -36,5 +37,5 @@
 
     
     // space for provide 
-    //provide('interestShow', actualInterest)
+    provide('interestShow', actualInterest)
 </script>
