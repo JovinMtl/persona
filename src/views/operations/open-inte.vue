@@ -13,6 +13,7 @@
   </div>
 </template>
 <script setup lang="ts">
+  import { inject } from 'vue'
   const emit =  defineEmits(['endSignal'])
   const inteContent = inject('interestShow')
 
