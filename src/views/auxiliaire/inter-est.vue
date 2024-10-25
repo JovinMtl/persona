@@ -22,7 +22,11 @@
     },
     {
       'content': 'Ubuzima Butyoroye',
-      'detail' : 'nonee'
+      'detail' : 'none'
+    },
+    {
+      'content': 'Alchol without you',
+      'detail' : 'none'
     },
     ]
     
