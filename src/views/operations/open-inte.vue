@@ -54,6 +54,9 @@
     padding: 20px;
     overflow: auto;
     line-height: 1.3;
+    flex-direction: column;
+    /* align-content: space-between; */
+    justify-content: space-around;
   }
   .cl{
     height: 50px;
