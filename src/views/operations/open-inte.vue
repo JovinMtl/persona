@@ -4,7 +4,6 @@
       <span v-if="inteContent == 'none'">
         Thank you for taking care of my interests. I am delving deeper on this topic, so stay tuned.
       </span>
-
       <span v-else> {{ inteContent }} </span>
     </div>
     <div class="f-l w-i cl">
@@ -16,6 +15,7 @@
 </template>
 <script setup lang="ts">
   import { inject } from 'vue'
+  
   const emit =  defineEmits(['endSignal'])
   const inteContent = inject('interestShow')
 
