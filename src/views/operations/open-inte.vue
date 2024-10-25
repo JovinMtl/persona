@@ -55,7 +55,6 @@
     overflow: auto;
     line-height: 1.3;
     flex-direction: column;
-    /* align-content: space-between; */
     justify-content: space-around;
   }
   .cl{
@@ -85,7 +84,7 @@
       width: 80vw;
     }
     .inte{
-      padding: 10px;
+      padding: 13px;
     }
   }
 </style>
