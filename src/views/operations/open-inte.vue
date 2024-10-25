@@ -79,6 +79,11 @@
   .btn:hover{
     cursor: pointer;
   }
+  .autho{
+    font-style: italic;
+    color: grey;
+    font-weight: 600;
+  }
   @media screen and (max-width: 900px){
     .w-i{
       width: 80vw;
