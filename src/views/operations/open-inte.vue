@@ -46,6 +46,7 @@
     position: absolute;
   }
   .inte{
+    box-sizing: border-box;
     height: 200px;
     background-color: white;
     border-top-right-radius: 15px;
