@@ -1,9 +1,11 @@
 <template>
   <div class="f-l d inte-m">
     <div class="f-l w-i inte">
-      I thank you for taking care of my interests. I am delving deeper on this topic, so stay tuned.
+      <span v-if="inteContent != 'none'">
+        Thank you for taking care of my interests. I am delving deeper on this topic, so stay tuned.
+      </span>
 
-      {{ inteContent }}
+      <span v-else> {{ inteContent }} </span>
     </div>
     <div class="f-l w-i cl">
       <div class="btn" @click="signalEnd">
