@@ -79,7 +79,7 @@
   .btn:hover{
     cursor: pointer;
   }
-  .autho{
+  :deep(.autho){
     font-style: italic;
     color: grey;
     font-weight: 600;
