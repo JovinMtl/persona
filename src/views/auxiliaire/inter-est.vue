@@ -26,7 +26,7 @@
     },
     {
       'content': 'Ubuzima Butyoroye',
-      'detail' : `none`
+      'detail' : `` //when empty
     },
     {
       'content': 'Alchol without you',
