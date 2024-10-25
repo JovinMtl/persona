@@ -52,6 +52,7 @@
     border-top-left-radius: 15px;
     padding: 20px;
     overflow: auto;
+    line-height: 1.3;
   }
   .cl{
     height: 50px;
