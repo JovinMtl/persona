@@ -24,6 +24,8 @@
   const signalEnd = ()=>{
     emit('endSignal')
   }
+
+  console.log("Started interest with: ", inteContent)
 </script>
 
 <style scoped>
