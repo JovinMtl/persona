@@ -58,3 +58,11 @@
     // space for provide 
     provide('interestShow', actualInterest)
 </script>
+<style scoped>
+    .autho{
+    font-style: italic;
+    color: grey;
+    font-weight: 600;
+    color: red;
+  }
+</style>
