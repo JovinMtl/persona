@@ -12,6 +12,7 @@
 </template>
 <script setup lang="ts">
   const emit =  defineEmits(['endSignal'])
+  const inteContent = inject('notNow')
 
   const signalEnd = ()=>{
     emit('endSignal')
