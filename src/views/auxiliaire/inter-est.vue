@@ -36,5 +36,5 @@
 
     
     // space for provide 
-    provide('interestShow', actualInterest.value)
+    provide('interestShow', actualInterest)
 </script>
