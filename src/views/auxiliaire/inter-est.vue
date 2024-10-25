@@ -26,11 +26,11 @@
     ]
     
     const mentionClicked = ()=>{
+        let index = e.target.id
+        actualInterest.value = index
         openInterst.value = true;
     }
     const closeInterst = (e)=>{
-        let index = e.target.id
-        actualInterest.value = index
         openInterst.value = false;
     }
 
