@@ -24,7 +24,7 @@
         The tool, which was supposed to save him time by sparing him tedious manual labor,
         has in fact condemned him to endless consumption. <br><br>
 
-        <span class='autho'>-- Th. Jov. Nsanzumukiza</span>
+        <span class='autho' style="font-style: italic;color: grey;font-weight: 600;">-- Th. Jov. Nsanzumukiza</span>
         `
     },
     {
@@ -58,11 +58,3 @@
     // space for provide 
     provide('interestShow', actualInterest)
 </script>
-<style scoped>
-    .autho{
-    font-style: italic;
-    color: grey;
-    font-weight: 600;
-    color: red;
-  }
-</style>
