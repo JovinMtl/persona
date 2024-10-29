@@ -46,11 +46,11 @@
     {
       'content': 'Values',
       'detail' : `
-      <li>
-          <ul>Understanding</ul>
-          <ul>Simplicity</ul>
-          <ul>Discreetness</ul>
-      </li>` //when empty
+      <ul>
+          <li>Understanding</li>
+          <li>Simplicity</li>
+          <li>Discreetness</li>
+      </ul>` //when empty
     },
     {
       'content': 'Acknowledgements',
