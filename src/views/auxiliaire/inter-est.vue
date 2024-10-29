@@ -46,13 +46,13 @@
     {
       'content': 'Values',
       'detail' : `
-      <p>Whenever I work on a project, I care about these things:
+      <p>Whenever I work on a project, I care about these things: </p>
       <ul class='val'>
           <li>Understanding</li>
           <li class='s'>Simplicity</li>
           <li class='d'>Discreetness</li>
       </ul>
-      </p>` //when empty
+      ` //when empty
     },
     {
       'content': 'Acknowledgements',
