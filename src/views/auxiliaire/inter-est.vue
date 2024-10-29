@@ -50,8 +50,7 @@
       <ul class='val'>
           <li>Understanding</li>
           <li class='s'>Simplicity</li>
-          <li class='d'>Discreetness</li>
-          <li class='sa'>Satisfaction</li>
+          <li class='d'>Satisfaction</li>
       </ul>
       ` //when empty
     },
