@@ -54,7 +54,7 @@
     box-sizing: border-box;
     height: 170px;
     background-color: white;
-    padding: 20px;
+    padding: 0 20px;
     overflow: auto;
     line-height: 1.3;
     flex-direction: column;
@@ -115,7 +115,7 @@
       width: 80vw;
     }
     .inte{
-      padding: 13px;
+      padding: 0 13px;
     }
   }
 </style>
