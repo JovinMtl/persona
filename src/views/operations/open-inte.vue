@@ -101,6 +101,9 @@
   :deep(.d::marker){
     color: rgb(0, 255, 34);
   }
+  :deep(.sa::marker){
+    color: #7c00ff;
+  }
   @media screen and (max-width: 900px){
     .w-i{
       width: 80vw;
