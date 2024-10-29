@@ -48,8 +48,8 @@
       'detail' : `
       <ul class='val'>
           <li>Understanding</li>
-          <li>Simplicity</li>
-          <li>Discreetness</li>
+          <li class='s'>Simplicity</li>
+          <li class='d'>Discreetness</li>
       </ul>` //when empty
     },
     {
