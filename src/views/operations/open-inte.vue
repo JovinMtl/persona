@@ -88,6 +88,7 @@
   }
   :deep(.s::marker){
     color: rgb(217, 255, 0);
+    list-style-type: circle;
   }
   :deep(.d::marker){
     color: rgb(0, 255, 34);
