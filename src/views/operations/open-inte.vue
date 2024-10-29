@@ -72,11 +72,6 @@
     background-color: white;
     font-weight: bold;
   }
-  .intr{
-    font-style: italic;
-    color: grey;
-    font-size: 0.8rem;
-  }
   .btn:active{
     scale: 1.2;
   }
@@ -94,6 +89,11 @@
     text-align: left;
     margin: -2rem;
     font-size: 1.8rem;
+  }
+  :deep(.intr){
+    font-style: italic;
+    color: grey;
+    font-size: 0.8rem;
   }
   :deep(.s::marker){
     color: #ff5500;
