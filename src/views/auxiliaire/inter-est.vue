@@ -34,7 +34,7 @@
     {
       'content': 'Alchol without you',
       'detail' : `I wrote about the possibility of getting free from want to drink any drink 
-          that is regarded as special. Getting free from drinking Alcohol or soft drink without religious 
+          that is regarded as <b>special</b>. Getting free from drinking Alcohol or soft drink without religious 
         implication, but only drink on your casual need. 
         I shared on how I started to find it were possible for me to be independent on 
         alcohol while staying Catholic. 
