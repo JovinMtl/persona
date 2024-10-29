@@ -81,7 +81,7 @@
         } else if(actual.value==2){
           title.value="You are seeing my achievements"
         } else if(actual.value==3){
-          title.value='My interests will be shared here'
+          title.value='My interests are shared here'
         } else if(actual.value==4){
           title.value='Say Hello'
         }
