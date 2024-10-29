@@ -34,9 +34,9 @@
     {
       'content': 'Alchol without you',
       'detail' : `I wrote about the possibility of getting free from want to drink any drink 
-          that is regarded as <b>special</b>. Getting free from drinking Alcohol or soft drink without religious 
-        implication, but only drink on your casual need. 
-        I shared on how I started to find it were possible for me to be independent on 
+          that is regarded as <b>special</b>. It's about getting free from drinking alcohol or soft drink without religious 
+        implication, but to drink on casual need. 
+        I shared on how I started to find it were joyful for me to be independent on 
         alcohol while staying Catholic. 
         However, I still have my right to take any of them only on honorific request.<br><br>
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>
