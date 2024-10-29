@@ -52,7 +52,7 @@
   }
   .inte{
     box-sizing: border-box;
-    height: 200px;
+    height: 170px;
     background-color: white;
     padding: 20px;
     overflow: auto;
