@@ -33,7 +33,7 @@
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background-color: white;
-    margin-top: -15px;
+    margin-bottom: -15px;
   }
   .f-l{
     display: flex;
