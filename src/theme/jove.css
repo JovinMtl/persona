@@ -127,7 +127,7 @@ body {
     font-size: 1.6rem;
     margin: 20px;
     background-color: black;
-    background: linear-gradient(to right, red,black);
+    background: linear-gradient(to right, saddlebrown, red,black);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 6px double grey;
