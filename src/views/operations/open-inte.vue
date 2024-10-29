@@ -86,6 +86,12 @@
     margin: -2rem;
     font-size: 1.8rem;
   }
+  :deep(.s::marker){
+    color: rgb(217, 255, 0);
+  }
+  :deep(.d::marker){
+    color: rgb(0, 255, 34);
+  }
   @media screen and (max-width: 900px){
     .w-i{
       width: 80vw;
