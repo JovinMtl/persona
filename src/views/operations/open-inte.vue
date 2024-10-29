@@ -72,6 +72,11 @@
     background-color: white;
     font-weight: bold;
   }
+  .intr{
+    font-style: italic;
+    color: grey;
+    font-size: 0.8rem;
+  }
   .btn:active{
     scale: 1.2;
   }
