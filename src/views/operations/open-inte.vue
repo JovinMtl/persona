@@ -1,7 +1,6 @@
 <template>
   <div class="f-l d inte-m">
-    <div class="f-l w-i he">
-    </div>
+    <div class="f-l w-i he"></div>
     <div class="f-l w-i inte">
       <span v-if="inteContent"> 
         <span v-html="inteContent"></span>
@@ -33,6 +32,7 @@
     height: 30px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    background-color: white;
   }
   .f-l{
     display: flex;
