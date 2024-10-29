@@ -37,7 +37,7 @@
           that is regarded as <b>special</b>. It's about getting free from drinking alcohol or soft drink without religious 
         implication, but to drink only by casual need. 
         I shared on how I found it were joyful to be independent on 
-        alcohol while staying <i>Catholic</i>. 
+        alcohol while staying <b>Catholic</b>. 
         However, I reserved my right to take any of them only on honorific request.<br><br>
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>
         `
