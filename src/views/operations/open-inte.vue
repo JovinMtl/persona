@@ -33,6 +33,7 @@
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background-color: white;
+    margin-top: -15px;
   }
   .f-l{
     display: flex;
@@ -99,7 +100,7 @@
     font-style: italic;
     color: grey;
     font-size: 0.8rem;
-    margin-top: -1.3rem;
+    margin-top: -1.4rem;
   }
   :deep(.s::marker){
     color: #ff5500;
