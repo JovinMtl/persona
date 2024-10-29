@@ -94,6 +94,7 @@
     font-style: italic;
     color: grey;
     font-size: 0.8rem;
+    margin-top: -1.3rem;
   }
   :deep(.s::marker){
     color: #ff5500;
