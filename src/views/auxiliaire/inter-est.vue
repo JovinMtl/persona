@@ -13,7 +13,7 @@
     import openInte from '../operations/open-inte.vue'; 
 
     const openInterst = ref(false);
-    const actualInterest = ref("Empty")
+    const actualInterest = ref("Empty");
 
     const interests = [
     {
@@ -51,17 +51,17 @@
           <li class='s'>Simplicity</li>
           <li class='d'>Satisfaction</li>
       </ul>
-      ` //when empty
+      `
     },
     {
       'content': 'Acknowledgements',
       'detail' : `` //when empty
     },
-    ]
+    ];
     
     const mentionClicked = (e)=>{
-        let index = e.target.id
-        actualInterest.value = interests[index].detail
+        let index = e.target.id;
+        actualInterest.value = interests[index].detail;
         openInterst.value = true;
     }
     const closeInterst = ()=>{
