@@ -46,7 +46,7 @@
     {
       'content': 'Values',
       'detail' : `
-      <ul>
+      <ul class='val'>
           <li>Understanding</li>
           <li>Simplicity</li>
           <li>Discreetness</li>
