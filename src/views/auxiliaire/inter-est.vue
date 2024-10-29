@@ -37,8 +37,7 @@
           that is regarded as special. Getting free from drinking Alcohol without religious 
         implication, getting free from soft drink without compromising its casual need. 
         I shared on how I started to find it were possible for me to be independent on 
-        alcohol while staying Catholic. Moreover, I turned also into to leaving soft drink, 
-        to prefer only Water.
+        alcohol while staying Catholic. 
         However, I still have my right to take any of them only on honorific request.<br><br>
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>
         `
