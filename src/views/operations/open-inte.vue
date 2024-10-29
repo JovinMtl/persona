@@ -87,8 +87,7 @@
     font-size: 1.8rem;
   }
   :deep(.s::marker){
-    color: rgb(217, 255, 0);
-    list-style-type: circle;
+    color: #ff5500;
   }
   :deep(.d::marker){
     color: rgb(0, 255, 34);
