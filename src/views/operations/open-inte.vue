@@ -83,7 +83,7 @@
     font-weight: 600;
   }
   :deep(.val){
-    margin: 0 0;
+    margin: 0 -10px;
     font-size: 1.2rem;
   }
   @media screen and (max-width: 900px){
