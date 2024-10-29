@@ -43,6 +43,14 @@
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>
         `
     },
+    {
+      'content': 'Values',
+      'detail' : `` //when empty
+    },
+    {
+      'content': 'Acknowledgements',
+      'detail' : `` //when empty
+    },
     ]
     
     const mentionClicked = (e)=>{
