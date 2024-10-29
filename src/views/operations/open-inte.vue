@@ -1,5 +1,7 @@
 <template>
   <div class="f-l d inte-m">
+    <div class="f-l w-i he">
+    </div>
     <div class="f-l w-i inte">
       <span v-if="inteContent"> 
         <span v-html="inteContent"></span>
@@ -27,6 +29,11 @@
 </script>
 
 <style scoped>
+  .he{
+    height: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
   .f-l{
     display: flex;
     justify-content: center;
@@ -47,8 +54,6 @@
     box-sizing: border-box;
     height: 200px;
     background-color: white;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
     padding: 20px;
     overflow: auto;
     line-height: 1.3;
