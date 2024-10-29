@@ -54,6 +54,7 @@
     line-height: 1.3;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
   }
   .cl{
     height: 50px;
@@ -83,6 +84,9 @@
     font-weight: 600;
   }
   :deep(.val){
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
     margin: -2rem;
     font-size: 1.8rem;
   }
