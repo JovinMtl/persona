@@ -44,7 +44,6 @@
     position: absolute;
   }
   .inte{
-    /* display: inline-block; */
     box-sizing: border-box;
     height: 200px;
     background-color: white;
