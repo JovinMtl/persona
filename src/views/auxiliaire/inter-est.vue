@@ -45,7 +45,12 @@
     },
     {
       'content': 'Values',
-      'detail' : `` //when empty
+      'detail' : `
+      <li>
+          <ul>Understanding</ul>
+          <ul>Simplicity</ul>
+          <ul>Discreetness</ul>
+      </li>` //when empty
     },
     {
       'content': 'Acknowledgements',
