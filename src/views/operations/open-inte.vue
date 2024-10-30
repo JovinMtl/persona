@@ -2,7 +2,7 @@
   <div class="f-l d inte-m">
     <div class="f-l w-i he"></div>
     <div class="f-l w-i inte">
-      <span v-if="inteContent"> 
+      <span v-if="inteContent.detail"> 
         <span v-html="inteContent.detail"></span>
       </span>
       <span v-else> 
