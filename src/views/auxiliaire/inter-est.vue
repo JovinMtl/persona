@@ -7,8 +7,7 @@
         <div v-if="showBckMsg" class="intere">{{bckUpMsg.title}}</div>
         <teleport to="body">
             <open-inte v-if="openInterst" 
-                @endSignal="closeInterst"
-                @endSignalF="deniedPrivacy"></open-inte>
+                @endSignal="closeInterst"></open-inte>
         </teleport>
     </div>
 </template>
