@@ -16,16 +16,14 @@
 
     const openInterst = ref(true);
     const confirmPrivacy = ref(false);
-    const notice ={
+    const notice = {
         'title': 'notice',
         'detail': `
         <span class="tl">Notice</span>
-        <p>I appreciate your journey so far and 
+        <p style="margin: -15px 0">I appreciate your journey so far and 
         hope you can find something we have in common, but please don't judge me
         for sharing my intimate interests with you.</p>
-        <p class='fm'>Do you agree to keep this neutral for my consideration?</p>
-        
-        <span class='autho'>-- Th. Jov. Nsanzumukiza</span>`,
+        <p class='fm'>Do you agree to keep this neutral for my consideration?</p>`,
         'notice': true,
         'hasImg': false,
         }
