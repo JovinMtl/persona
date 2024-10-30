@@ -107,7 +107,9 @@
         confirmPrivacy.value = true
     }
     const deniedPrivacy = ()=>{
-        console.log("User denied to keep privacy.")
+        console.log("User denied to keep privacy.");
+        actualInterest.value = bckUpMsg;
+        openInterst.value = true; 
     }
 
     
