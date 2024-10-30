@@ -1,6 +1,6 @@
 <template>
     <div style="padding: 30px;">
-        <div class="intere" v-for="(interest, index) in interests"
+        <div v-if="confirmPrivacy"  class="intere" v-for="(interest, index) in interests"
             :id="index" @click="mentionClicked">
             {{ interest.title }}
         </div>
@@ -97,6 +97,7 @@
     }
     const closeInterst = ()=>{
         openInterst.value = false;
+        confirmPrivacy.value = true
     }
     const deniedPrivacy = ()=>{
         console.log("User denied to keep privacy.")
