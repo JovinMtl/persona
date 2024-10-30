@@ -1,6 +1,6 @@
 <template>
     <div style="padding: 30px;">
-        <div class="intere" v-for="(interest, index) in interests" :id="index" @click=mentionClicked>
+        <div v-if="confirmPrivacy" class="intere" v-for="(interest, index) in interests" :id="index" @click=mentionClicked>
             {{ interest.content }}
         </div>
         <teleport to="body">
@@ -12,8 +12,16 @@
     import { ref, provide } from 'vue';
     import openInte from '../operations/open-inte.vue'; 
 
-    const openInterst = ref(false);
-    const actualInterest = ref("Empty");
+    const openInterst = ref(true);
+    const confirmPrivacy = ref(false);
+    const actualInterest = ref(`
+        <b>Notice<b> <br>
+        I appreciate your journey so far and 
+        hope you can find something we have in common, but please don't judge me
+        for sharing my intimate interests with you.<br>
+        Do you agree to keep this neutral for my consideration?<br><br>
+        
+        <span class='autho'>-- Th. Jov. Nsanzumukiza</span>`);
 
     const interests = [
     {
