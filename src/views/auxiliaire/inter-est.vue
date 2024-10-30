@@ -1,6 +1,7 @@
 <template>
     <div style="padding: 30px;">
-        <div v-if="confirmPrivacy" class="intere" v-for="(interest, index) in interests" :id="index" @click=mentionClicked>
+        <div v-if="confirmPrivacy" class="intere" v-for="(interest, index) in interests"
+            :id="index" @click="mentionClicked">
             {{ interest.title }}
         </div>
         <teleport to="body">
@@ -79,14 +80,14 @@
       </ul>
       `,
         'notice': false,
-        'hasImg': false,
+        'hasImg': false
     },
     {
       'title': 'Acknowledgements',
-      'detail' : ``, //when empty
-    'notice': false,
-    'hasImg': false,
-    },
+      'detail' : ``,
+      'notice': false,
+      'hasImg': false
+    }
     ];
     
     const mentionClicked = (e)=>{
