@@ -15,11 +15,11 @@
     const openInterst = ref(true);
     const confirmPrivacy = ref(false);
     const actualInterest = ref(`
-        <b>Notice<b> <br>
-        I appreciate your journey so far and 
+        <span class="tl">Notice</span>
+        <p>I appreciate your journey so far and 
         hope you can find something we have in common, but please don't judge me
-        for sharing my intimate interests with you.<br>
-        Do you agree to keep this neutral for my consideration?<br><br>
+        for sharing my intimate interests with you.</p>
+        <span>Do you agree to keep this neutral for my consideration?</span>
         
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>`);
 
