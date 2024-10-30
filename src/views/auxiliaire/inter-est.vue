@@ -4,7 +4,7 @@
             :id="index" @click="mentionClicked">
             {{ interest.title }}
         </div>
-        <div class="intere">{{bckUpMsg.title}}</div>
+        <div v-if="showBckMsg" class="intere">{{bckUpMsg.title}}</div>
         <teleport to="body">
             <open-inte v-if="openInterst" 
                 @endSignal="closeInterst"
@@ -18,6 +18,7 @@
 
     const openInterst = ref(true);
     const confirmPrivacy = ref(false);
+    const showBckMsg = ref(false)
     const bckUpMsg = {
         'title'; "It's okay",
         'detail': `Since you didn't want to keep our deal, there is no other option but to wait until you agree.`,
@@ -109,7 +110,8 @@
     const deniedPrivacy = ()=>{
         console.log("User denied to keep privacy.");
         actualInterest.value = bckUpMsg;
-        openInterst.value = true; 
+        showBckMsg.value = true
+        // openInterst.value = true; 
     }
 
     
