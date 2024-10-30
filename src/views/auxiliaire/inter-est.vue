@@ -29,7 +29,13 @@
     },
     {
       'content': 'Ubuzima Butyoroye',
-      'detail' : `` //when empty
+      'detail' : `
+          Imagine a life you have total peace to yourself, you have control and you master your impulsions. 
+          You enjoy the little you know, your joy is pure and rewarding to the neighbor. <br><br>
+
+            Imagine you have attained a high level of consciousness of your being that 
+            you no longer need instant gratification. You would be happy by virtue, not by laziness (weakness) or ego.
+      `
     },
     {
       'content': 'Alchol without you',
