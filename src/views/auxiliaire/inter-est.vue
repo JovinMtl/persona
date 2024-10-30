@@ -4,7 +4,7 @@
             {{ interest.content }}
         </div>
         <teleport to="body">
-            <open-inte v-if="openInterst" @endSignal="closeInterst"></open-inte>
+            <open-inte v-if="openInterst" @endSignal="closeInterst(respnse)"></open-inte>
         </teleport>
     </div>
 </template>
@@ -78,7 +78,8 @@
         actualInterest.value = interests[index].detail;
         openInterst.value = true;
     }
-    const closeInterst = ()=>{
+    const closeInterst = (respnse)=>{
+        console.log("THe response sent is: ", respnse)
         openInterst.value = false;
     }
 
