@@ -4,7 +4,9 @@
             {{ interest.title }}
         </div>
         <teleport to="body">
-            <open-inte v-if="openInterst" @endSignal="closeInterst(respnse)"></open-inte>
+            <open-inte v-if="openInterst" 
+                @endSignal="closeInterst"
+                @endSignalF="deniedPrivacy"></open-inte>
         </teleport>
     </div>
 </template>
@@ -94,9 +96,11 @@
         actualInterest = interests[index];
         openInterst.value = true;
     }
-    const closeInterst = (respnse)=>{
-        console.log("THe response sent is: ", respnse)
+    const closeInterst = ()=>{
         openInterst.value = false;
+    }
+    const deniedPrivacy = ()=>{
+        console.log("User denied to keep privacy.")
     }
 
     
