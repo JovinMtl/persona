@@ -105,16 +105,14 @@
     const openForBckMsg = ()=>{
         openInterst.value = true;
 }
-    const closeInterst = ()=>{
+    const closeInterst = (closeValue)=>{
+        if(closeValue == 1){
+            actualInterest.value = bckUpMsg;
+            showBckMsg.value = true;               
+        } else if(closeValue == 2){
+            confirmPrivacy.value = true
+}
         openInterst.value = false;
-        confirmPrivacy.value = true
-    }
-    const deniedPrivacy = ()=>{
-        openInterst.value = false;
-        console.log("User denied to keep privacy.");
-        actualInterest.value = bckUpMsg;
-        showBckMsg.value = true
-         
     }
 
     
