@@ -131,8 +131,9 @@
   }
 :deep(.fm){
     color: red;
-    margin: -1rem;
-    font-weight: .9rem;
+    margin: -1rem auto;
+    font-weight: bold;
+    font-size: .9rem;
 }
   @media screen and (max-width: 900px){
     .w-i{
