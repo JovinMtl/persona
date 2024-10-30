@@ -83,7 +83,7 @@
     },
     {
       'title': 'Acknowledgements',
-      'detail' : `` //when empty,
+      'detail' : ``, //when empty
     'notice': false,
     'hasImg': false,
     },
