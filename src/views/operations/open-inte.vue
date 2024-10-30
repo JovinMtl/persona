@@ -126,7 +126,8 @@
     color: red;
     font-size: 0.8rem;
     margin-top: -2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid black;
     font-weight: bold;
   }
 :deep(.fm){
