@@ -4,6 +4,7 @@
             :id="index" @click="mentionClicked">
             {{ interest.title }}
         </div>
+        <div class="intere">{{bckUpMsg.title}}</div>
         <teleport to="body">
             <open-inte v-if="openInterst" 
                 @endSignal="closeInterst"
@@ -17,6 +18,12 @@
 
     const openInterst = ref(true);
     const confirmPrivacy = ref(false);
+    const bckUpMsg = {
+        'title'; "It's okay",
+        'detail': `Since you didn't want to keep our deal, there is no other option but to wait until you agree.`,
+        'notice': true,
+        'hasImg': false,
+    };
     const notice = {
         'title': 'notice',
         'detail': `
