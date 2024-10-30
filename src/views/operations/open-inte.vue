@@ -124,6 +124,8 @@
     color: red;
     font-size: 0.8rem;
     margin-top: -2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
   }
   @media screen and (max-width: 900px){
     .w-i{
