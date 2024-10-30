@@ -125,8 +125,7 @@
   :deep(.tl){
     color: red;
     font-size: 0.8rem;
-    margin-top: -2rem;
-    margin-bottom: -1rem;
+    margin: -2rem 0;
     padding: 0 0.4rem;
     border-bottom: 1px solid black;
     font-weight: bold;
