@@ -10,7 +10,7 @@
       </span>
     </div>
     <div class="f-l w-i cl">
-      <div class="btn" v-if="inteContent.notice" @click="signalEndF">No</div>
+      <div class="btn sp" v-if="inteContent.notice" @click="signalEndF">No</div>
       <div class="btn" @click="signalEnd">
         Ok
       </div>
@@ -84,6 +84,10 @@
     background-color: white;
     font-weight: bold;
   }
+  .sp{
+    margin-left: -1rem;
+    margin-right: 1rem;
+}
   .btn:active{
     scale: 1.2;
   }
