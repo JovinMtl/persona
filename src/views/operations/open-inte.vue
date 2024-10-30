@@ -85,7 +85,6 @@
     font-weight: bold;
   }
   .sp{
-    margin-left: -0.01rem;
     margin-right: 2.5rem;
 }
   .btn:active{
