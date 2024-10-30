@@ -4,7 +4,7 @@
             :id="index" @click="mentionClicked">
             {{ interest.title }}
         </div>
-        <div v-if="showBckMsg" class="intere">{{bckUpMsg.title}}</div>
+        <div v-if="showBckMsg" class="intere" @click="openForBckMsg" >{{bckUpMsg.title}}</div>
         <teleport to="body">
             <open-inte v-if="openInterst" 
                 @endSignal="closeInterst"></open-inte>
