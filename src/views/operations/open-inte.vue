@@ -86,7 +86,7 @@
   }
   .sp{
     margin-left: -1rem;
-    margin-right: 2rem;
+    margin-right: 2.2rem;
 }
   .btn:active{
     scale: 1.2;
