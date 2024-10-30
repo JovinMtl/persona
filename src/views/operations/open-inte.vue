@@ -124,6 +124,7 @@
   :deep(.tl){
     color: red;
     font-size: 0.8rem;
+    margin-top: -2rem;
   }
   @media screen and (max-width: 900px){
     .w-i{
