@@ -3,13 +3,14 @@
     <div class="f-l w-i he"></div>
     <div class="f-l w-i inte">
       <span v-if="inteContent"> 
-        <span v-html="inteContent"></span>
+        <span v-html="inteContent.detail"></span>
       </span>
       <span v-else> 
         Thank you for taking care of my interests. I am delving deeper on this topic, so stay tuned.
       </span>
     </div>
     <div class="f-l w-i cl">
+      <div class="btn" v-if="inteContent.notice" @click="signalEndF">No<div>
       <div class="btn" @click="signalEnd">
         Ok
       </div>
@@ -24,6 +25,9 @@
 
   const signalEnd = ()=>{
     emit('endSignal')
+  }
+  const signalEndF = ()=>{
+    emit('endSignalF')
   }
 </script>
 
