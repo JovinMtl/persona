@@ -10,7 +10,7 @@
       </span>
     </div>
     <div class="f-l w-i cl">
-      <div class="btn" v-if="inteContent.notice" @click="signalEndF">No<div>
+      <div class="btn" v-if="inteContent.notice" @click="signalEndF">No</div>
       <div class="btn" @click="signalEnd">
         Ok
       </div>
