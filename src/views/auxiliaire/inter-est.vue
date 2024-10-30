@@ -19,7 +19,7 @@
         <p>I appreciate your journey so far and 
         hope you can find something we have in common, but please don't judge me
         for sharing my intimate interests with you.</p>
-        <span>Do you agree to keep this neutral for my consideration?</span>
+        <p class='fm'>Do you agree to keep this neutral for my consideration?</p>
         
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>`);
 
