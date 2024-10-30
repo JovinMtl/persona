@@ -1,6 +1,6 @@
 <template>
     <div style="padding: 30px;">
-        <div v-if="confirmPrivacy" class="intere" v-for="(interest, index) in interests"
+        <div class="intere" v-for="(interest, index) in interests"
             :id="index" @click="mentionClicked">
             {{ interest.title }}
         </div>
