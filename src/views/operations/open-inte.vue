@@ -111,6 +111,10 @@
   :deep(.sa::marker){
     color: #7c00ff;
   }
+  :deep(.tl){
+    color: red;
+    font-size: 0.8rem;
+  }
   @media screen and (max-width: 900px){
     .w-i{
       width: 80vw;
