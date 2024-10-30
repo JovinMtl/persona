@@ -91,7 +91,7 @@
     
     const mentionClicked = (e)=>{
         let index = e.target.id;
-        actualInterest = interests[index];
+        actualInterest.value = interests[index];
         openInterst.value = true;
     }
     const closeInterst = ()=>{
