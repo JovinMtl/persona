@@ -85,8 +85,8 @@
     font-weight: bold;
   }
   .sp{
-    margin-left: -0.5rem;
-    margin-right: 2.2rem;
+    margin-left: -0.01rem;
+    margin-right: 2.5rem;
 }
   .btn:active{
     scale: 1.2;
