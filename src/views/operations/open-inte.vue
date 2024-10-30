@@ -29,6 +29,8 @@
   const signalEndF = ()=>{
     emit('endSignalF')
   }
+
+  console.log("The actualInterest injected is: ", inteContent)
 </script>
 
 <style scoped>
