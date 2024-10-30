@@ -20,7 +20,7 @@
 <script setup lang="ts">
   import { inject } from 'vue'
   
-  const emit =  defineEmits(['endSignal'])
+  const emit =  defineEmits(['endSignal', 'endSignalF'])
   const inteContent = inject('interestShow')
 
   const signalEnd = ()=>{
