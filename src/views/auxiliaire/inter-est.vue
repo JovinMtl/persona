@@ -19,7 +19,7 @@
     const confirmPrivacy = ref(false);
     const showBckMsg = ref(false)
     const bckUpMsg = {
-        'title'; "It's okay",
+        'title': "It's okay",
         'detail': `Since you didn't want to keep our deal, there is no other option but to wait until you agree.`,
         'notice': true,
         'hasImg': false,
