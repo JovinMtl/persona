@@ -27,7 +27,7 @@
         'notice': true,
         'hasImg': false,
         }
-    const actualInterest = reactive(notice);
+    const actualInterest = reactive({notice});
 
     const interests = [
     {
