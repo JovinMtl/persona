@@ -103,6 +103,9 @@
         actualInterest.value = interests[index];
         openInterst.value = true;
     }
+    const openForBckMsg = ()=>{
+        openInterst.value = true;
+}
     const closeInterst = ()=>{
         openInterst.value = false;
         confirmPrivacy.value = true
@@ -111,7 +114,7 @@
         console.log("User denied to keep privacy.");
         actualInterest.value = bckUpMsg;
         showBckMsg.value = true
-        // openInterst.value = true; 
+        openInterst.value = false; 
     }
 
     
