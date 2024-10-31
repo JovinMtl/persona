@@ -9,9 +9,9 @@
             Discover Thierry Nsanzumukiza, a Business Strategist and 
             Full Stack Developer based in 
             <span style="font-weight: 700;">Burundi</span> . 
-            With dual skill set, I offer freelance services. 
-            I love thinking, and happy to contribute to Business strategy, 
-            and on the other side to have a happy coding in  Python 
+            
+            I love thinking, and happy to contribute to the Business strategy. 
+            And on the other side to have a happy coding in  Python 
             (Django & DRF), JavaScript (Vue.js + Ts), HTML and CSS.
         </div>
     </div>
