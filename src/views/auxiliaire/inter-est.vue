@@ -70,7 +70,7 @@
         'hasImg': false,
     },
     {
-      'title': 'Alchol without you',
+      'title': 'Alcohol without you',
       'detail' : `I wrote about the possibility of getting free from want to drink any drink 
           that is regarded as <b>special</b>. It's about getting free from drinking alcohol or soft drink without religious 
         implication, but to drink only by casual need. 
