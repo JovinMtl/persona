@@ -131,7 +131,7 @@
     font-weight: bold;
   }
 :deep(.fm){
-    color: #b50b48;
+    color: #933c03;
     font-weight: bold;
     font-size: .9rem;
 }
