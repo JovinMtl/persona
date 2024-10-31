@@ -11,8 +11,8 @@
             <span style="font-weight: 700;">Burundi</span> . 
             With dual skill set, I offer freelance services. 
             I love thinking, and happy to contribute to Business strategy, 
-            and on the other side to have a happy coding in  
-            Django & DRF, Vue.js, HTML and CSS.
+            and on the other side to have a happy coding in  Python 
+            (Django & DRF), JavaScript (Vue.js + Ts), HTML and CSS.
         </div>
     </div>
 </template>
