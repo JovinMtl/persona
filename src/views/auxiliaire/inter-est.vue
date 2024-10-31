@@ -20,10 +20,11 @@
     const showBckMsg = ref(false)
     const bckUpMsg = {
         'title': "It's okay",
-        'detail': `<p style="font-size:1.3rem;">Since you didn't want to keep our deal, there is no other option but to wait until you agree.</p>
-<br>
-<p class='fm'>Did you change your mind?</p>
-`,
+        'detail': `
+            <p style="font-size:1.3rem;">Since you didn't want to keep our deal, 
+            there is no other option but to wait until you agree.</p>
+            <p class='fm'>Did you change your mind?</p>
+        `,
         'notice': true,
         'hasImg': false,
     };
