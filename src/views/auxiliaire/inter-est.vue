@@ -32,10 +32,10 @@
         'title': 'notice',
         'detail': `
         <span class="tl">Notice</span>
-        <p>I appreciate your journey so far and 
-        hope you can find something we have in common. But please don't judge me
-        for sharing my intimate interests with you.</p>
-        <p class='fm'>Do you agree to keep this neutral for my consideration?</p>`,
+        <p>I'm so grateful for your journey and I really hope we can connect. 
+        I've shared some of my most intimate interests with you,
+        so I'd be really sad if you judged me.</p>
+        <p class='fm'>Could I ask you to keep this neutral for my consideration?</p>`,
         'notice': true,
         'hasImg': false,
         }
