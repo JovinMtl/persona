@@ -131,8 +131,7 @@
     font-weight: bold;
   }
 :deep(.fm){
-    color: red;
-    margin: -1rem auto;
+    color: #b50b48;
     font-weight: bold;
     font-size: .9rem;
 }
