@@ -151,7 +151,7 @@
 
 
 @media screen and (max-width: 565px){
-    .infoContainer{
+.infoContainer{
     width: 80vw; 
     height: auto; 
     display: inline-flex;
@@ -181,10 +181,9 @@
 .infoImage{
     position: absolute;
     width: 25%;
-    height: 25vw;
-    display: flex;
-    align-items: flex-end;
-    left: 36vw;
+    height: 35vw;
+    left: 26vw;
+    top: 5vw;
 }
 }
 
