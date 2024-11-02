@@ -11,16 +11,8 @@
         </span> 
     </div>
 </template>
-<script lang="ts">
-import { defineComponent} from 'vue'
-export default defineComponent ({
-    setup() {
-        let year:string = (String(new Date())).slice(11, 15)
-        return {
-            year,
-        }
-    },
-})
+<script setup lang="ts">
+    const year:string = (String(new Date())).slice(11, 15)
 </script>
 <style scoped>
     .cpr{
