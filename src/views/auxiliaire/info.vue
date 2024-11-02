@@ -215,9 +215,6 @@
     left: 2px !important;
     font-size: 17px;
 }
-.infoImage{
-    left: 38vw !important;
-}
 }
 
 @media screen and (max-width: 360px){
