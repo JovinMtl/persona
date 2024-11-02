@@ -142,5 +142,8 @@
     .inte{
       padding: 0 13px;
     }
+    :deep(.tl-1){
+      font-size:.9rem;
+    }
   }
 </style>
