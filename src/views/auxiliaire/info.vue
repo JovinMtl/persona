@@ -76,13 +76,6 @@
                         JovinMtl
                     </a> 
                 </div>
-                <div class="makeList">
-                    <a class="logoColor" href="https://dribbble.com/muteule" 
-                        target="_blank"  rel="noopener noreferrer"
-                        title="Booking Calendar">
-                        <ion-icon :src="calendarOutline" class="logoLarge"></ion-icon>
-                    </a>
-                </div>
                 </div>
                 
             </div>
