@@ -175,8 +175,8 @@
 }
 .infoImage{
     position: absolute;
-    width: 25%;
-    height: 35vw;
+    width: 35%;
+    height: 25vw;
     left: 26vw;
     top: 5vw;
 }
