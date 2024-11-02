@@ -1,7 +1,5 @@
 <template>
     <div class="openImage" style="text-align: center;">
-        <!-- <ion-img src="/personaFoto/jove18.png"/> 
-        <ion-img src="/personaFoto/jove19.jfif" style="border-radius=20px;"/> -->
         <img src="/personaFoto/jove_-18_.png" style="border-radius:200px; margin-top:-10px; border:6px double white;"></img>
         <blockquote class="quote">
             <span class="big-quote">“</span>
@@ -11,19 +9,6 @@
         </blockquote>            
     </div>
 </template>
-<script lang="ts">
-import { defineComponent} from 'vue'
-import { IonImg, IonButton, IonIcon, } from '@ionic/vue'
-import { close, } from 'ionicons/icons'
-export default defineComponent ({
-    components: {
-        IonImg,  IonButton, IonIcon, 
-    },
-    setup() {
-        return {close,}
-    }
-})
-</script>
 <style>
     .quote {
     font-size: 20px;
