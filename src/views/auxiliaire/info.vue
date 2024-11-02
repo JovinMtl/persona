@@ -104,21 +104,17 @@
     import { IonIcon } from '@ionic/vue'
 </script>
 <style scoped>
-/* @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .infoContainer{
     width: 58vw; 
     height: auto; 
     display: inline-flex;
-    /* background-color: transparent; */
-    /* background-color: salmon;  */
     background: linear-gradient(to right, #f04f4f,#f08080, #ff8c69);
     padding: 1.5vh 10vw;
     padding: 1.5vh 2vw;
     border-radius: 25px; 
     border: 12px solid gray;
-    /* border: 12px solid #575353; */
     text-align: left
 }
 .infoText{
@@ -127,10 +123,8 @@
 }
 .textContainer{
     margin-top: 0px;
-    /* background-color: green; */
 }
 .infoImage{
-    /* background-color: red; */
     position: relative;
     width: 25%; 
     display: flex;
@@ -148,10 +142,8 @@
     height: auto;
     display: inline-flex;
     margin: 5px 45px;
-    /* padding: 0px 10px; */
     align-content: center;
     align-items: center;
-    /* background-color: yellow; */
 }
 .textAdjust{
     position: relative;
@@ -159,9 +151,6 @@
     left: 20px; 
     left: 30px;
     font-size: x-large;
-    /* color: white; */
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-family: Sen, sans-serif; */
     font-family: Rubik;
     text-decoration: none;
     color: black;
@@ -173,14 +162,11 @@
     width: 80vw; 
     height: auto; 
     display: inline-flex;
-    /* background-color: transparent; */
-    /* background-color: salmon;  */
     background: linear-gradient(to right, #f04f4f,#f08080, #ff8c69);
     padding: 1.5vh 10vw;
     padding: 1.5vh 2vw;
     border-radius: 25px; 
     border: 12px solid gray;
-    /* border: 12px solid #575353; */
     text-align: left
 }
 .infoText{
@@ -190,26 +176,17 @@
 .textContainer{
     margin-top: 25vw;
     margin-left: 1vw;
-    /* background-color: green; */
     display: block;
 }
 .makeList{
-    /* width: 100%; */
     width: 100vw;
     height: auto;
-    /* display: inline-flex; */
     display: block;
-    /* margin: 5px 5px; */
-    /* margin-left: 20px; */
-    /* padding: 0px 10px; */
     align-content: center;
     align-items: center;
-    /* background-color: yellow; */
 }
 .infoImage{
-    /* background-color: red; */
     position: absolute;
-    /* width: 25%;  */
     width: 25%;
     height: 25vw;
     display: flex;
@@ -224,10 +201,8 @@
     height: auto;
     display: inline-flex;
     margin: 5px 5px;
-    /* padding: 0px 10px; */
     align-content: center;
     align-items: center;
-    /* background-color: yellow; */
 }
 .textAdjust{
     position: relative;
@@ -235,7 +210,6 @@
     left: 20px; 
     left: 10px;
     font-size: large;
-    /* font-size: 22px; */
     font-family: Rubik;
 }
 
@@ -260,7 +234,6 @@
     left: 20px; 
     left: 10px;
     font-size: small;
-    /* font-size: 22px; */
     font-family: Rubik;
 }
 }
