@@ -1,5 +1,5 @@
 <template>
-    <div style="margin: 20px 20px;">
+    <div class="m-20">
         <div class="infoContainer">
             <div class="infoText">
                 <div class="textContainer">
