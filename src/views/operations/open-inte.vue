@@ -31,8 +31,6 @@
         emit('endSignal', 2)
 }
   }
-
-  console.log("The actualInterest injected is: ", inteContent)
 </script>
 <style scoped>
   .he{
