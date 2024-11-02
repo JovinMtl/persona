@@ -1,50 +1,58 @@
 <template>
-    <div class="openImage" style="text-align: center;">
-        <img src="/personaFoto/jove_-18_.png" style="border-radius:200px; margin-top:-10px; border:6px double white;"></img>
-        <blockquote class="quote">
-            <span class="big-quote">“</span>
-            <span class="content">Before downloading one file, please delete two.</span>
-            <span class="big-quot">”</span>
+    <div class="openImage t-a">
+        <img src="/personaFoto/jove_-18_.png" class="im"></img>
+        <blockquote class="quote c">
+            <span class="bq-1 v-a m-50 l-h c d-i">“</span>
+            <span class="d-i">Before downloading one file, please delete two.</span>
+            <span class="bq-2 v-a m-50 l-h c d-i">”</span>
             <span class="author">— Th. Jov. Nsanzumukiza</span>
         </blockquote>            
     </div>
 </template>
 <style>
-    .quote {
+.t-a{
+    text-align: center;
+}
+.im{
+    border-radius:200px;
+    margin-top:-10px; 
+    border:6px double white;
+}
+.quote {
     font-size: 20px;
     font-style: italic;
-    color: #333;
     border-left: 4px solid salmon ;
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px 0;
 }
-.big-quote {
-    display: inline;
+.bq-1{
     font-size: 72px;
-    line-height: 0;
-    color: #333;
-    vertical-align: middle;
-    margin-top: -50px;
 }
-.content{
-    display: inline;
-}
-.big-quot {
-    display: inline;
+.bq-2{
     font-size: 42px;
-    line-height: 0;
-    color: #333;
-    vertical-align: middle;
+}
+.d-i{
+    display: inline;
+}
+.m-50{
     margin-top: -50px;
 }
-.author {
+.v-a{
+    vertical-align: middle;
+}
+.l-h{
+    line-height: 0;
+}
+.c{
+    color: #333;
+}
+.author{
     display: block;
     font-size: 20px;
     font-weight: bold;
     color: #666;
     margin-top: 10px;
 }
-
 </style>
 
