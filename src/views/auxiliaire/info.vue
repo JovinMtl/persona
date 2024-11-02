@@ -156,11 +156,6 @@
     height: auto; 
     display: inline-flex;
     background: linear-gradient(to right, #f04f4f,#f08080, #ff8c69);
-    padding: 1.5vh 10vw;
-    padding: 1.5vh 2vw;
-    border-radius: 25px; 
-    border: 12px solid gray;
-    text-align: left
 }
 .infoText{
     background-color: transparent;
