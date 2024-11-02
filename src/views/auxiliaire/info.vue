@@ -96,36 +96,17 @@
         </div>
     </div>
 </template>
-<script lang="ts">
-import { defineComponent } from "vue"
-import { 
-    logoWhatsapp, phonePortraitOutline, personOutline, mailOutline,
-    logoGithub, calendarOutline, logoLinkedin, mapOutline,
-} from 'ionicons/icons'
-import { 
-    IonIcon,
-} from '@ionic/vue'
-export default defineComponent ({
-    components:{
-        IonIcon,
-    },
-    setup() {
-        return {
-            logoWhatsapp, phonePortraitOutline, personOutline, 
-            mailOutline, logoGithub, calendarOutline, logoLinkedin,
-            mapOutline,
-        }
-    },
-})
+<script setup lang="ts">
+    import { 
+        logoWhatsapp, phonePortraitOutline, personOutline, mailOutline,
+        logoGithub, calendarOutline, logoLinkedin, mapOutline,
+    } from 'ionicons/icons'
+    import { IonIcon } from '@ionic/vue'
 </script>
-
 <style scoped>
 /* @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-
-
- 
 .infoContainer{
     width: 58vw; 
     height: auto; 
