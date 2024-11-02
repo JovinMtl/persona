@@ -32,7 +32,7 @@
         'title': 'notice',
         'detail': `
         <span class="tl">Notice</span>
-        <p>I'm so grateful for your journey and I really hope we can connect. 
+        <p class='tl-1'>I'm so grateful for your journey and I really hope we can connect. 
         I've shared some of my most intimate interests with you,
         so I'd be really sad if you judged me.</p>
         <p class='fm'>Could I ask you to keep this neutral for my consideration?</p>`,
