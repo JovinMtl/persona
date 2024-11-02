@@ -43,12 +43,12 @@
                 <div class="makeList gmailClass">
                     <a class="logoColor" href="mailto:nsanzumukizath@gmail.com"
                         target="_blank"  rel="noopener noreferrer"
-                        title="Mail">
+                        title="email me">
                         <ion-icon :src="mailOutline" class="logoLarge"></ion-icon>
                     </a>
                     <a href="mailto:nsanzumukizath@gmail.com"
                         target="_blank"  rel="noopener noreferrer"
-                        title="Mail" class="textAdjust">
+                        title="email me" class="textAdjust">
                         nsanzumukizath@gmail.com
                     </a>   
                 </div>
@@ -106,7 +106,7 @@
     background: linear-gradient(to right, #f04f4f,#f08080, #ff8c69);
     padding: 1.5vh 2vw;
     border-radius: 25px; 
-    /* border: 12px solid gray; */
+    border: 12px solid gray;
     text-align: left;
     z-index: -1;
 }
