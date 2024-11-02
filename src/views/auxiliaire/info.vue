@@ -1,7 +1,5 @@
 <template>
     <div style="margin: 20px 20px;">
-        <!-- <div>Contact</div> -->
-        
         <div class="infoContainer">
             <div class="infoText">
                 <div class="textContainer">
@@ -84,13 +82,6 @@
                         title="Booking Calendar">
                         <ion-icon :src="calendarOutline" class="logoLarge"></ion-icon>
                     </a>
-                    <!-- <iframe src="https://calendar.google.com/calendar/embed?src=f54719134f0e766c5c2530acf21b763f81da2e6ab1c67b4b9b6dec561d4a8774%40group.calendar.google.com&ctz=Africa%2FMaputo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-                    <a href="https://calendar.google.com/calendar/embed?src=f54719134f0e766c5c2530acf21b763f81da2e6ab1c67b4b9b6dec561d4a8774%40group.calendar.google.com&ctz=Africa%2FMaputo" title="Let me know it on Google Calendar" 
-                        target="_blank"  rel="noopener noreferrer"
-                        class="textAdjust">
-                        Book me
-                    </a>
-                    
                 </div>
                 </div>
                 
@@ -101,9 +92,7 @@
                     <img style="border-radius: 150px;
                     box-shadow: 0 0 25px gray;" src="/personaFoto/profile.jpg" alt="">
                 </span>
-            </div>
-            
-            
+            </div> 
         </div>
     </div>
 </template>
