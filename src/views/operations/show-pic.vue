@@ -15,11 +15,3 @@
         </div>
     </div>
 </template>
-
-<style>
-    .mt-20{margin-top: 20px;}
-    .fw-b{font-weight: bolder;}
-    .m-20{margin: 20px;}
-    .c-b{color: brown;}
-    .ff-o{font-family: 'Open Sans', sans-serif; font-weight: 100;}
-</style>
