@@ -100,15 +100,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .infoContainer{
+    position: relative;
     width: 58vw; 
-    height: auto; 
     display: inline-flex;
     background: linear-gradient(to right, #f04f4f,#f08080, #ff8c69);
-    padding: 1.5vh 10vw;
     padding: 1.5vh 2vw;
     border-radius: 25px; 
-    border: 12px solid gray;
-    text-align: left
+    /* border: 12px solid gray; */
+    text-align: left;
+    z-index: -1;
 }
 .infoText{
     background-color: transparent;
