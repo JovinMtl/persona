@@ -11,7 +11,7 @@
             
             I love being a thinker and having a winning strategy that increases a company's market share.
 
-On the other hand, my thinking gives me the ability to solve problems in the form of algorithms with my knowledge of Python (Django & DRF), JS (Vue.js + Ts), HTML and CSS.
+On the other hand, my thinking gives me the ability to solve problems in the form of algorithms and my knowledge of Python (Django & DRF), JS (Vue.js + Ts), HTML and CSS.
         </div>
     </div>
 </template>
