@@ -9,9 +9,9 @@
             Full Stack Developer based in 
             <span style="font-weight: 700;">Burundi</span> . 
             
-            I love thinking, and happy to contribute to the Business strategy. 
-            And on the other side, to have a happy coding in  Python 
-            (Django & DRF), JavaScript (Vue.js + Ts), HTML and CSS.
+            I love being a thinker and having a winning strategy that increases a company's market share.
+
+On the other hand, my thinking gives me the ability to solve problems in the form of algorithms with my knowledge of Python (Django & DRF), JS (Vue.js + Ts), HTML and CSS.
         </div>
     </div>
 </template>
