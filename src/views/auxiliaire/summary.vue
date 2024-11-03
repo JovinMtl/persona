@@ -90,7 +90,10 @@ export default defineComponent ({
             },
             {
                 'title':'Tech Passion and Learning Journey',
-                'content' : `In 2014, my passion for Linux was ignited, leading me to explore the system extensively, 
+                'content' : `
+I wrote my first "Hello world" in 2014 using C programming language at High school. I came into its depths(C) in 2017 when used the pointers enough to understand their use in dealing with any kind of data.
+
+In 2014, my passion for Linux was ignited, leading me to explore the system extensively, 
                 often substituting formal courses with self-study using Linux books at the library. 
                 The year 2015 introduced me to Vim, UNIX commands, and Bash scripting, 
                 expanding my technical toolkit.`,
