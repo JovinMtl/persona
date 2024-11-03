@@ -175,10 +175,10 @@
 }
 .infoImage{
     position: absolute;
-    width: 35%;
+    width: 33%;
     height: 25vw;
     left: 26vw;
-    top: 5vw;
+    top: 1rem;
 }
 }
 
