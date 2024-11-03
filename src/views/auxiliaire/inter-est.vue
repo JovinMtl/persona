@@ -62,7 +62,7 @@
           You enjoy the little you know, your joy is pure and rewarding to the neighbor. <br><br>
 
             Imagine you have attained a high level of consciousness of your being that 
-            you no longer need instant gratification. You would be happy by virtue, not by laziness (weakness) or ego.<br><br>
+            you no longer need instant gratification. You would be happy from virtue, and not laziness (weakness) or ego.<br><br>
 
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span
       `,
