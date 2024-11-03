@@ -33,7 +33,7 @@
     }
     .y{
         margin: 0 5px; 
-        font-family:fantasy;
+        font-family:fantasy, Arial;
     }
 </style>
 
