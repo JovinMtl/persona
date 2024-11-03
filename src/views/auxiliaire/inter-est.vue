@@ -58,7 +58,7 @@
     {
       'title': 'Ubuzima Butyoroye',
       'detail' : `
-          Imagine a life if you have total peace to yourself, you have control and you master your impulsions. 
+          Imagine a life in which you have total peace to yourself, you have control and you master your impulsions. 
           You enjoy the little you know, your joy is pure and rewarding to the neighbor. <br><br>
 
             Imagine you have attained a high level of consciousness of your being that 
