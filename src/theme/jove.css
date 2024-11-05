@@ -305,7 +305,6 @@ body {
     font-size: .9rem;
     align-items: center; 
     align-content: center;
-    /* line-height: 30px; */
 }
 .elementTitle2{
     height: 30px;
@@ -318,15 +317,12 @@ body {
     font-size: .9rem;
     align-items: center; 
     align-content: center;
-    /* line-height: 30px; */
 }
 .customAlert {
     --background: #f0f0f0;
-    /* --background: #3f3636; */
     --line-color: #000; /* Separator line color */
     color: #333; /* Text color */
     border-bottom: 1px solid red;
-    /* border-bottom: 1px solid red; */
   }
 @media screen and (max-width: 600px) {
 .summaryElement{
@@ -342,7 +338,6 @@ body {
     padding-bottom: 5px;
     padding-top: 5px;
     margin-bottom: 20px;
-    /* text-align: justify; */
 }
 .summaryElementActive{
     width: 85vw; 
