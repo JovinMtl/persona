@@ -356,10 +356,17 @@ body {
 }
 }
 
+
 .elementTitle{
-    
+    display: flex;
+    justify-content: center;
 }
-.elementTitle2{}
+.elementTitle2{
+    display: flex;
+    justify-content: center;
+}
+
+
 /* For Open-Pic.vue */
 .t-a{
     text-align: center;
