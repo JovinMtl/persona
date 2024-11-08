@@ -3,8 +3,7 @@
         <div v-for="(content, index) in contents" 
         :class="content.detail ? 'summaryElementActive':'summaryElement'">
             <div>
-                <h3 :class="index%3 ? 'elementTitle2':'elementTitle'" 
-                    :class="index==1 ? 'elementTitle1'"
+                <h3 :class="index%3 ? 'elementTitle2':'elementTitle', index==1 ? 'elementTitle1'" 
                     style="font-size: small;" 
                     @click="titleAlert(content.title)">
                     {{ (content.title).slice(0,35) }}...
