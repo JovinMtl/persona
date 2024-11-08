@@ -108,7 +108,7 @@
     border-radius: 25px; 
     border: 12px solid gray;
     text-align: left;
-    z-index: -1;
+    /* z-index: -1; */  /* Making the content clickable */
 }
 .infoText{
     background-color: transparent;
