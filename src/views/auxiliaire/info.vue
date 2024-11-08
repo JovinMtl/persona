@@ -1,5 +1,5 @@
 <template>
-    <div class="m-20">
+    <div class="m-co">
         <div class="infoContainer">
             <div class="infoText">
                 <div class="textContainer">
