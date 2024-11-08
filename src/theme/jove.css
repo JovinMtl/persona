@@ -298,7 +298,7 @@ body {
 .elementTitle{
     height: 30px;
     margin-top: -5px;
-    background-color: gray;
+    background-color: salmon;
     border-top-left-radius: 18px; 
     border-top-right-radius: 18px;
     text-align: center; 
@@ -309,7 +309,7 @@ body {
 .elementTitle2{
     height: 30px;
     margin-top: -5px;
-    background-color: red; 
+    background-color: #594c4c; 
     color: white;
     border-top-left-radius: 18px; 
     border-top-right-radius: 18px;
