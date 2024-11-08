@@ -4,6 +4,7 @@
         :class="content.detail ? 'summaryElementActive':'summaryElement'">
             <div>
                 <h3 :class="index%3 ? 'elementTitle2':'elementTitle'" 
+                    :class="index==1 ? 'elementTitle1'"
                     style="font-size: small;" 
                     @click="titleAlert(content.title)">
                     {{ (content.title).slice(0,35) }}...
@@ -131,5 +132,8 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
 <style scoped>
 h3{
     font-weight: bold;
+}
+.elementTitle1{
+    background-color: grey;
 }
 </style>
