@@ -33,7 +33,9 @@
     }
     .y{
         margin: 0 5px; 
-        font-family:fantasy, Arial;
+        font-family: Sen;
+        font-weight: 800;
+        color: #94aec9;
     }
 </style>
 
