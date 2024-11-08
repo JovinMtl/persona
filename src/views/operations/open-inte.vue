@@ -102,7 +102,7 @@
     flex-direction: column;
     text-align: left;
     margin: -2rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   :deep(.intr){
     font-style: italic;
@@ -110,13 +110,16 @@
     font-size: 0.8rem;
     margin-top: -1.4rem;
   }
-  :deep(.s::marker){
+  :deep(.c1::marker){
+    color: #00918E;
+  }
+  :deep(.c2::marker){
     color: #ff5500;
   }
-  :deep(.d::marker){
+  :deep(.c3::marker){
     color: rgb(0, 255, 34);
   }
-  :deep(.sa::marker){
+  :deep(.c4::marker){
     color: #7c00ff;
   }
   :deep(.tl){
