@@ -83,7 +83,7 @@
                 <span style="border-radius: 50px;
                 ">
                     <img style="border-radius: 150px;
-                    box-shadow: 0 0 25px gray;" src="/personaFoto/profile.jpg" alt="">
+                    box-shadow: 0 0 25px gray;" src="/personaFoto/muteule-profile.jpg" alt="">
                 </span>
             </div> 
         </div>
