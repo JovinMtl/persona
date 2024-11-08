@@ -1,10 +1,5 @@
 
-ion-page{
-    --background: green;
-}
 ion-content{
-    --background: rgb(255, 196, 0);
-    --background: rgba(240, 136, 0, 0.699);
     --background: transparent;
     font-family:  Arial, Helvetica, sans-serif;
 }
@@ -76,12 +71,6 @@ body {
     background-color: gray;
     border-radius: 18px;
 }
-.moveX{
-    color: saddlebrown;
-    position: relative;
-    top: 30px; 
-    left: 23%;
-}
 .menuSticky{
     position: sticky;
     top: 2px;
@@ -145,12 +134,6 @@ body {
     border: 6px double grey;
 }
 @media screen and (max-width: 259px) {
-    .moveX{
-        color: brown;
-        position: relative;
-        top: 30px; 
-        left: 10%;
-    }
     .fs{
         font-size: 11px;
     }
@@ -163,42 +146,16 @@ body {
     }
 }
 @media screen and (min-width: 260px) {
-    .moveX{
-        color: brown;
-        position: relative;
-        top: 30px; 
-        left: 15%;
-    }
     .fs{
         font-size: 11px;
     }
 }
-@media screen and (min-width: 311px) {
-    .moveX{
-        color: brown;
-        position: relative;
-        top: 30px; 
-        left: 18%;
-    }
-}
 @media screen and (min-width: 370px) {
-    .moveX{
-        color: brown;
-        position: relative;
-        top: 30px; 
-        left: 22%;
-    }
     .fs{
         font-size: 13px;
     }
 }
 @media screen and (min-width: 470px) {
-    .moveX{
-        color: red;
-        position: relative;
-        top: 30px; 
-        left: 28%;
-    }
     .fs{
         font-size: 16px;
     }
@@ -227,23 +184,11 @@ body {
         border: 3px solid black;
         margin-left: 1vw;
     }
-    .moveX{
-        color: saddlebrown;
-        position: relative;
-        top: 30px; 
-        left: 32%;
-    }
     .fs{
         font-size: 18px;
     }
 }
 @media screen and (min-width: 850px) {
-    .moveX{
-        color: saddlebrown;
-        position: relative;
-        top: 30px; 
-        left: 35%;
-    }
     .fs{
         font-size: 20px;
     }
