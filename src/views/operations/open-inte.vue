@@ -135,6 +135,7 @@
     color: #b35313;
     font-weight: bold;
     font-size: .9rem;
+    font-family: 'Sen';
 }
   @media screen and (max-width: 900px){
     .w-40{
@@ -145,6 +146,8 @@
     }
     :deep(.tl-1){
       font-size:.9rem;
+      font-family: 'Rubik';
+      font-weight: 100;
     }
   }
 </style>
