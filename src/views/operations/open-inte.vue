@@ -66,6 +66,7 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    font-family: 'Rubik';
   }
   .cl{
     height: 50px;
