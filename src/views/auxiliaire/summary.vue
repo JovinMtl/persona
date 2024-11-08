@@ -12,17 +12,11 @@
             margin-right: 20px;">
                 <span v-if="!(content.detail) && (content.content).length > 199"> 
                     {{ (content.content).slice(0,199) }}...
-                        <!-- <ion-button @click="oPen(1)" mode="ios" color="black"
-                            style="color: gray; text-align: right;
-                            position: relative; z-index: 1">
-                            See more
-                        </ion-button> -->
                         <div style="background-color: transparent; text-align: center;
                             color: gray; margin-top: 0px;"
                             @click="turnDetail(index)">
                             See more
-                        </div>
-                    
+                        </div>     
                 </span>
                 <span v-else>
                     {{ content.content }}
@@ -36,10 +30,7 @@
                     </span>
                 </span>
             </p></div>
-            
-            
         </div>
-        
     </div>
 </template>
 <script lang="ts">
@@ -55,18 +46,11 @@ export default defineComponent ({
         const titleAlert = async (content:string) => {
             const alert = await alertController.create({
             header: content,
-            // message: 'Veuillez vous reconnecter encore.',
             cssClass: 'customAlert', 
             buttons: ['Ok'],
             mode: 'ios',
             });
-
             await alert.present();
-            // const alertElement = await alert.present();
-            // const customAlert = alertElement.querySelector('.alert-wrapper');
-            // const line = document.createElement('div');
-            // line.classList.add('separator-line');
-            // customAlert.appendChild(line);
         };
 
         const contents:Intro = ref([
@@ -137,7 +121,6 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
                 'detail':false
             }
         ])
-
         return {
             contents, alertController,
             turnDetail, titleAlert,
@@ -148,10 +131,5 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
 <style scoped>
 h3{
     font-weight: bold;
-}
-.separator-line{
-    color: red;
-    background-color: green;
-    border: 3px solid green;
 }
 </style>
