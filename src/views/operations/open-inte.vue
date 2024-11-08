@@ -120,7 +120,8 @@
     color: rgb(0, 255, 34);
   }
   :deep(.c4::marker){
-    color: #7c00ff;
+    /* color: #7c00ff; */
+    color: black;
   }
   :deep(.tl){
     color: red;
