@@ -1,6 +1,6 @@
 <template>
     <div style="padding: 30px;">
-        <div class="instr">Please choose a topic to see more.</div>
+        <div>Please choose a topic to see more.</div>
         <div v-if="confirmPrivacy"  class="intere" v-for="(interest, index) in interests"
             :id="index" @click="mentionClicked">
             {{ interest.title }}
@@ -105,7 +105,7 @@
     },
     {
       'title': 'Morning Burundi',
-      'detail': `<span class='fw-b'>A great place for viewing the beautiful nature found in Burundi.</span><br><br>
+      'detail': `<span class='fm'>A great place for viewing the beautiful nature found in Burundi.</span><br><br>
 The platform will be provided soon. And I am looking for a collaborator in this project.`,
       'notice': false,
       'hasImg': false 
@@ -134,9 +134,3 @@ The platform will be provided soon. And I am looking for a collaborator in this 
     // space for provide 
     provide('interestShow', actualInterest)
 </script>
-
-<style>
-.instr{
-
-}
-</style>
