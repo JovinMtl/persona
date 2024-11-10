@@ -105,7 +105,7 @@
     },
     {
       'title': 'Morning Burundi',
-      'detail': `<b>A great place for viewing the beautiful nature found in Burundi.<b><br><br>
+      'detail': `<b>A great place for viewing the beautiful nature found in Burundi.</b><br><br>
 The platform will be provided soon. And I am looking for a collaborator in this project.`,
       'notice': false,
       'hasImg': false 
