@@ -1,6 +1,6 @@
 <template>
     <div style="padding: 30px;">
-        <div class="instr">Choose a topic to see more.</div>
+        <div class="instr">Please choose a topic to see more.</div>
         <div v-if="confirmPrivacy"  class="intere" v-for="(interest, index) in interests"
             :id="index" @click="mentionClicked">
             {{ interest.title }}
