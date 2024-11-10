@@ -105,7 +105,7 @@
     },
     {
       'title': 'Morning Burundi',
-      'detail' `A great for viewing the beauty nature found in Burundi.<br>
+      'detail': `A great for viewing the beauty nature found in Burundi.<br>
 The platform will be provided soon.`,
       'notice': false,
       'hasImg': false 
