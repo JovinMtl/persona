@@ -132,6 +132,9 @@
     border-bottom: 1px solid black;
     font-weight: bold;
   }
+:deep(.tl-1){
+  font-family: 'Rubik';
+}
 :deep(.fm){
     color: #b35313;
     font-weight: bold;
@@ -147,7 +150,6 @@
     }
     :deep(.tl-1){
       font-size:.9rem;
-      font-family: 'Rubik';
       font-weight: 100;
     }
   }
