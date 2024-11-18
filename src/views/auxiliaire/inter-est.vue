@@ -89,9 +89,8 @@
       <p class='intr'>Whenever I work on a project, I care about these things: </p>
       <ul class='val'>
           <li class='c1'>Understanding</li>
-          <li class='c2'>Simplicity</li>
-          <li class='c3'>Satisfaction</li>
-          <li class='c4'>Descreetness</li>
+          <li class='c2'>Satisfaction</li>
+          <li class='c3'>Descreetness</li>
       </ul>
       `,
         'notice': false,
