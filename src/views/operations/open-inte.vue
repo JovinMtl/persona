@@ -112,17 +112,17 @@
     margin-top: -1.4rem;
   }
   :deep(.c1::marker){
-    color: darkgrey;
-  }
-  :deep(.c2::marker){
     color: #00918E;
   }
-  :deep(.c3::marker){
+  :deep(.c2::marker){
     color: #ff5500;
   }
-  :deep(.c4::marker){
-    /* color: #7c00ff; */
+  :deep(.c3::marker){
     color: rgb(0, 255, 34);
+  }
+  :deep(.c4::marker){
+    /* color: #7c00ff; 
+    color: ; */
   }
   :deep(.tl){
     color: red;
