@@ -35,8 +35,8 @@
     </ion-page>
   </template>
   
-  <script lang="ts">
-  import { 
+  <script setup lang="ts">
+   import { 
     IonContent, IonHeader, IonPage,
   } from '@ionic/vue';
   import { 
@@ -44,31 +44,26 @@
     defineComponent,
     ref,
     onBeforeUpdate } from 'vue'
-  import menu from '../auxiliaire/menu.vue';
+  
+  import meNu  from '../auxiliaire/menu.vue';
   import showPic from '../operations/show-pic.vue'
   import openPic from '../operations/open-pic.vue'
-  import summary from '../auxiliaire/summary.vue';
+  import summAry from '../auxiliaire/summary.vue';
   import myOffer from '../auxiliaire/my-offer.vue';
-  import copyright from '../auxiliaire/copyright.vue'
+  import copyRight from '../auxiliaire/copyright.vue'
+  import JoveLoader from '../auxiliaire/jove-loader.vue'
   import { MenuNumber } from '../auxiliaire/types'
 
-  const Porto = defineAsyncComponent(()=>import('../auxiliaire/port-folio.vue'))
-  const Interests = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
-  const Info = defineAsyncComponent(()=>import('../auxiliaire/info.vue'))
-  export default defineComponent ({
-    components: {
-      IonContent, IonHeader, IonPage,
-      'me-nu': menu,
-      'show-pic': showPic,
-      'open-pic': openPic,
-      'summ-ary': summary,
-      'my-offer': myOffer,
-      'copy-right': copyright,
-      'port-folio': Porto,
-      'intere-st': Interests,
-      'in-fo': Info,
-    },
-    setup(){
+  const portFolio = defineAsyncComponent(()=>import('../auxiliaire/port-folio.vue'))
+  const IntereSt = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
+  
+  const InFo = defineAsyncComponent({
+    loader: ()=> import('../auxiliaire/info.vue'),
+    loadingComponent: JoveLoader,
+    delay: 200,
+    })
+
+  const loaderActive = ref(false)
       const actual:MenuNumber = ref(1)
       const title:string = ref('Welcome to the official Website of jove.')
 
@@ -93,12 +88,6 @@
         console.log("The actual Value is : ", actual.value)
         
       })
-      return {
-        title,
-        actual,
-        actualMenu,
-      }
-    }
-  })
   </script>
+
   
