@@ -15,11 +15,12 @@
             background-color: rgb(70, 67, 67);
             /* background-color: white; */
         }
+        /*
         body{
             position: relative;
             width: 100vw;
             height: 100vh;
-        }
+        } */
         .container-processing{
             position: absolute;
             height: 150px;
