@@ -54,7 +54,11 @@
   import JoveLoader from '../auxiliaire/jove-loader.vue'
   import { MenuNumber } from '../auxiliaire/types'
 
-  const portFolio = defineAsyncComponent(()=>import('../auxiliaire/port-folio.vue'))
+  const portFolio = defineAsyncComponent({
+    loader: ()=>import('../auxiliaire/port-folio.vue'),
+    loadingComponent: JoveLoader,
+    delay: 200
+  })
   const IntereSt = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   
   const InFo = defineAsyncComponent({
