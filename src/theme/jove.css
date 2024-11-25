@@ -130,7 +130,7 @@ body {
 .intere{
     display: inline-flex;
     width: 75vw;
-    height: 100px; 
+    height: 4.5rem; 
     border-radius: 12px;
     align-items: center;
     justify-content: center;
@@ -224,7 +224,7 @@ body {
         width: 80%;
     }
     .intere{
-        width: 40vw;
+        width: 35vw;
     }
 }
 
