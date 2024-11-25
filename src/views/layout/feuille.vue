@@ -35,8 +35,8 @@
     </ion-page>
   </template>
   
-  <script setup lang="ts">
-   import { 
+<script setup lang="ts">
+  import { 
     IonContent, IonHeader, IonPage,
   } from '@ionic/vue';
   import { 
@@ -65,33 +65,31 @@
     loader: ()=> import('../auxiliaire/info.vue'),
     loadingComponent: JoveLoader,
     delay: 200,
-    })
+  })
 
-  const loaderActive = ref(false)
-      const actual:MenuNumber = ref(1)
-      const title:string = ref('Welcome to the official Website of jove.')
 
-      const actualMenu = (value:number)=>{
-        //Setting title dynamically
-        if(value){
-          actual.value = Number(value)
-          if(actual.value==1){
-          title.value='Welcome to the Official Website of Thierry.'
-        } else if(actual.value==2){
-          title.value="You are seeing my achievements"
-        } else if(actual.value==3){
-          title.value='My interests are shared here'
-        } else if(actual.value==4){
-          title.value='Say Hello'
-        }
-      }
-      }
+  const actual:MenuNumber = ref(1)
+  const title:string = ref('Welcome to the official Website of jove.')
 
-      onBeforeUpdate(()=>{
-        actualMenu()
-        console.log("The actual Value is : ", actual.value)
-        
-      })
-  </script>
+  const actualMenu = (value:number)=>{
+    //Setting title dynamically
+    if(value){
+      actual.value = Number(value)
+      if(actual.value==1){
+      title.value='Welcome to the Official Website of Thierry.'
+    } else if(actual.value==2){
+      title.value="You are seeing my achievements"
+    } else if(actual.value==3){
+      title.value='My interests are shared here'
+    } else if(actual.value==4){
+      title.value='Say Hello'
+    }
+  }
+  }
 
-  
+  onBeforeUpdate(()=>{
+    actualMenu()
+    console.log("The actual Value is : ", actual.value)
+})
+</script>
+
