@@ -41,7 +41,6 @@
   } from '@ionic/vue';
   import { 
     defineAsyncComponent, 
-    defineComponent,
     ref,
     onBeforeUpdate } from 'vue'
   
@@ -51,8 +50,11 @@
   import summAry from '../auxiliaire/summary.vue';
   import myOffer from '../auxiliaire/my-offer.vue';
   import copyRight from '../auxiliaire/copyright.vue'
-  import JoveLoader from '../auxiliaire/jove-loader.vue'
   import { MenuNumber } from '../auxiliaire/types'
+
+  const JoveLoader = setTimeout(
+    ()=>import('../auxiliaire/jove-loader.vue'), 5000);
+ // import JoveLoader from '../auxiliaire/jove-loader.vue'
 
   const portFolio = defineAsyncComponent({
     loader: ()=>import('../auxiliaire/port-folio.vue'),
