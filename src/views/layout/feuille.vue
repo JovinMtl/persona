@@ -61,7 +61,10 @@
     }, 2500)
   const IntereSt = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   
-  const InFo = defineAsyncComponent(()=> import('../auxiliaire/info.vue'))
+  const InFo = defineAsyncComponent({
+    loader: ()=> import('../auxiliaire/info.vue'),
+    loadingComponent: JoveLoader,
+    })
 
 
   const val2 = ref(true)
