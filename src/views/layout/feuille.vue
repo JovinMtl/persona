@@ -22,7 +22,8 @@
           </div> 
         </div>   
         <div v-if="actual==2" class="centered">
-          <port-folio></port-folio>
+          <jove-loader v-if="val2"></jove-loader>
+          <port-folio v-else></port-folio>
         </div>
         <div v-if="actual==3" class="centered">
           <intere-st></intere-st>
@@ -41,7 +42,7 @@
   } from '@ionic/vue';
   import { 
     defineAsyncComponent, 
-    ref,
+    ref, watch,
     onBeforeUpdate } from 'vue'
   
   import meNu  from '../auxiliaire/menu.vue';
@@ -52,27 +53,24 @@
   import copyRight from '../auxiliaire/copyright.vue'
   import { MenuNumber } from '../auxiliaire/types'
 
-  const JoveLoader = setTimeout(
-    ()=>import('../auxiliaire/jove-loader.vue'), 5000);
- // import JoveLoader from '../auxiliaire/jove-loader.vue'
+  //const JoveLoader = setTimeout(
+    //()=>import('../auxiliaire/jove-loader.vue'), 5000);
+  import JoveLoader from '../auxiliaire/jove-loader.vue'
 
-  const portFolio = defineAsyncComponent({
-    loader: ()=>import('../auxiliaire/port-folio.vue'),
+const val2 = ref(true)
+  const PortFolio = defineAsyncComponent({
+    loader:()=>import('../auxiliaire/port-folio.vue'),
     loadingComponent: JoveLoader,
-    delay: 200
-  })
+    }, 3000)
   const IntereSt = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   
-  const InFo = defineAsyncComponent({
-    loader: ()=> import('../auxiliaire/info.vue'),
-    loadingComponent: JoveLoader,
-    delay: 200,
-  })
+  const InFo = defineAsyncComponent(()=> import('../auxiliaire/info.vue'))
 
 
   const actual:MenuNumber = ref(1)
   const title:string = ref('Welcome to the official Website of jove.')
 
+  
   const actualMenu = (value:number)=>{
     //Setting title dynamically
     if(value){
@@ -81,6 +79,7 @@
       title.value='Welcome to the Official Website of Thierry.'
     } else if(actual.value==2){
       title.value="You are seeing my achievements"
+      setTimeout(()=>val2.value=false, 3000)
     } else if(actual.value==3){
       title.value='My interests are shared here'
     } else if(actual.value==4){

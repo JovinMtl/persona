@@ -12,21 +12,15 @@
 *{
             margin: 0;
             padding: 0;
-            background-color: rgb(70, 67, 67);
-            /* background-color: white; */
+            /* background-color: rgb(70, 67, 67);
+             background-color: white; */
         }
-        /*
-        body{
-            position: relative;
-            width: 100vw;
-            height: 100vh;
-        } */
         .container-processing{
             position: absolute;
             height: 150px;
             width: 140px;
             border-radius: 25px;
-            background-color: white;
+            /* background-color: white; */
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
