@@ -1,111 +1,69 @@
 <template>
-    <div class="container-processing">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-        <div class="line4"></div>
-        <div class="line5"></div>
+<div class="mC">
+    <div class="c-p">
+        <div class="l l1"></div>
+        <div class="l l2"></div>
+        <div class="l l3"></div>
+        <div class="l l4"></div>
+        <div class="l l5"></div>
     </div>
+</div>
 </template>
 
 <style scoped>
-*{
-            margin: 0;
-            padding: 0;
-            /* background-color: rgb(70, 67, 67);
-             background-color: white; */
+        .mC{
+            display: flex;
+            height: 150px;
+            justify-content: center;
         }
-        .container-processing{
+        .c-p{
             position: absolute;
             height: 150px;
             width: 140px;
-            border-radius: 25px;
-            /* background-color: white; */
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
         }
-        .line1{
-            position: relative;
+        .l{
+            position: absolute;
             height: 50%;
             width: 10%;
-            background-color: red;
             top : 50%;
-            left : 20%;
             transform: translate(-50%, -50%);
             border-radius: 10px;
             transition-property: all;
             transition-duration: 0.3s;
-            animation-name: agent1;
-            animation-duration: 1s;
+            animation-duration: 3s;
             animation-iteration-count: infinite;
+        }
+        .l1{
+            background-color: red;
+            left : 20%;
+            animation-name: a1;
+            animation-duration: 1s;
             animation-timing-function: ease-in-out;
         }
-        .line1:nth-child(3n){
+        .l1:nth-child(3n){
             animation-delay: 5s;
         }
-        .line2{
-            position: absolute;
-            height: 50%;
-            width: 10%;
-            background-color: rgba(189, 224, 63, 0.959);
+        .l2{
             background-color: rgb(217, 255, 0);
             left : 35%;
-            top : 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 10px;
-            transition-property: all;
-            transition-duration: 0.3s;
-            animation-name: agent2;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
+            animation-name: a2;
         }
-        .line3{
-            position: absolute;
-            height: 50%;
-            width: 10%;
+        .l3{
             background-color: rgb(0, 255, 34);
             left : 50%;
-            top : 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 10px;
-            transition-property: all;
-            transition-duration: 0.3s;
-            animation-name: agent3;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
+            animation-name: a3;
         }
-        .line4{
-            position: absolute;
-            height: 50%;
-            width: 10%;
+        .l4{
             background-color: blueviolet;
             left : 65%;
-            top : 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 10px;
-            transition-property: all;
-            transition-duration: 0.3s;
-            animation-name: agent4;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
+            animation-name: a4;
         }
-        .line5{
-            position: absolute;
-            height: 50%;
-            width: 10%;
+        .l5{
             background-color: rgb(8, 165, 139);
             left : 80%;
-            top : 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 10px;
-            transition-property: all;
-            transition-duration: 0.3s;
-            animation-name: agent5;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
+            animation-name: a5;
         }
-        @keyframes agent1 {
+        @keyframes a1 {
             0%, 100%{
                 height: 50%;
             }
@@ -118,7 +76,7 @@
                 box-shadow: 0 0 35px red;
             }
         }
-        @keyframes agent2 {
+        @keyframes a2 {
             0%,20%, 100%{
                 height: 50%;
             }
@@ -135,7 +93,7 @@
             }
             
         }
-        @keyframes agent3 {
+        @keyframes a3 {
             0%,40%, 100%{
                 height: 50%;
             }
@@ -151,7 +109,7 @@
                 box-shadow: 0 0 35px rgb(0, 255, 34);
             }
         }
-        @keyframes agent4 {
+        @keyframes a4 {
             0%,60%, 100%{
                 height: 50%;
             }
@@ -167,7 +125,7 @@
                 box-shadow: 0 0 35px blueviolet;
             }
         }
-        @keyframes agent5 {
+        @keyframes a5 {
             0%,40%, 79%, 100%{
                 height: 50%;
             }
