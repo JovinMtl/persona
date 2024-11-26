@@ -58,7 +58,7 @@
   const PortFolio = defineAsyncComponent({
     loader:()=>import('../auxiliaire/port-folio.vue'),
     loadingComponent: JoveLoader,
-    delay: 200
+    delay: 20
     }, 2500)
   const IntereSt = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   
