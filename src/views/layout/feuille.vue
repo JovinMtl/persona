@@ -58,6 +58,7 @@
   const PortFolio = defineAsyncComponent({
     loader:()=>import('../auxiliaire/port-folio.vue'),
     loadingComponent: JoveLoader,
+    delay: 1
     }, 2500)
   const IntereSt = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   
@@ -80,7 +81,7 @@
       title.value='Welcome to the Official Website of Thierry.'
     } else if(actual.value==2){
       title.value="You are seeing my achievements"
-      setTimeout(()=>val2.value=false, 3000)
+      setTimeout(()=>val2.value=false, 3500)
     } else if(actual.value==3){
       title.value='My interests are shared here'
     } else if(actual.value==4){
