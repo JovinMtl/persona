@@ -61,7 +61,7 @@ const val2 = ref(true)
   const PortFolio = defineAsyncComponent({
     loader:()=>import('../auxiliaire/port-folio.vue'),
     loadingComponent: JoveLoader,
-    }, 3000)
+    }, 2500)
   const IntereSt = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   
   const InFo = defineAsyncComponent(()=> import('../auxiliaire/info.vue'))
