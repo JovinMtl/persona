@@ -22,8 +22,8 @@
           </div> 
         </div>   
         <div v-if="actual==2" class="centered">
-          <jove-loader v-if="val2"></jove-loader>
-          <port-folio v-else></port-folio>
+          <jove-loader v-if="val2 && i_wait"></jove-loader>
+          <port-folio v-if="! val2"></port-folio>
         </div>
         <div v-if="actual==3" class="centered">
           <intere-st></intere-st>
@@ -58,7 +58,7 @@
   const PortFolio = defineAsyncComponent({
     loader:()=>import('../auxiliaire/port-folio.vue'),
     loadingComponent: JoveLoader,
-    delay: 1
+    delay: 200
     }, 2500)
   const IntereSt = defineAsyncComponent(()=>import('../auxiliaire/inter-est.vue'))
   
@@ -69,6 +69,7 @@
 
 
   const val2 = ref(true)
+  const i_wait = ref(false)
   const actual:MenuNumber = ref(1)
   const title:string = ref('Welcome to the official Website of jove.')
 
@@ -80,6 +81,7 @@
       if(actual.value==1){
       title.value='Welcome to the Official Website of Thierry.'
     } else if(actual.value==2){
+      setTimeout(()=>i_wait.value=true, 300)
       title.value="You are seeing my achievements"
       setTimeout(()=>val2.value=false, 3500)
     } else if(actual.value==3){
