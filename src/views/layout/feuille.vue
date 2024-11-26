@@ -53,11 +53,8 @@
   import copyRight from '../auxiliaire/copyright.vue'
   import { MenuNumber } from '../auxiliaire/types'
 
-  //const JoveLoader = setTimeout(
-    //()=>import('../auxiliaire/jove-loader.vue'), 5000);
   import JoveLoader from '../auxiliaire/jove-loader.vue'
 
-const val2 = ref(true)
   const PortFolio = defineAsyncComponent({
     loader:()=>import('../auxiliaire/port-folio.vue'),
     loadingComponent: JoveLoader,
@@ -67,6 +64,7 @@ const val2 = ref(true)
   const InFo = defineAsyncComponent(()=> import('../auxiliaire/info.vue'))
 
 
+  const val2 = ref(true)
   const actual:MenuNumber = ref(1)
   const title:string = ref('Welcome to the official Website of jove.')
 
