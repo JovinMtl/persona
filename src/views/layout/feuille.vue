@@ -65,6 +65,7 @@
   const InFo = defineAsyncComponent({
     loader: ()=> import('../auxiliaire/info.vue'),
     loadingComponent: JoveLoader,
+    delay: 300
     })
 
 
