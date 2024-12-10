@@ -98,7 +98,19 @@
     },
     {
       'title': 'Acknowledgements',
-      'detail' : ``,
+      'detail' : `People who have come into my life, and some of them 
+            have left. Among them, precious souls for whom I am grateful, 
+            is my mother,<span class="fm"> Nsavyimana Daphrose</span>.
+            Some are still there with me alive and some are not. 
+            Some are still my friends and some are actually not. 
+            Like the girl who broke my heart at high school. 
+            Whatever the state of our relationship is, 
+            I sincerely acknowledge their contribution to my development. 
+            And finally, to those of you who know me and 
+            actually reading this, 
+            I am grateful for our connection that ever exist.
+            <br><br>
+        <span class='autho'>-- Th. Jov. Nsanzumukiza</span>`,
       'notice': false,
       'hasImg': false
     },
