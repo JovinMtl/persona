@@ -105,10 +105,8 @@
             Some are still my friends and some are actually not. 
             Like the girl who broke my heart at high school. 
             Whatever the state of our relationship is, 
-            I sincerely acknowledge their contribution to my development. 
-            And finally, to those of you who know me and 
-            actually reading this, 
-            I am grateful for our connection that has ever existed.</span>
+            I sincerely acknowledge their contribution to my development and
+            our connection that has ever existed.</span>
             <br><br>
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>`,
       'notice': false,
