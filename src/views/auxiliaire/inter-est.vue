@@ -98,9 +98,9 @@
     },
     {
       'title': 'Acknowledgements',
-      'detail' : `People who have come into my life, and some of them 
+      'detail' : `<span style="font-size:.9rem;">People who have come into my life, and some of them 
             have left. Among them, precious souls for whom I am grateful, 
-            is my mother,<span class="fm"> Nsavyimana Daphrose</span>.
+            is my mother,<span style="font-family:Sen;font-weight:800"> Nsavyimana Daphrose</span>.
             Some are still there with me alive and some are not. 
             Some are still my friends and some are actually not. 
             Like the girl who broke my heart at high school. 
@@ -108,7 +108,7 @@
             I sincerely acknowledge their contribution to my development. 
             And finally, to those of you who know me and 
             actually reading this, 
-            I am grateful for our connection that ever exist.
+            I am grateful for our connection that has ever existed.</span>
             <br><br>
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>`,
       'notice': false,
@@ -118,6 +118,12 @@
       'title': 'Morning Burundi',
       'detail': `<span class='fm'>A great place for viewing the beautiful nature found in Burundi.</span><br><br>
 The platform will be provided soon. And I am looking for a collaborator in this project.`,
+      'notice': false,
+      'hasImg': false 
+    },
+    {
+      'title': 'Centre for Forgiveness',
+      'detail': ``,
       'notice': false,
       'hasImg': false 
     }
