@@ -98,12 +98,12 @@
     },
     {
       'title': 'Acknowledgements',
-      'detail' : `<span style="font-size:.9rem;">People who have come into my life, and some of them 
-            have left. Among them, precious souls for whom I am grateful, 
+      'detail' : `<span style="font-size:.9rem;">
+            I have been lucky to meet people into my life.
+            Among precious souls for whom I am grateful, 
             is my mother,<span style="font-family:Sen;font-weight:800"> Nsavyimana Daphrose</span>.
-            Some are still there with me alive and some are not. 
-            Some are still my friends and some are actually not. 
-            Like the girl who broke my heart at high school. 
+            Some are still alive with me and some are not. 
+            Some are still my friends and some are actually not.
             Whatever the state of our relationship is, 
             I sincerely acknowledge their contribution to my development and
             our connection that has ever existed.</span>
