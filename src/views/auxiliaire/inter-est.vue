@@ -99,7 +99,7 @@
     {
       'title': 'Acknowledgements',
       'detail' : `<span style="font-size:.9rem;">
-            I have been lucky to meet people into my life.
+            I have been lucky to meet many remarkable people into my life.
             Among precious souls for whom I am grateful, 
             is my mother,<span style="font-family:Sen;font-weight:800"> Nsavyimana Daphrose</span>.
             Some are still alive with me and some are not. 
