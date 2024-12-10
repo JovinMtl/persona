@@ -103,8 +103,9 @@
             Among precious souls for whom I am grateful, 
             is my mother,<span style="font-family:Sen;font-weight:800"> Nsavyimana Daphrose</span>.
             Some are still alive with me and some are not. 
-            Some are still my friends and some are actually not.
-            Whatever the state of our relationship is, 
+            Some are still my friends and some are actually not, 
+            <i style="font-weight: 500;">that's a fact of life</i>.
+            Regardless of our distance, 
             I sincerely acknowledge their contribution to my development and
             our connection that has ever existed.</span>
             <br><br>
