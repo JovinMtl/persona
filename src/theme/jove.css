@@ -242,8 +242,9 @@ body {
     text-align: justify;
 }
 .summaryElement:hover{
-    box-shadow: 0 0 10px black;
+    box-shadow: 0px 5px 0px #ef4b38, 0 0 8px 2px grey;
 }
+
 .summaryElementActive{
     width: 53vw; 
     display: inline-block; 
@@ -253,6 +254,7 @@ body {
     box-shadow: 0 0 20px gray; 
     text-align: justify;
 }
+
 .elementTitle{
     height: 30px;
     margin-top: -5px;
