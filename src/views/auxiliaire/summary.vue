@@ -13,7 +13,7 @@
                 <span v-if="!(content.detail) && (content.content).length > 199"> 
                     {{ (content.content).slice(0,199) }}...
                         <div style="background-color: transparent; text-align: center;
-                            color: gray; margin-top: 0px;"
+                            color: gray; margin-top: 0px;cursor: pointer;"
                             @click="turnDetail(index)">
                             See more
                         </div>     
@@ -23,7 +23,7 @@
                     <span v-show="(content.content).length > 199">
                         <span style="margin-left: .6rem;">&nbsp;</span> 
                         <a style="background-color: transparent; text-align: center;
-                            color: gray; margin-top: 0px;"
+                            color: gray; margin-top: 0px;cursor: pointer;"
                             @click="turnDetail(index)">
                             Show less
                     </a>
