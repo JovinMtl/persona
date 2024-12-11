@@ -145,6 +145,10 @@ body {
     -webkit-text-fill-color: transparent;
     border: 6px double grey;
 }
+.summaryElement:hover{
+    box-shadow: 0px 5px 0px #ef4b38, 0 0 8px 2px grey;
+}
+
 @media screen and (max-width: 259px) {
     .fs{
         font-size: 11px;
@@ -221,6 +225,9 @@ body {
         background-color: gray;
         border-radius: 18px;
     }
+    .summaryElement:hover{
+        box-shadow: 0px 5px 0px black, 0 0 8px 2px grey;
+    }
 }
 @media screen and (min-width: 1050px){
     .bigWidth{
@@ -240,9 +247,7 @@ body {
     border-radius: 25px; 
     box-shadow: 0 0 10px grey; 
     text-align: justify;
-}
-.summaryElement:hover{
-    box-shadow: 0px 5px 0px #ef4b38, 0 0 8px 2px grey;
+    transition-duration: 1000ms;
 }
 
 .summaryElementActive{
@@ -253,6 +258,7 @@ body {
     border-radius: 25px; 
     box-shadow: 0 0 20px gray; 
     text-align: justify;
+    transition-duration: 700ms;
 }
 
 .elementTitle{
