@@ -67,6 +67,7 @@
     justify-content: space-around;
     text-align: center;
     font-family: 'Rubik';
+    justify-content: flex-start;
   }
   .cl{
     height: 50px;
