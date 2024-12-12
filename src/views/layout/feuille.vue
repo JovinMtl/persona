@@ -1,7 +1,7 @@
 <template>
     <ion-page>
       <ion-content>
-        <div  class="centered welcomeText" style="font-size: 1.2rem;">
+        <div  class="centered welcomeText">
               <p>{{ title }}</p>
       </div>
         <div class="menuContainer menuSticky">
