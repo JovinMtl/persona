@@ -84,21 +84,6 @@ export default defineComponent({
 
 <style scoped>
 
-.clicked{
-    display: inline-flex;
-    align-content: center; 
-    align-items: center;
-    text-align: center;
-    height: 41px; 
-    width: 20vw; 
-    background-color: black;
-    border-radius: 25px;
-    border: 3px solid black;
-    margin-left: 1vw;
-    transition-duration: 1s;
-    transition-property: all;
-
-}
 .unline{
     text-decoration: none;
     color: white;

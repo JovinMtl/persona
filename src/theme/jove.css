@@ -105,6 +105,21 @@ body {
 .menuContent{
     display: inline-flex;
 }
+.clicked{
+    display: inline-flex;
+    align-content: center; 
+    align-items: center;
+    text-align: center;
+    height: 41px; 
+    width: 20vw; 
+    background-color: black;
+    border-radius: 25px;
+    border: 3px solid black;
+    margin-left: 1vw;
+    transition-duration: 1s;
+    transition-property: all;
+
+}
 .unclicked{
     display: inline-flex;
     margin: auto;
@@ -206,6 +221,7 @@ body {
         height: 80px;
         backdrop-filter: hue-rotate(120deg) blur(12px);
     }
+    
     .unclicked{
         height: 41px; 
         width: 12vw; 
@@ -222,6 +238,16 @@ body {
 @media screen and (min-width: 850px) {
     .fs{
         font-size: 20px;
+    }
+    .menuSticky{
+        height: 90px;
+        padding-bottom: .6rem;
+    }
+    .unclicked{
+        height: 50px;
+    }
+    .clicked{
+        height: 50px;
     }
     .summary{
         display: inline-block;
