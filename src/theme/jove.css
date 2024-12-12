@@ -93,6 +93,7 @@ body {
     align-items: center;
     justify-content: center;
     border-bottom: 1px groove rgba(255, 255, 255, 0.26);
+    margin: -20px;
 }
 .menu{
     display: inline-block;
@@ -275,7 +276,6 @@ body {
     .menuSticky{
         height: 80px;
         backdrop-filter: hue-rotate(120deg) blur(12px);
-        margin: -20px;
     }
     
     .unclicked{
