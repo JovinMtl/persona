@@ -1,24 +1,24 @@
 <template>
     <div class="centered menu">
-            <div style="display: inline-flex;">
-                <div @click="TurnA" 
-                    :class="!opt1 ? 'unclicked':'clicked'">
-                    <router-link to="" class="unline fs tex">
-                        Home
-                    </router-link>
-                </div>
-                <div @click="TurnB" :class="!opt2 ? 'unclicked wantClick':'clicked'">
-                    <router-link to="/" class="unline fs tex">Portfolio</router-link>
-                </div>
-                <div @click="TurnC" :class="!opt3 ? 'unclicked':'clicked'">
-                    <router-link to="/" class="unline fs tex">Interests</router-link>
-                </div>
-                <div @click="TurnD" :class="!opt4 ? 'unclicked':'clicked'">
-                    <!-- <a href="/home" class="unline fs tex">Contact</a> -->
-                    <router-link to="/" class="unline fs tex">Contact</router-link>
-                    <!-- <a href=""></a> -->
-                </div>
+        <div class="menuContent">
+            <div @click="TurnA" 
+                :class="!opt1 ? 'unclicked':'clicked'">
+                <router-link to="" class="unline fs tex">
+                    Home
+                </router-link>
             </div>
+            <div @click="TurnB" :class="!opt2 ? 'unclicked wantClick':'clicked'">
+                <router-link to="/" class="unline fs tex">Portfolio</router-link>
+            </div>
+            <div @click="TurnC" :class="!opt3 ? 'unclicked':'clicked'">
+                <router-link to="/" class="unline fs tex">Interests</router-link>
+            </div>
+            <div @click="TurnD" :class="!opt4 ? 'unclicked':'clicked'">
+                <!-- <a href="/home" class="unline fs tex">Contact</a> -->
+                <router-link to="/" class="unline fs tex">Contact</router-link>
+                <!-- <a href=""></a> -->
+            </div>
+        </div>
     </div>
 </template>
 <script lang="ts">
@@ -83,7 +83,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
 
 .clicked{
     display: inline-flex;

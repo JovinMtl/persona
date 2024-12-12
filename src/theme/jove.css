@@ -85,7 +85,13 @@ body {
 }
 .menuSticky{
     position: sticky;
-    top: 2px;
+    top: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px groove white;
 }
 .menu{
     display: inline-block;
@@ -97,6 +103,9 @@ body {
     height: 40px;
     border-radius: 25px;
     padding-right: 1vw;
+}
+.menuContent{
+    display: inline-flex;
 }
 .unclicked{
     display: inline-flex;
