@@ -79,7 +79,6 @@ body {
     text-align: center;
     width: 90vw;
     height: auto;
-    background-color: red;
     background-color: gray;
     border-radius: 18px;
 }
@@ -90,8 +89,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(12px);
-    border-bottom: 1px groove rgba(255, 255, 255, 0.651);
+    border-bottom: 1px groove rgba(255, 255, 255, 0.26);
 }
 .menu{
     display: inline-block;
@@ -176,8 +174,7 @@ body {
     }
     .menuSticky{
         height: 60px;
-        /* backdrop-filter: blur(2px); */
-        backdrop-filter: hue-rotate(120deg) blur(2px);
+        backdrop-filter: hue-rotate(120deg) blur(4px);
     }
 }
 @media screen and (min-width: 370px) {
