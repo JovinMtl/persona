@@ -64,10 +64,9 @@
     overflow: auto;
     line-height: 1.3;
     flex-direction: column;
-    justify-content: space-around;
     text-align: center;
     font-family: 'Rubik';
-    justify-content: flex-start;
+    justify-content: normal;
   }
   .cl{
     height: 50px;
