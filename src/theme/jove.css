@@ -155,7 +155,7 @@ body {
     border-radius: 25px; 
     box-shadow: 0 0 10px grey; 
     text-align: justify;
-    transition-duration: 1000ms;
+    transition-duration: 500ms;
 }
 
 .summaryElementActive{
