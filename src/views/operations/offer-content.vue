@@ -1,6 +1,5 @@
 <template>
     <div style="display: flex; justify-content: center;">
-        <!-- Here is the content: {{ actualOption }} -->
         <div style="background-color: rgba(155,55,105,0.2);" v-if="actualOption"  :style="{
             border: `2px solid ${offers[actualOption].color}`,
             borderRadius: '20px',
@@ -20,9 +19,8 @@
         </div>
     </div>
     <br>
-    <div id="connect" class="footer welcomeText" style="font-weight: bolder;">
-        <!-- <span>Reach Out</span>   -->
-        <span style="color: brown">Connect with me</span>  
+    <div id="connect" class="ff-1" style="font-weight: bolder;">
+        <span style="color: brown; font-size: 18px">Connect with me</span>  
         <span style="position: relative; top: .6rem; 
                 font-size: 2rem;">
             <span style="margin-left: .3rem; top: 3rem;">&nbsp;</span>

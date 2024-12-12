@@ -55,6 +55,9 @@ body {
 .menuContainer{
     text-align: center;
 }
+.ff-1{
+    font-family: Satisfy, sans-serif;
+}
 .welcomeText{
     font-family: Satisfy, sans-serif;
     font-size: 18px;
