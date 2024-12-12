@@ -1,6 +1,9 @@
 <template>
     <div style="padding: 30px;">
-        <div>Please choose a topic to see more.</div>
+        <div style="font-family: sen; font-size: 20px;
+                margin-bottom: 1.8rem">
+            Please choose a topic to see more.
+        </div>
         <div v-if="confirmPrivacy"  class="intere" v-for="(interest, index) in interests"
             :id="index" @click="mentionClicked">
             {{ interest.title }}
