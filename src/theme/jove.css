@@ -239,6 +239,9 @@ body {
     .fs{
         font-size: 20px;
     }
+    .welcomeText{
+        font-size: 1.5rem;
+    }
     .menuSticky{
         height: 90px;
         padding-bottom: .6rem;
