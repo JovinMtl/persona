@@ -10,7 +10,9 @@
       </span>
     </div>
     <div class="f-l w-40 cl">
-      <div class="btn sp" id='1' v-if="inteContent.notice" @click="signalEnd">No</div>
+      <div class="btn sp" id='1' v-if="inteContent.notice" @click="signalEnd">
+        No
+      </div>
       <div class="btn" id='2' @click="signalEnd">
         Ok
       </div>
@@ -84,6 +86,9 @@
     border-radius: 10px;
     background-color: white;
     font-weight: bold;
+  }
+  .c-p{
+    cursor: pointer;
   }
   .sp{
     margin-right: 2.5rem;
