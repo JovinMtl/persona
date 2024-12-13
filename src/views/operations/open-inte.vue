@@ -67,6 +67,8 @@
     text-align: center;
     font-family: 'Rubik';
     justify-content: normal;
+    flex-direction: row;
+    flex-wrap: wrap
   }
   .cl{
     height: 50px;
