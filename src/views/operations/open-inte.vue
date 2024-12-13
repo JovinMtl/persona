@@ -63,10 +63,9 @@
     padding: 0 20px;
     overflow: auto;
     line-height: 1.3;
-    flex-direction: column;
     text-align: center;
     font-family: 'Rubik';
-    justify-content: normal;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap
   }
