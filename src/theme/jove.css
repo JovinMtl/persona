@@ -246,6 +246,7 @@ body {
     .menuSticky{
         height: 60px;
         backdrop-filter: hue-rotate(120deg) blur(4px);
+        -webkit-backdrop-filter: hue-rotate(120deg) blur(4px);
     }
 }
 @media screen and (min-width: 370px) {
@@ -276,6 +277,7 @@ body {
     .menuSticky{
         height: 80px;
         backdrop-filter: hue-rotate(120deg) blur(12px);
+        -webkit-backdrop-filter: hue-rotate(120deg) blur(12px);
     }
     
     .unclicked{
