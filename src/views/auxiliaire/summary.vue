@@ -6,7 +6,9 @@
                 <h3 :class="[index%3 ? 'elementTitle2':'elementTitle', index==0 ? 'elementTitle1':'']" 
                     style="font-size: small;" 
                     @click="titleAlert(content.title)">
-                    {{ (content.title).slice(0,35) }}...
+                    <span v-if="content.title.length < 35">{{ content.title }}</span>
+                    <span v-else>
+                    {{ (content.title).slice(0,35) }}...</span>
                 </h3></div> <br>
             <div><p style="display: block; margin-top: -25px; margin-left: 20px;
             margin-right: 20px; ">
@@ -55,20 +57,11 @@ export default defineComponent ({
 
         const contents:Intro = ref([
             {
-                'title': 'About Me: Full Stack Developer & Business Strategist',
-                'content': `I am a Burundian Business Strategist and Freelance Full Stack Developer, driven by a passion for 
-                strategic thinking and a deep-seated love for problem-solving. My academic journey at 
-                the University of Burundi honed my skills in the realm of business strategy, fostering my affinity for strategic planning, 
-                critical thinking, and collaborative solution-finding. This profound interest led me to nourish my strategic mindset, 
-                embracing the intricate art of philosophy and refining my ability in diagnosing complex scenarios.
-
-                On the technical front, I excel in the world of programming, boasting proficiency in Python, 
-                specifically in Django and Django Rest Framework, alongside expertise in Vue.js, HTML, and CSS. My practical abilities 
-                were evidenced through the successful completion of a Web App and an Android App for my esteemed inaugural client. 
-                As I continue to expand my horizons, I am currently engrossed in the development of my own website, 
-                geared towards showcasing my multifaceted skills and establishing a strong presence in the realm of freelancing.
-                This versatile blend of business strategy acumen and technical prowess empowers me to navigate 
-                the dynamic landscape with dexterity, embracing strategic thinking and technological innovation in equal measure.
+                'title': 'About Me',
+                'content': `A Full Stack Developer with 5+ years of experience. Proficient
+                    in Python (Django DRF), JS (Vue.js + Ts), Ionic, HTML and
+                    CSS. Committed to learn and impact a successful experience
+                    in Web Development.
             `,
                 'detail':false
             },
