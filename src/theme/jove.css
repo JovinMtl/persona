@@ -223,6 +223,7 @@ body {
     -webkit-text-fill-color: transparent;
     border: 6px double grey;
 }
+.mk{font-size:.8rem;color:#594c4c}
 .summaryElement:hover{
     box-shadow: 0px 5px 0px #ef4b38, 0 0 8px 2px grey;
 }
