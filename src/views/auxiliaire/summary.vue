@@ -13,7 +13,8 @@
             <div><p style="display: block; margin-top: -25px; margin-left: 20px;
             margin-right: 20px; ">
                 <span v-if="!(content.detail) && (content.content).length > 199"> 
-                    {{ (content.content).slice(0,199) }}...
+                    <span v-html="(content.content).slice(0,199)"></span>
+                        ...
                         <div style="background-color: transparent; text-align: center;
                             color: gray; margin-top: 0px;cursor: pointer;"
                             @click="turnDetail(index)">
@@ -21,7 +22,8 @@
                         </div>     
                 </span>
                 <span v-else>
-                    {{ content.content }}
+                    <span v-html="content.content"></span>
+                    <!-- {{ content.content }} -->
                     <span v-show="(content.content).length > 199">
                         <span style="margin-left: .6rem;">&nbsp;</span> 
                         <a style="background-color: transparent; text-align: center;
