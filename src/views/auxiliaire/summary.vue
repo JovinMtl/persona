@@ -89,14 +89,14 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
             {
                 'title': 'Professional Milestone: C Programming Project',
                 'content' : `A pivotal moment in my career was working on a significant project in 2017, focusing on C programming. 
-                This experience deepened my understanding of POINTERS and the responsibility 
+                This experience deepened my understanding of <b class='mk'>POINTERS</b> and the responsibility 
                 that comes with navigating computer memory, a realm typically reserved for C/C++ experts.
            `,
                 'detail':false
             }, 
             {
-                'title':'Diversification into Trade and Marketing',
-                'content':`From 2018 to 2021, I ventured into studying Trade and Marketing at the University of Burundi to complement my skill set. 
+                'title':'Diversification into Commerce and Marketing',
+                'content':`From 2018 to 2021, I ventured into studying Commerce and Marketing at the University of Burundi to complement my skill set. 
                 This exploration introduced me to various crucial areas such as Ethics, Economics, Consumer Behavior, 
                 Citizenship Values, Public Administration, and Marketing Principles. 
                 It also emphasized the importance of personal development to bridge the gap between my technical and business expertise.
@@ -105,15 +105,15 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
             },
             {
                 'title':'Embracing Freelancing as a Fusion of Skills',
-                'content':`With this diverse background and a blend of technical proficiency and business acumen, I am ready to address challenges 
-                as a Business Strategist and Full Stack Developer in the world of freelancing.
+                'content':`With this diverse background and a blend of technical proficiency and business acumen, I am ready to address challenges
+                 and make impact as a Full Stack Developer.
           `,
                 'detail':false
             }, 
             {
                 'title':'Engage with Me',
-                'content':`Let's connect to explore synergies and opportunities for collaboration in the dynamic realms of technology, 
-                business strategy, and web development.`,
+                'content':`Let's connect to explore synergies and opportunities 
+                    for collaboration in the dynamic realm of web development.`,
                 'detail':false
             }
         ])
