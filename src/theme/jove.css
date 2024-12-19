@@ -249,8 +249,7 @@ body {
 .im{
     border-radius:200px;
     margin-top:-10px; 
-    /* border:6px double white; */
-    border: 12px double #222020;
+    border: 12px double black;
 }
 .quote {
     font-size: 20px;
