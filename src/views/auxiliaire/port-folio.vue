@@ -75,7 +75,7 @@ const proofs:Proof[] = [
             {
                 'title':'title one',
                 'image':'/personaFoto/jove1.png',
-                'description':'This same website is one of my craft work. Entirely coded with Vue3(I used the composition API) alongside with Ionic. It took me almost 3 days to finish up with the composition of meaning of my presentation. The architecture, the connection of devices composing text, images according to the philosophy of "Say less, describe more". Please enjoy my website and take a closer look on the technical functionalities hidden in the simplicity of this work.'
+                'description':'This same website is one of my craft work. Entirely coded with Vue.js(I used the composition API) alongside with Ionic. It took me almost nine days to finish up with the composition of meaning of my presentation. The architecture, the connection of devices composing text, images according to the philosophy of "Say less, describe more". Please enjoy my website and take a closer look on the technical functionalities hidden in the simplicity of this work.'
             },
             {
                 'title':'title two',
