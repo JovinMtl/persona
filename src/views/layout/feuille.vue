@@ -1,9 +1,10 @@
 <template>
     <ion-page>
       <ion-content>
+      <div class="muteBg">
         <div  class="centered welcomeText">
               <p>{{ title }}</p>
-      </div>
+        </div>
         <div class="menuContainer menuSticky">
             <me-nu @initial="actualMenu"></me-nu>
         </div>
@@ -32,6 +33,7 @@
           <in-fo></in-fo>
         </div>
         <copy-right></copy-right>
+      </div>
       </ion-content>
     </ion-page>
   </template>

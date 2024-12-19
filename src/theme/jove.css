@@ -1,5 +1,16 @@
 html{
     background-color: white;
+    
+}
+.muteBg{
+    background-color: #f8f8f82c;
+    background-color: #f8f8f88a;
+    --bg-c: #f8f8f817;
+    --c1: #5e5c5a0a;
+    opacity: 0.8;
+    background-image:  linear-gradient(var(--c1) 2px, transparent 2px), linear-gradient(90deg, var(--c1) 2px, transparent 2px), linear-gradient(var(--c1) 1px, transparent 1px), linear-gradient(90deg, var(--c1) 1px, var(--bg-c) 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 .alert-message.sc-ion-alert-ios:empty {
     border-bottom: 1px solid rgba(56,56,56,0.2);
