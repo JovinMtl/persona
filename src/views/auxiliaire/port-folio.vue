@@ -69,7 +69,7 @@ const proofs:Proof[] = [
             },
             {
                 'title': 'title zero',
-                'image': '/personaFoto/jove0.png',
+                'image': '/personaFoto/jove0.jpg',
                 'description': 'Started on April 22, 2024. This UI is for Dawa-Pharma project. A tool for managing io on Pharmacy operations.'
             },
             {
