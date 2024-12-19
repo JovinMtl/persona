@@ -415,6 +415,9 @@ body {
     .mk{
         color: white;
     }
+    .sBig{
+        width: 50vw;
+    }
 }
 @media screen and (min-width: 1050px){
     .bigWidth{

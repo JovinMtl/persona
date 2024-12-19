@@ -1,7 +1,7 @@
 <template>
     <div class="summary">
         <div v-for="(content, index) in contents" 
-        :class="content.detail ? 'summaryElementActive':'summaryElement'">
+        :class="[content.detail ? 'summaryElementActive':'summaryElement', index==3? 'sBig':'']">
             <div>
                 <h3 :class="[index%3 ? 'elementTitle2':'elementTitle', index==0 ? 'elementTitle1':'']" 
                     style="font-size: small;" 
