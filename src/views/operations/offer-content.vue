@@ -19,7 +19,8 @@
         </div>
     </div>
     <br>
-    <div id="connect" class="ff-1" style="font-weight: bolder;">
+    <div id="connect" class="ff-1" style="font-weight: bolder;
+        margin-left: -0.5rem;">
         <span style="color: brown; font-size: 18px">Connect with me</span>  
         <span style="position: relative; top: .6rem; 
                 font-size: 2rem;">

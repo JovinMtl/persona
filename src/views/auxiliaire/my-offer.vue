@@ -76,6 +76,7 @@ export default defineComponent ({
     text-align: center;
     width: 90vw;
     border-radius: 25px;
+    /* transition-duration: 900ms; */
 }
 .offerTitle{
     --prefered-color: rgb(131, 131, 127);
