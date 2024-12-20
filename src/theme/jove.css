@@ -422,7 +422,7 @@ body {
 }
 @media screen and (min-width: 1050px){
     .bigWidth{
-        width: 80%;
+        max-width: 80%;
     }
     .intere{
         width: 35vw;
