@@ -74,7 +74,8 @@ export default defineComponent ({
             },
             {
                 'title' : "For individuals",
-                'content' : `This is negociable.`,
+                'content' : `This is something we can negotiate. 
+                        I'm eager to get started working on your project.`,
                 'color': 'salmon'
             }
         ]
