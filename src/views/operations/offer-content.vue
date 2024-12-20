@@ -67,9 +67,9 @@ export default defineComponent ({
             {
                 'title' : "Let's consider contract",
                 'content' : `This is the most of the part I wish you could work with me.
-                    In this setting, I can forget everchanging aspirations and settle my mind 
+                    In this setting, I can forget about ever-changing aspirations and settle my mind 
                     at developping my career within your environment. Being among your favorite achievers would
-                    motivate me as long as my values are aligned with your corporate.`,
+                    motivate me as long as my values are aligned with your corporate goals.`,
                 'color' : 'black'
             },
             {
