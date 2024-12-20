@@ -11,7 +11,7 @@
                         <div style="font-size: 0.74rem; text-align: center; margin: auto">
                             <!-- <span style="margin-left: .6rem;">&nbsp;</span> -->
                             <!-- <span style="text-align: center;">FullStack Developer</span> -->
-                            <span>Full Stack Developer</span>
+                            <span>Contract</span>
                         </div> 
                     </div>
                 </router-link>
@@ -21,7 +21,7 @@
                     to="/" style="color: white;">
                     <div class="mtl2 mtl">
                         <div style="font-size: 0.74rem; text-align: center; margin: auto">
-                            <span>Business Strategist</span>
+                            <span>Freelancing</span>
                         </div> 
                     </div>
                 </router-link>
