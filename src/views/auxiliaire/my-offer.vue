@@ -1,7 +1,7 @@
 <template>
     <div class="offerContainer">
         <h4 class="offerTitle"> 
-            Discover the possibilities with my two exclusive service packages! Click below to reveal more.
+            Click below to see the exciting collaboration we can build together.
         </h4>
         <div class="button-container">
             <div class="button">
