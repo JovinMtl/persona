@@ -236,10 +236,7 @@ body {
     justify-content: center;
     font-size: 1.6rem;
     margin: 20px auto;
-    /* background-color: black; */
-    background: linear-gradient(to right, grey, salmon);
     background: linear-gradient(to right,rgb(250, 133, 120), rgb(154, 188, 226));
-    /* border: 6px double grey; */
 }
 .intere{
     display: inline-flex;
@@ -250,14 +247,13 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1.6rem;
+    font-weight: 800;
     margin: 20px auto;
+    padding: 5px;
     background-color: black;
-    background: linear-gradient(to right, red, orange, brown);
-
     background: linear-gradient(to right, rgb(34, 73, 34) 30%, red);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* border: 6px double grey; */
 }
 .mk{font-size:.8rem;color:#594c4c}
 .nl{text-decoration: none;display: inline;}
