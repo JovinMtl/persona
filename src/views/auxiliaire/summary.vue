@@ -79,13 +79,9 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
             },
             {
                 'title': 'Collaborative Spirit with Jonathan NKURUNZIZA',
-                'content':`My partnership with my close friend Jonathan 
-                    <a href="https://github.com/INGANZAMARUMPU" class="nl"
-                        target="_blank"  rel="noopener noreferrer">NKURUNZIZA
-                    </a>
+                'content':`My partnership with my close friend Jonathan NKURUNZIZA
                 since 2012, has been instrumental in my growth in the field of computer science. Together, 
-                we have shared knowledge, motivation, and support, shaping my journey.
-           `,
+                we have shared knowledge, motivation, and support, shaping my journey.`,
                 'detail':false
             },
             {
