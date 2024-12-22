@@ -4,9 +4,13 @@
                 margin-bottom: 1.8rem">
             Please choose a topic to see more.
         </div>
-        <div v-if="confirmPrivacy"  class="intere" v-for="(interest, index) in interests"
-            :id="index" @click="mentionClicked">
-            {{ interest.title }}
+        <div style="background-color: black"
+                class="intereBg"
+                 v-for="(interest, index) in interests">
+            <div v-if="confirmPrivacy"  class="intere"
+                :id="index" @click="mentionClicked">
+                {{ interest.title }}
+            </div>
         </div>
         <div v-if="showBckMsg && !confirmPrivacy" class="intere" @click="openForBckMsg" >{{bckUpMsg.title}}</div>
         <teleport to="body">
