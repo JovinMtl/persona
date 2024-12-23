@@ -4,7 +4,7 @@
             Please choose a topic to see more.
         </div>
         <div style="background-color: black"
-                class="intereBg"
+                class="intereBg" :class="index == 2? 'inteLwdth':''"
                  v-for="(interest, index) in interests">
             <div v-if="confirmPrivacy"  class="intere"
                 :id="index" @click="mentionClicked">
