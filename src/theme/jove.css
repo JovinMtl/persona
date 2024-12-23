@@ -250,7 +250,7 @@ body {
     font-weight: 800;
     margin: 20px auto;
     padding: 5px;
-    background: linear-gradient(to right, rgb(34, 73, 34) 30%, red);
+    background: linear-gradient(to right, rgba(117, 97, 8, 0.8) 20%, rgb(236, 56, 56), rgba(70, 85, 173, 0.601), rgb(182, 74, 74));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
