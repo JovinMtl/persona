@@ -250,7 +250,6 @@ body {
     font-weight: 800;
     margin: 20px auto;
     padding: 5px;
-    background-color: black;
     background: linear-gradient(to right, rgb(34, 73, 34) 30%, red);
     background-clip: text;
     -webkit-text-fill-color: transparent;

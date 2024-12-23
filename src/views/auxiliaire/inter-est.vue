@@ -1,7 +1,6 @@
 <template>
     <div style="padding: 30px;">
-        <div style="font-family: sen; font-size: 20px;
-                margin-bottom: 1.8rem">
+        <div class="welcomeText">
             Please choose a topic to see more.
         </div>
         <div style="background-color: black"
