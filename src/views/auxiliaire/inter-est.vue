@@ -3,15 +3,15 @@
         <div class="welcomeText">
             Please choose a topic to see more.
         </div>
-        <div style="background-color: black"
+        <div v-if="confirmPrivacy"  style="background-color: black"
                 class="intereBg" :class="index == 2? 'inteLwdth':''"
                  v-for="(interest, index) in interests">
-            <div v-if="confirmPrivacy"  class="intere"
+            <div class="intere"
                 :id="index" @click="mentionClicked">
                 {{ interest.title }}
             </div>
         </div>
-        <div v-if="showBckMsg && !confirmPrivacy" class="intere" @click="openForBckMsg" >{{bckUpMsg.title}}</div>
+        <div v-if="showBckMsg && !confirmPrivacy" class="intereBg" @click="openForBckMsg" >{{bckUpMsg.title}}</div>
         <teleport to="body">
             <open-inte v-if="openInterst" 
                 @endSignal="closeInterst"></open-inte>
