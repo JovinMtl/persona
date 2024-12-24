@@ -11,7 +11,8 @@
                 {{ interest.title }}
             </div>
         </div>
-        <div v-if="showBckMsg && !confirmPrivacy" class="intereBg" @click="openForBckMsg" >{{bckUpMsg.title}}</div>
+        <div v-if="showBckMsg && !confirmPrivacy" class="intereBg" @click="openForBckMsg" >
+            <span class="intere">{{bckUpMsg.title}}</span></div>
         <teleport to="body">
             <open-inte v-if="openInterst" 
                 @endSignal="closeInterst"></open-inte>

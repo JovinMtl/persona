@@ -250,10 +250,24 @@ body {
     font-weight: 800;
     margin: 20px auto;
     padding: 5px;
-    background: linear-gradient(to right, rgba(117, 97, 8, 0.8) 20%, rgb(236, 56, 56), rgba(70, 85, 173, 0.601), rgb(182, 74, 74));
+    background: linear-gradient(to right, rgba(117, 97, 8, 0.8) 20%,
+         rgb(236, 56, 56), rgba(70, 85, 173, 0.601), 
+         rgb(182, 74, 74));
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition-duration: 400ms;
+
 }
+.intere:hover {
+    background: linear-gradient(to left, rgba(236, 56, 56), rgba(70, 85, 173, 0.8), rgb(117, 97, 8));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 300ms;
+  }
 .mk{font-size:.8rem;color:#594c4c}
 .nl{text-decoration: none;display: inline;}
 .summaryElement:hover{
@@ -440,6 +454,7 @@ body {
     .intere{
         width: 35vw;
         margin: 20px;
+        font-size: 1.8rem;
     }
     .intereBg{
         width: 35vw;
