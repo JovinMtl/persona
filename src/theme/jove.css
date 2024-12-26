@@ -97,7 +97,6 @@ body {
     text-align: center;
     width: 90vw;
     height: auto;
-    /* background-color: gray; */
     border-radius: 18px;
 }
 .menuSticky{
@@ -431,14 +430,7 @@ body {
         text-align: center;
     }
     .openImage{
-        text-align: center;
-        display: inline-block;
-        text-align: center;
-        width: 55vw;
         width: 45vw;
-        height: auto;
-        /* background-color: gray; */
-        border-radius: 18px;
     }
     .im{
         border-radius: 500px;
