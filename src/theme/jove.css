@@ -166,10 +166,7 @@ body {
     width: 33vw; 
     display: inline-block; 
     margin: 20px 20px;
-    /* background-color: wheat; */
-    /* background-color: rgba(128, 128, 128, 0.555); */
     background-color: #333;
-    /* color: #c5b5a1; */
     color: wheat;
     border-radius: 25px; 
     box-shadow: 0 0 10px grey; 
@@ -434,7 +431,6 @@ body {
     }
     .im{
         border-radius: 500px;
-
     }
     .mk{
         color: rgb(155, 152, 152);
