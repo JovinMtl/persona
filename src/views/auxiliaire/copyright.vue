@@ -54,5 +54,11 @@
     .y1:hover{
         scale: 1.2;
     }
+    
+    @media screen and (max-width: 358px) {
+        .cpr{
+            font-size: .6rem;
+        }
+    }
 </style>
 
