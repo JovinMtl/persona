@@ -4,7 +4,7 @@
             Thierry Nsanzumukiza 
         </span>
         <span class="y">
-          <span class="y1 y1-1">2024 </span> - <span class="y1 y-2">{{ year }}</span>
+          <span class="y1 y1-1">2024 </span> - <span class="y1 y1-2">{{ year }}</span>
         </span>
         <span class="fw-8 enc">
             Bujumbura - Burundi
