@@ -4,7 +4,7 @@
             Thierry Nsanzumukiza 
         </span>
         <span class="y">
-            {{ year }}
+          <span class="y1">2024 </span> - <span class="y1">{{ year }}</span>
         </span>
         <span class="fw-8 enc">
             Bujumbura - Burundi
@@ -36,6 +36,18 @@
         font-family: Sen;
         font-weight: 800;
         color: #94aec9;
+    }
+    .y1{
+        display: inline-flex;
+        background: linear-gradient(to right,rgb(97, 97, 240), rgb(245, 65, 65));
+        border-radius: 3px;
+        padding: 0 3px;
+        color: #d9ecec;
+        justify-content: center;
+        transition-duration: 500ms;
+    }
+    .y1:hover{
+        scale: 1.2;
     }
 </style>
 
