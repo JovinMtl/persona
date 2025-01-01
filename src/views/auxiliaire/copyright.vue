@@ -50,9 +50,28 @@
     }
     .y1-2{
         background: linear-gradient(to right, rgb(245, 65, 65),rgb(97, 97, 240));
+        animation-name: ye_ar;
+        animation-duration: 2200ms;
+        animation-timing-function: ease-in-out;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        animation-timing-function: cubic-bezier(0.075, 0.9, 0.165, 1);
+        animation-iteration-count: infinite;
     }
     .y1:hover{
         scale: 1.2;
+    }
+
+    @keyframes ye_ar {
+        0%, 100%{
+            background: linear-gradient(to right, rgb(245, 65, 65),rgb(97, 97, 240));
+            opacity: 1;
+        }
+        30%, 70%{
+            scale: 1.2;
+        }
+        50%{
+            filter: invert(0.8);
+        }
     }
     
     @media screen and (max-width: 358px) {
