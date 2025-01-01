@@ -1,4 +1,4 @@
-<template>
+up<template>
     <div style="padding: 30px;">
         <div class="welcomeText">
             Please choose a topic to see more.
@@ -123,7 +123,7 @@
     {
       'title': 'Morning Burundi',
       'detail': `<span class='fm'>A great place for viewing the beautiful nature found in Burundi.</span><br><br>
-The platform will be provided soon. And I am looking for a collaborator in this project.`,
+The platform will be provided soon. And I am looking for collaborators on this project.`,
       'notice': false,
       'hasImg': false 
     },
