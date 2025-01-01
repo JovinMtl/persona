@@ -53,6 +53,7 @@
     }
     .y1:hover{
         scale: 1.2;
+        cursor: pointer;
     }
 
     @media screen and (max-width: 358px) {
