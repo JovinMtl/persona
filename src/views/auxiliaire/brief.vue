@@ -1,3 +1,5 @@
+New Note 2
+
 <template>
     <div class="briefContainer">
         <div class="mainContainer">
@@ -56,28 +58,11 @@ setTimeout(()=>{
     background-color: yellow;
     position: relative;
 }
-.cloControl{
-    display: flex;
-    width: 25px;
-    height: 25px;
-    border-radius: 13px;
-    background-color: lime;
-    position: absolute;
-    top: -10.5vh;
-    left: 2vw;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    animation-name: jove;
-    animation-duration: 100ms;
-}
 .briefContainer{
     display: flex;
     width: 100vw;
     min-height: 15vh;
     position: relative;
-/*     bottom: -82vh; */
-/*     top: 70vh; */
     top: 80vh;
     justify-content: center;
     color: white;
@@ -87,11 +72,8 @@ setTimeout(()=>{
     max-width: 45vw;
     min-height: 5vh;
     border-radius: 20px;
-    /* background-color: black; */
-    background: linear-gradient(130deg,black 50%, rgba(0, 129, 0, 0.692) 90%);
-    filter: opacity(0.94);
-    border: 2px solid lime;
-    box-shadow: 0 0 12px lime;
+    color: black;
+    /* color: rgb(8, 32, 32); */
     animation-name: meme;
     animation-duration: 100ms;
     text-align: center;
@@ -100,6 +82,24 @@ setTimeout(()=>{
     font-weight: bold;
     font-size: .93em;
     line-height: 1.25em;
+    backdrop-filter: blur(12px) invert(0.65) hue-rotate(120deg) contrast(2.2);
+}
+
+.cloControl{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+    background-color: rgb(77, 80, 83);
+    color: white;
+    position: absolute;
+    top: -10.5vh;
+    left: 2vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    animation-name: jove;
+    animation-duration: 100ms;
 }
 
 @media screen and (max-height: 500px) {
