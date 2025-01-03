@@ -83,6 +83,7 @@ setTimeout(()=>{
     font-size: .93em;
     line-height: 1.25em;
     backdrop-filter: blur(12px) invert(0.65) hue-rotate(120deg) contrast(2.2);
+    -webkit-backdrop-filter: blur(12px) invert(0.65) hue-rotate(120deg) contrast(2.2);
 }
 
 .cloControl{
