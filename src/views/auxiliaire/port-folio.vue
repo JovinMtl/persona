@@ -311,5 +311,25 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     margin: 20px 20px;
 }
 }
+@media screen and (min-width: 850px) {
+    .imgProofCss{
+        scale: 1.12;
+        border-radius: 10px;
+        border: 2px solid grey;
+    }
+    .textCss{
+        color: black;
+        font-family: Rubik;
+        padding: 10px 10px;
+        text-align: justify;
+    }
+    .portoContent{
+        width: 35vw; 
+        box-shadow: 0 0 20px grey;
+        text-align: center; 
+        margin: 2rem 4rem;
+        border-radius: 0;
+    }
+}
 </style>
 
