@@ -187,7 +187,6 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     display: flex;
     max-width: 90vw;
     max-height: 80vh;
-    /* background-color: black; */
     justify-content: center;
     align-items: center;
 }
