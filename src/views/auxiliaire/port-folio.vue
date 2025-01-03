@@ -291,14 +291,15 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     border-top-right-radius: 25px;
 }
 .textCss{
-    color: white;
+    color: black;
+    font-family: Rubik;
     padding: 10px 10px;
     text-align: justify;
 }
 .portoContent{
     width: 40vw; 
     border-radius: 25px;
-    background-color: gray; 
+    box-shadow: 0 0 20px grey;
     text-align: center; 
     margin: 20px 20px;
 }
@@ -306,7 +307,6 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 .portoContent{
     width: 80vw; 
     border-radius: 25px;
-    background-color: gray; 
     text-align: center; 
     margin: 20px 20px;
 }
