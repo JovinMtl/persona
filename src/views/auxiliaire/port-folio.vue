@@ -203,14 +203,12 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 .contenerOne{
     width: 600px;
     height: 300px;
-    background-color: rgb(128, 128, 128);
     background-color: rgb(253, 244, 244);
     border-width: .02rem;
-    border-left-color: red;
+    border-left-color: black;
     border-left-style: solid;
-    border-right-color: red;
+    border-right-color: black;
     border-right-style: solid;
-    /* z-index: 2; */
     border-radius: 20px;
 }
 .contenerTwo{
