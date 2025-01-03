@@ -195,6 +195,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
     background-color: black;color: white;
     border-top-right-radius: 20px; 
     border-top-left-radius: 20px;
+    font-family: Sen;
     animation-name: AnounceTitleAnime;
     animation-duration: 3s;
     animation-iteration-count: infinite;
