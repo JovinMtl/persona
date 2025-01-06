@@ -6,7 +6,8 @@ up<template>
         <div v-if="confirmPrivacy"  style="background-color: black"
                 class="intereBg" 
                 :class="[index == 2? 'inteLwdth':'',
-                        index == 4? 'inteSwdth':'']"
+                        index == 4? 'inteSwdth':'',
+                        index == 0? 'inteMwdth':'']"
                  v-for="(interest, index) in interests">
             <div class="intere"
                 :id="index" @click="mentionClicked">
@@ -53,18 +54,22 @@ up<template>
 
     const interests = [
     {
-      'title': 'Your message',
+      'title': 'Clean the garbage',
       'detail': `Almost every time, we are talking in our mind
          like talking to collaborators for decision making. 
          Come to realise the garbage you collect and becomes a 
          fardeau for you, just out of an imaginary / endless discussion. 
-         thus creating contentious challenger for a lifetime.  
-
+         Thus creating contentious challenger for a lifetime.  
+        <br>
             Wish we could break up with these imaginary 
             advisors (distraction) thanks to ignorance and savour 
             the reality. 
             Solving the real problems of the present moment 
-            with more precision.`,
+            with more precision.
+        <hr> Jan 6, 2025
+        <hr>
+        I was inspired by a this <a 
+        target="_blank"  rel="noopener noreferrer"  href="https://www.imdb.com/title/tt0268978/">movie</a>.`,
       'notice': false,
       'hasImg': false 
     },
