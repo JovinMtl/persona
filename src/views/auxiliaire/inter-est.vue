@@ -4,7 +4,9 @@ up<template>
             Please choose a topic to see more.
         </div>
         <div v-if="confirmPrivacy"  style="background-color: black"
-                class="intereBg" :class="index == 2? 'inteLwdth':''"
+                class="intereBg" 
+                :class="[index == 2? 'inteLwdth':'',
+                        index == 4? 'inteSwdth':'']"
                  v-for="(interest, index) in interests">
             <div class="intere"
                 :id="index" @click="mentionClicked">
@@ -50,6 +52,22 @@ up<template>
     const actualInterest = ref(notice);
 
     const interests = [
+    {
+      'title': 'Your message',
+      'detail': `Almost every time, we are talking in our mind
+         like talking to collaborators for decision making. 
+         Come to realise the garbage you collect and becomes a 
+         fardeau for you, just out of an imaginary / endless discussion. 
+         thus creating contentious challenger for a lifetime.  
+
+            Wish we could break up with these imaginary 
+            advisors (distraction) thanks to ignorance and savour 
+            the reality. 
+            Solving the real problems of the present moment 
+            with more precision.`,
+      'notice': false,
+      'hasImg': false 
+    },
     {
       'title': 'Digital Discipline',
       'detail' : `Men deserve discipline in the digital realm to protect themselves. 
