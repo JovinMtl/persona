@@ -37,8 +37,6 @@
         scale: '.2',
       },
       {
-        left: '10%',
-        top: '10%',
         scale: '.4', 
       },
       ],
@@ -92,12 +90,7 @@
     color: black;
     position: absolute;
   }
-  #inte-ctn{
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-    animation-duration: 250ms;
-    animation-fill-mode: both;
-  }
+ 
   #inte-cl{
     animation-name: inteCl;
     animation-iteration-count: 1;
