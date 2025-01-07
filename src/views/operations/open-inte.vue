@@ -34,7 +34,7 @@
       inteContn.animate([
         {  
           position: 'fixed',
-          top: (y-100)+'px', left: (x-200) + 'px',
+          top: (y-100)+'px', left: (x-130) + 'px',
           scale: '.2',
         },
         {
