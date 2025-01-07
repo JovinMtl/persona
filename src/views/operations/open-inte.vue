@@ -32,11 +32,11 @@
     let inteContn = document.getElementById('inte-ctn')
     inteContn.setAttribute('id', 'inte-cl')
     setTimeout(()=>{
-      // if (index == 1){
-      //     emit('endSignal', 1)
-      // } else if (index == 2){
-      //     emit('endSignal', 2)
-      // }
+      if (index == 1){
+          emit('endSignal', 1)
+      } else if (index == 2){
+          emit('endSignal', 2)
+      }
     }, 300)
   }
 </script>
