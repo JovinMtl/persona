@@ -129,7 +129,7 @@ body {
     align-items: center;
     text-align: center;
     height: 41px; 
-    width: 17vw; 
+    width: 20vw;
     background-color: black;
     border-radius: 25px;
     border: 3px solid black;
@@ -415,6 +415,7 @@ body {
     }
     .clicked{
         height: 50px;
+        width: 17vw;
     }
     .summary{
         display: inline-block;
