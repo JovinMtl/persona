@@ -5,11 +5,9 @@
         </div> 
        
         <div class="m-20 c-b ff-o">
-            Discover Thierry, a  Full Stack Developer based in 
-            <span style="font-weight: 700;">Burundi</span>
-            with 5+ years of experience in programming.
+            I'm Thierry, a Full Stack Developer based in <span style="font-weight: 700;">Burundi</span>
             
-            Caring about good solution, satisfaction and happy coding in Python, Django & DRF, Vue.js, HTML and CSS.
+            with over 5 years' experience in programming. I'm passionate about creating secure, scalable web solutions with Python, Django, Vue.js, and exploring React for my future projects.
         </div>
     </div>
 </template>
