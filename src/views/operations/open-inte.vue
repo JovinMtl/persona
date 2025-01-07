@@ -1,6 +1,6 @@
 <template>
   <div class="f-l d inte-m">
-    <span class="inte-ctn">
+    <span id="inte-ctn">
     <div class="f-l w-40 he"></div>
     <div class="f-l w-40 inte">
       <span v-if="inteContent.detail"> 
@@ -29,11 +29,15 @@
 
   const signalEnd = (e)=>{
     let index = e.target.id;
-    if (index == 1){
-        emit('endSignal', 1)
-    } else if (index == 2){
-        emit('endSignal', 2)
-}
+    let inteContn = document.getElementById('inte-ctn')
+    inteContn.setAttribute('id', 'inte-cl')
+    setTimeout(()=>{
+      // if (index == 1){
+      //     emit('endSignal', 1)
+      // } else if (index == 2){
+      //     emit('endSignal', 2)
+      // }
+    }, 300)
   }
 </script>
 <style scoped>
@@ -60,8 +64,15 @@
     color: black;
     position: absolute;
   }
-  .inte-ctn{
-    animation-name: inteAnime;
+  #inte-ctn{
+    animation-name: inteOpen;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+  }
+  #inte-cl{
+    animation-name: inteCl;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-duration: 250ms;
@@ -161,12 +172,20 @@
       font-weight: 100;
     }
   }
-@keyframes inteAnime {
+@keyframes inteOpen {
     from{
         scale: .7;
     }
     to{
         scale: 1;
+    }
+}
+@keyframes inteCl {
+    from{
+        scale: 1;
+    }
+    to{
+        scale: .5;
     }
 }
 </style>
