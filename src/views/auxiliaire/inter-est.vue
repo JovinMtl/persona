@@ -18,7 +18,7 @@ up<template>
             <span class="intere">{{bckUpMsg.title}}</span></div>
         <teleport to="body">
             <open-inte v-if="openInterst" 
-                mP="mouseP"
+                :mP="mouseP"
                 @endSignal="closeInterst"></open-inte>
         </teleport>
     </div>
@@ -168,7 +168,10 @@ The platform will be provided soon. And I am looking for collaborators on this p
         actualInterest.value = interests[index];
         mouseP.mX = e.pageX
         mouseP.mY = e.pageY
-        openInterst.value = true;
+        setTimeout(()=>{
+            openInterst.value = true;
+        },5)
+        
     }
     const openForBckMsg = ()=>{
         openInterst.value = true;

@@ -37,9 +37,10 @@
           emit('endSignal', 1)
       } else if (index == 2){
           emit('endSignal', 2)
-      }
-    }, 150)
-  }
+        }
+      }, 150)
+    }
+    console.log("THe mouse position is: ", props.mP)
 </script>
 <style scoped>
   .he{
