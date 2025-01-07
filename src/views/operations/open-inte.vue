@@ -93,7 +93,6 @@
     position: absolute;
   }
   #inte-ctn{
-    /* animation-name: inteOpen; */
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-duration: 250ms;
@@ -200,14 +199,7 @@
       font-weight: 100;
     }
   }
-@keyframes inteOpen {
-    from{
-        scale: .7;
-    }
-    to{
-        scale: 1;
-    }
-}
+
 @keyframes inteCl {
     from{
         scale: 1;
