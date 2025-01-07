@@ -31,22 +31,21 @@
   const openCtn = (x, y)=>{
     let inteContn = document.getElementById('inte-ctn')
     inteContn.animate([
-      { 
-        // transform: "rotate(0) scale(1)" 
-        scale: '.7',
+      {  
+        position: 'fixed',
+        top: (y-100)+'px', left: (x-200) + 'px',
+        scale: '.2',
       },
       {
-        scale: '1', 
-        top: y+'px', left:  x + 'px'
+        scale: '.5', 
       },
       ],
       {
         // timing options
-        duration: 300,
+        duration: 80,
         iterations: 1,
       }
     )
-    console.log("Have used position:", x, y)
   }
   
   setTimeout(()=>{
@@ -65,7 +64,6 @@
         }
       }, 150)
     }
-    console.log("THe mouse position is: ", props.mP)
 </script>
 <style scoped>
   .he{
@@ -93,11 +91,11 @@
     position: absolute;
   }
   #inte-ctn{
-    animation-name: inteOpen;
+    /* animation-name: inteOpen; */
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-duration: 250ms;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
   }
   #inte-cl{
     animation-name: inteCl;
