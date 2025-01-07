@@ -22,12 +22,37 @@
   </div>
 </template>
 <script setup lang="ts">
-  import { inject } from 'vue'
+  import { inject, onMounted } from 'vue'
   
   const emit =  defineEmits(['endSignal', 'endSignalF'])
   const props = defineProps(['mP']) //for mouse position
   const inteContent = inject('interestShow')
 
+  const openCtn = (x, y)=>{
+    let inteContn = document.getElementById('inte-ctn')
+    inteContn.animate([
+      { 
+        // transform: "rotate(0) scale(1)" 
+        scale: '.7',
+      },
+      {
+        scale: '1', 
+        top: y+'px', left:  x + 'px'
+      },
+      ],
+      {
+        // timing options
+        duration: 300,
+        iterations: 1,
+      }
+    )
+    console.log("Have used position:", x, y)
+  }
+  
+  setTimeout(()=>{
+    openCtn(props.mP.mX, props.mP.mY)
+  }, 0)
+  
   const signalEnd = (e)=>{
     let index = e.target.id;
     let inteContn = document.getElementById('inte-ctn')
