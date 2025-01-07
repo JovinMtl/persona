@@ -1,5 +1,6 @@
 <template>
   <div class="f-l d inte-m">
+    <span class="inte-ctn">
     <div class="f-l w-40 he"></div>
     <div class="f-l w-40 inte">
       <span v-if="inteContent.detail"> 
@@ -17,6 +18,7 @@
         Ok
       </div>
     </div>
+  </span>
   </div>
 </template>
 <script setup lang="ts">
@@ -58,6 +60,13 @@
     color: black;
     position: absolute;
   }
+  .inte-ctn{
+    animation-name: inteAnime;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+  }
   .inte{
     box-sizing: border-box;
     height: 170px;
@@ -69,7 +78,7 @@
     font-family: 'Rubik';
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
   }
   .cl{
     height: 50px;
@@ -152,4 +161,12 @@
       font-weight: 100;
     }
   }
+@keyframes inteAnime {
+    from{
+        scale: .7;
+    }
+    to{
+        scale: 1;
+    }
+}
 </style>
