@@ -37,7 +37,7 @@
       } else if (index == 2){
           emit('endSignal', 2)
       }
-    }, 300)
+    }, 150)
   }
 </script>
 <style scoped>
@@ -45,6 +45,7 @@
     height: 30px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    background-color: white;
     background-color: white;
     margin-bottom: -15px;
   }
@@ -60,7 +61,7 @@
   .inte-m{
     width: 100vw;
     height: 100vh;
-    background-color: rgba(56, 56, 56, 0.6);
+    background-color: rgba(148, 145, 145, 0.507);
     color: black;
     position: absolute;
   }
@@ -75,7 +76,7 @@
     animation-name: inteCl;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
-    animation-duration: 250ms;
+    animation-duration: 300ms;
     animation-fill-mode: forwards;
   }
   .inte{
@@ -185,7 +186,7 @@
         scale: 1;
     }
     to{
-        scale: .5;
+        scale: .2;
     }
 }
 </style>
