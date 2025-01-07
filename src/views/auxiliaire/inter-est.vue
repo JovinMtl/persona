@@ -18,6 +18,7 @@ up<template>
             <span class="intere">{{bckUpMsg.title}}</span></div>
         <teleport to="body">
             <open-inte v-if="openInterst" 
+                mP="mouseP"
                 @endSignal="closeInterst"></open-inte>
         </teleport>
     </div>
@@ -29,6 +30,10 @@ up<template>
     const openInterst = ref(true);
     const confirmPrivacy = ref(false);
     const showBckMsg = ref(false)
+    const mouseP = reactive({
+        'mX': 0,
+        'mY': 0
+    })
     const bckUpMsg = {
         'title': "It's okay",
         'detail': `
@@ -161,6 +166,8 @@ The platform will be provided soon. And I am looking for collaborators on this p
     const mentionClicked = (e)=>{
         let index = e.target.id;
         actualInterest.value = interests[index];
+        mouseP.mX = e.pageX
+        mouseP.mY = e.pageY
         openInterst.value = true;
     }
     const openForBckMsg = ()=>{

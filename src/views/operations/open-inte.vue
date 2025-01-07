@@ -25,6 +25,7 @@
   import { inject } from 'vue'
   
   const emit =  defineEmits(['endSignal', 'endSignalF'])
+  const props = defineProps(['mP']) //for mouse position
   const inteContent = inject('interestShow')
 
   const signalEnd = (e)=>{
