@@ -30,22 +30,42 @@
 
   const openCtn = (x, y)=>{
     let inteContn = document.getElementById('inte-ctn')
-    inteContn.animate([
-      {  
-        position: 'fixed',
-        top: (y-100)+'px', left: (x-200) + 'px',
-        scale: '.2',
-      },
-      {
-        scale: '.4', 
-      },
-      ],
-      {
-        // timing options
-        duration: 120,
-        iterations: 1,
-      }
-    )
+    if(x){
+      inteContn.animate([
+        {  
+          position: 'fixed',
+          top: (y-100)+'px', left: (x-200) + 'px',
+          scale: '.2',
+        },
+        {
+          scale: '.4', 
+        },
+        ],
+        {
+          // timing options
+          duration: 120,
+          iterations: 1,
+        }
+      )
+    }else{
+        inteContn.animate([
+        {  
+          position: 'fixed',
+          top: '20vh', left: '20vw',
+          scale: '.2',
+        },
+        {
+          scale: '.4', 
+        },
+        ],
+        {
+          // timing options
+          duration: 120,
+          iterations: 1,
+        }
+      )
+    }
+    
   }
   
   setTimeout(()=>{

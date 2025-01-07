@@ -31,8 +31,8 @@ up<template>
     const confirmPrivacy = ref(false);
     const showBckMsg = ref(false)
     const mouseP = reactive({
-        'mX': 200,
-        'mY': 400
+        'mX': 0,
+        'mY': 0
     })
     const bckUpMsg = {
         'title': "It's okay",
