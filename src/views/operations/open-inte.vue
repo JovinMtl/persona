@@ -37,12 +37,14 @@
         scale: '.2',
       },
       {
-        scale: '.5', 
+        left: '50%',
+        top: '10%',
+        scale: '.4', 
       },
       ],
       {
         // timing options
-        duration: 80,
+        duration: 120,
         iterations: 1,
       }
     )
