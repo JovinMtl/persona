@@ -79,7 +79,7 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
             },
             {
                 'title': 'Collaborative Spirit with Jonathan NKURUNZIZA',
-                'content':`My partnership with my close friend <b class='mk' style="font-size:1rem">Jonathan NKURUNZIZA</b>
+                'content':`My partnership with my close friend <b class='mk'>Jonathan NKURUNZIZA</b>
                 since 2012, has been instrumental in my growth in the field of computer science. Together, 
                 we have shared knowledge, motivation, and support, shaping my journey.`,
                 'detail':false
@@ -96,7 +96,7 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
                 'title':'Diversification into Commerce and Marketing',
                 'content':`From 2018 to 2021, I ventured to study commerce and marketing at the University of Burundi to complement my skills. 
                             Just before, I was locked inside myself, a prisoner of the computer world. On the other hand, I was frustrated 
-                            that I did not have the soft skills to deal with myself. Like leadership and business acumen, like those who 
+                            that I did not have the soft skills to deal with myself. Like <b class='mk'>leadership</b> and <b class='mk'>business</b> acumen, like those who 
                             went to business school. 
                             This exploration introduced me to several crucial areas such as ethics, economics, consumer behaviour, civic values, 
                             public administration, business strategy and marketing principles. It also emphasised the importance of 
