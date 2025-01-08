@@ -26,11 +26,11 @@
                     <!-- {{ content.content }} -->
                     <span v-show="(content.content).length > 199">
                         <span style="margin-left: .6rem;">&nbsp;</span> 
-                        <a style="background-color: transparent; text-align: center;
+                        <div style="background-color: transparent; text-align: center;
                             color: gray; margin-top: 0px;cursor: pointer;"
                             @click="turnDetail(index)">
                             Show less
-                    </a>
+                        </div>
                     </span>
                 </span>
             </p></div>
