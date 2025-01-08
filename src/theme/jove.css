@@ -272,7 +272,8 @@ body {
 .mk{font-size:1rem;color:#594c4c}
 .nl{text-decoration: none;display: inline;}
 .summaryElement:hover, 
-.summaryElementActive:hover{
+.summaryElementActive:hover,
+.summaryElementActive:focus{
     box-shadow: 0px 5px 0px #ef4b38, 0 0 8px 2px grey;
 }
 
