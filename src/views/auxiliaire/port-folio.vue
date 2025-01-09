@@ -284,26 +284,26 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 
 
 .imgProofCss{
-    border-top-left-radius: 25px; 
-    border-top-right-radius: 25px;
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
 }
 .textCss{
-    color: black;
     font-family: Rubik;
     padding: 10px 10px;
     text-align: justify;
+    color: wheat;
 }
 .portoContent{
     width: 40vw; 
-    border-radius: 25px;
     box-shadow: 0 0 20px grey;
     text-align: center; 
     margin: 20px 20px;
+    background-color: #333;
 }
 @media screen and (max-width: 600px) {
 .portoContent{
     width: 80vw; 
-    border-radius: 25px;
+    border-radius: 15px;
     text-align: center; 
     margin: 20px 20px;
 }
@@ -315,17 +315,16 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
         border: 2px solid grey;
     }
     .textCss{
-        color: black;
         font-family: Rubik;
         padding: 10px 10px;
         text-align: justify;
+        background-color: #333;
     }
     .portoContent{
         width: 35vw; 
         box-shadow: 0 0 20px grey;
         text-align: center; 
         margin: 2rem 4rem;
-        border-radius: 0;
     }
 }
 </style>
