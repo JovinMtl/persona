@@ -49,11 +49,39 @@ ion-title{
     --background: gray;
 }
 
- .prtFolio{
+.prtFolio {
     position: relative;
-    background: radial-gradient(closest-side at 55% 40%,  lime, rgba(0, 255, 0, 0.466), transparent 94%) 400px 0;
     z-index: -2;
- }
+
+    background: 
+        radial-gradient(circle at 10% 50%, 
+            rgba(255, 0, 0, 0.5) 35%,  /* Semi-transparent red for strength and passion */
+            rgba(0, 0, 0, 0.6) 50%,   /* Deep black for sophistication */
+            transparent 60%),         /* Transparent fade for softness */
+        radial-gradient(circle at 100% 100%, 
+            rgba(255, 255, 255, 0.4) 40%,   /* Soft white to balance and add light */
+            transparent 60%);                /* Transparent edge for depth */
+
+    background-blend-mode: luminosity; /* Elegant blend to preserve brightness and contrast */
+    animation: highlightPulse 6s infinite ease-in-out;
+    
+    /* Increased size for larger gradient */
+    background-size: 200% 200%;  /* Spread the gradient out twice as much */
+    background-position: center center;  /* Keep the gradient centered */
+}
+
+@keyframes highlightPulse {
+    0%, 100% {
+        background-size: 100% 100%;
+        opacity: 0.85;   /* Starts slightly dimmed to maintain elegance */
+    }
+    50% {
+        background-size: 125% 125%;  /* Expands subtly for the breathing effect */
+        opacity: 1;             /* Full opacity at peak for vibrant focus */
+    }
+}
+
+
 .center router-link {
     text-decoration: none;
   }
