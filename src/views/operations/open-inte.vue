@@ -30,11 +30,12 @@
 
   const openCtn = (x, y)=>{
     let inteContn = document.getElementById('inte-ctn')
+    if(x>330){ x -= 80}
     if(x){
       inteContn.animate([
         {  
           position: 'fixed',
-          top: (y-100)+'px', left: (x-130) + 'px',
+          top: (y-100)+'px', left: (x-150) + 'px',
           scale: '.2',
         },
         {
