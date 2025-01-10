@@ -1,3 +1,4 @@
+
 html{
     background-color: white;
     
@@ -57,26 +58,26 @@ ion-title{
             transparent 10%,  rgb(0,0,0)  30%,
             cyan 74%,#9477fb, salmon, transparent 90%),
         radial-gradient(circle at 10% 50%, 
-            black 35%,  /* Semi-transparent red for strength and passion */
-            rgba(0, 0, 0, 0.6) 50%,   /* Deep black for sophistication */
+            black 35%, 
+            rgba(0, 0, 0, 0.6) 50%,   
             transparent 60%);
     background-blend-mode: luminosity; /* Elegant blend to preserve brightness and contrast */
     background-repeat: repeat-x;
     animation: highlightPulse 6s infinite ease-in-out;
     
-    /* Increased size for larger gradient */
-    background-size: 200% 200%;  /* Spread the gradient out twice as much */
-    background-position: center center;  /* Keep the gradient centered */
+    
+    background-size: 100% 100%; 
+    background-position: center center; 
 }
 
 @keyframes highlightPulse {
     0%, 100% {
         background-size: 100% 100%;
-        opacity: 0.85;   /* Starts slightly dimmed to maintain elegance */
+        opacity: 0.85;  
     }
     50% {
-        background-size: 125% 125%;  /* Expands subtly for the breathing effect */
-        opacity: 1;             /* Full opacity at peak for vibrant focus */
+        background-size: 125% 125%; 
+        opacity: 1;             
     }
 }
 
