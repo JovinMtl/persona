@@ -286,7 +286,7 @@ Since then, a friend of mine proposed me to take this challenge of building a "S
 .imgProofCss{
     border-top-left-radius: 15px; 
     border-top-right-radius: 15px;
-    filter: brightness(1.2);
+    filter: brightness(1);
 }
 .textCss{
     font-family: Rubik;
