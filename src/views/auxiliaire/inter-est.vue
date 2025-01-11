@@ -73,7 +73,7 @@ up<template>
             with more precision.
         <hr> Jan 6, 2025
         <hr>
-        I was inspired by a this <a 
+        I was inspired by this <a 
         target="_blank"  rel="noopener noreferrer"  href="https://www.imdb.com/title/tt0268978/">movie</a>.`,
       'notice': false,
       'hasImg': false 
