@@ -1,7 +1,8 @@
 
 html{
     background-color: white;
-    
+    scrollbar-width: 5px;
+    scrollbar-color: red;
 }
 .muteBg{
     background-color: #f8f8f88a;
@@ -31,17 +32,6 @@ ion-content{
     --background: transparent;
     font-family:  Arial, Helvetica, sans-serif;
 }
-::-webkit-scrollbar-thumb {
-    background-color: rgba(56,56,56,0.4);
-    border-radius: 15px;
-  }
-  ::-webkit-scrollbar {
-    width: 3px;
-    color: green;
-  }
-  ::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
-  }
 
 ion-toolbar{
     --background: blue;
