@@ -33,6 +33,15 @@ ion-content{
     font-family:  Arial, Helvetica, sans-serif;
 }
 
+::-webkit-scrollbar-thumb {
+    background-color: rgba(56,56,56,0.4);
+  }
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
 ion-toolbar{
     --background: blue;
 }
