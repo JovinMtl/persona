@@ -99,7 +99,7 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
                 since 2012, has been instrumental in my growth in the field of computer science. Together, 
                 we have shared knowledge, motivation, and support, shaping my journey.
                 <br>
-                He is such a strong and reliable mind that I still know in <b>${months[month]}</b> ${year}.
+                He has such a strong and reliable mind that I still know in <b>${months[month]}</b> ${year}.
                 You can feel safe entrusting your big complex system to his mind to architect.`,
                 'detail':false
             },
