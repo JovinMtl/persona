@@ -56,6 +56,22 @@ export default defineComponent ({
             });
             await alert.present();
         };
+        const months = {
+            'Jan': 'January',
+            'Feb': 'February',
+            'Mar': 'March',
+            'Apr': 'April',
+            'May': 'May',
+            'Jun': 'June',
+            'Jul': 'July',
+            'Aug': 'August',
+            'Sept': 'September',
+            'Oct': 'October',
+            'Nov': 'November',
+            'Dec': 'December',
+        }
+        const year = String(new Date()).slice(10,15)
+        const month_a = String(new Date()).slice(4,7)
 
         const contents:Intro = ref([
             {
@@ -81,7 +97,10 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
                 'title': 'Collaborative Spirit with Jonathan NKURUNZIZA',
                 'content':`My partnership with my close friend <b class='mk'>Jonathan NKURUNZIZA</b>
                 since 2012, has been instrumental in my growth in the field of computer science. Together, 
-                we have shared knowledge, motivation, and support, shaping my journey.`,
+                we have shared knowledge, motivation, and support, shaping my journey.
+                <br>
+                He is such a strong and reliable mind that I still know in <b>${months[month_a]}</b> ${year}.
+                You can feel safe entrusting your big complex system to his mind to architect.`,
                 'detail':false
             },
             {
