@@ -253,7 +253,7 @@ body {
     display: inline-flex;
     width: 75vw;
     height: 4.5rem; 
-    height: 80px;
+    /* height: 80px; */
     border-radius: 12px;
     align-items: center;
     justify-content: center;
