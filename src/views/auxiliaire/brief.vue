@@ -92,7 +92,7 @@ setTimeout(()=>{
     width: 25px;
     height: 25px;
     border-radius: 13px;
-    background-color: rgb(77, 80, 83);
+    background-color: red;
     color: white;
     position: absolute;
     top: -10.5vh;
