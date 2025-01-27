@@ -96,7 +96,8 @@ Same my passion for Linux was ignited, leading me to explore the system extensiv
             {
                 'title': 'Collaborative Spirit with Jonathan NKURUNZIZA',
                 'content':`My partnership with my close friend <b class='mk'>Jonathan NKURUNZIZA</b>
-                since 2012, has been instrumental in my growth in the field of computer science. Together, 
+                since 2012, has been instrumental in my growth in the field of computer science. 
+                Together at high school, 
                 we have shared knowledge, motivation, and support, shaping my journey.
                 <br>
                 He has such a strong and reliable mind that I still know in <b>${months[month]}</b> ${year}.
