@@ -76,7 +76,7 @@ export default defineComponent ({
         const contents:Intro = ref([
             {
                 'title': 'About Me',
-                'content': `A Full Stack Developer with 5+ years of experience. Proficient
+                'content': `A Full Stack Developer with 2+ years of experience. Proficient
                     in Python (Django, DRF), JS (Vue.js + Ts), Ionic, HTML and
                     CSS. Committed to learn and impact a successful experience
                     in Web Development.
