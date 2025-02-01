@@ -77,7 +77,7 @@ export default defineComponent ({
             {
                 'title': 'About Me',
                 'content': `A Full Stack Developer with 2+ years of experience. Proficient
-                    in Python (Django, DRF), JS (Vue.js + Ts), Ionic, HTML and
+                    in Python (Django, DRF), JS (Vue.js + TypeScript), Ionic, HTML and
                     CSS. Committed to learn and impact a successful experience
                     in Web Development.
             `,
