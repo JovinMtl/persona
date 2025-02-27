@@ -163,16 +163,28 @@ The platform will be provided soon. And I am looking for collaborators on this p
     }
     ];
     
-    const mentionClicked = (e)=>{
+    // const mentionClicked = (e)=>{
+    //     let index = e.target.id;
+    //     actualInterest.value = interests[index];
+    //     mouseP.mX = e.pageX
+    //     mouseP.mY = e.pageY
+    //     setTimeout(()=>{
+    //         openInterst.value = true;
+    //     },5)
+        
+    // }
+    
+    const mentionClicked = (e) => {
         let index = e.target.id;
         actualInterest.value = interests[index];
-        mouseP.mX = e.pageX
-        mouseP.mY = e.pageY
-        setTimeout(()=>{
-            openInterst.value = true;
-        },5)
+        mouseP.mX = e.pageX;
+        mouseP.mY = e.pageY;
         
-    }
+        // Use requestAnimationFrame instead of setTimeout
+        requestAnimationFrame(() => {
+            openInterst.value = true;
+        });
+    };
     const openForBckMsg = ()=>{
         openInterst.value = true;
 }
