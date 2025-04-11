@@ -7,16 +7,14 @@
                     Home
                 </router-link>
             </div>
-            <div @click="TurnB" :class="!opt2 ? 'unclicked wantClick':'clicked'">
+            <div @click="TurnB" :class="!opt2 ? 'unclicked':'clicked'">
                 <router-link to="/" class="unline fs tex">Portfolio</router-link>
             </div>
             <div @click="TurnC" :class="!opt3 ? 'unclicked':'clicked'">
                 <router-link to="/" class="unline fs tex">Interests</router-link>
             </div>
             <div @click="TurnD" :class="!opt4 ? 'unclicked':'clicked'">
-                <!-- <a href="/home" class="unline fs tex">Contact</a> -->
                 <router-link to="/" class="unline fs tex">Contact</router-link>
-                <!-- <a href=""></a> -->
             </div>
         </div>
     </div>
@@ -42,7 +40,7 @@ export default defineComponent({
             emit('initial', '1')
         }
         const TurnB = ()=>{
-            disablingAnime()
+            // disablingAnime()
             opt2.value = true
             opt1.value = false
             opt3.value = false
@@ -82,7 +80,7 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
+<style>
 
 .unline{
     text-decoration: none;

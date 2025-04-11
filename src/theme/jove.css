@@ -137,6 +137,7 @@ body {
 }
 .menu{
     display: inline-block;
+    /* display: flex; */
     position: relative;
     text-align: center;
     align-content: center;
@@ -166,6 +167,7 @@ body {
 }
 .unclicked{
     display: inline-flex;
+    display: flex;
     margin: auto;
     height: 41px; 
     width: 20vw; 
@@ -173,7 +175,9 @@ body {
     border-radius: 25px;
     border: 3px solid black;
     margin-left: 1vw;
+    z-index: inherit;
 }
+
 .tex{
     display: inline-flex; 
     text-align: center;
@@ -398,8 +402,11 @@ body {
 @media screen and (min-width: 600px) {
     .menu{
         display: inline-block;
+        display: flex;
         position: relative;
         background-color: transparent;
+        /* background-color: blue; */
+        flex-direction: column;
         text-align: center;
         align-content: center;
         align-items: center;
@@ -423,6 +430,7 @@ body {
         border: 3px solid black;
         margin-left: 1vw;
     }
+
     .fs{
         font-size: 18px;
     }
@@ -440,6 +448,22 @@ body {
     }
     .unclicked{
         height: 50px;
+        background-color: transparent;
+    }
+    .unclicked::before{
+        content: '';
+        position: absolute;
+        width: inherit;
+        height: 100%;
+        display: inline;
+        border-radius: 25px;
+        /* border: 1px dashed black; */
+        background-color: red;
+        /* background-color: transparent; */
+        z-index: -2;
+        transform:translate(-0.2rem, 5%);
+        scale: 0.9;
+        backdrop-filter: blur(2px) hue-rotate(10deg) contrast(2.2);
     }
     .clicked{
         height: 50px;
