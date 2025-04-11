@@ -457,13 +457,22 @@ body {
         height: 100%;
         display: inline;
         border-radius: 25px;
-        /* border: 1px dashed black; */
-        background-color: red;
-        /* background-color: transparent; */
+        background-color: #ff3d27;
+        z-index: -3;
+        transform:translate(-0.2rem, 5%);
+        scale: 0.9;  
+    }
+    .unclicked::after{
+        content: '';
+        position: absolute;
+        width: inherit;
+        height: 100%;
+        display: inline;
+        border-radius: 25px;
+        background-color: transparent;
         z-index: -2;
         transform:translate(-0.2rem, 5%);
         scale: 0.9;
-        backdrop-filter: blur(2px) hue-rotate(10deg) contrast(2.2);
     }
     .clicked{
         height: 50px;
