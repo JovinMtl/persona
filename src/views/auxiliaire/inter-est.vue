@@ -141,7 +141,7 @@ up<template>
             Some are still my collaborators and some are actually not, 
             <i style="font-weight: 500;">that's a fact of life</i>.
             Regardless of our distance, 
-            I sincerely acknowledge their contribution to my development and
+            I sincerely acknowledge their contributions to my development and
             our connection that has ever existed.</span>
             <br><br>
         <span class='autho'>-- Th. Jov. Nsanzumukiza</span>`,
