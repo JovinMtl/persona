@@ -459,7 +459,8 @@ body {
         border-radius: 25px;
         background-color: #ff3d27;
         z-index: -3;
-        transform:translate(-0.2rem, 5%);
+        transform:translate(-0.2rem, 0.15rem);
+        /* top: 0.2rem; */
         scale: 0.9;  
     }
     .unclicked::after{
