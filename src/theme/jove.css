@@ -15,6 +15,7 @@ html{
     z-index: -3;
     margin-top: -1rem;
     padding-top: 1.1rem;
+    padding-top: 20px;
 }
 
 .alert-message.sc-ion-alert-ios:empty {
@@ -133,10 +134,9 @@ body {
     align-items: center;
     justify-content: center;
     border-bottom: 1px groove rgba(255, 255, 255, 0.26);
-    margin: -20px;
 }
 .menu{
-    display: inline-block;
+    /* display: inline-block; */
     /* display: flex; */
     position: relative;
     text-align: center;
@@ -455,13 +455,13 @@ body {
         position: absolute;
         width: inherit;
         height: 100%;
-        display: inline;
         border-radius: 25px;
         background-color: #ff3d27;
         z-index: -3;
-        transform:translate(-0.2rem, 0.15rem);
-        /* top: 0.2rem; */
-        scale: 0.9;  
+        transform:translate(-0.2rem, 0);  
+        top: 0.3em;
+        scale: 0.9;
+        margin: 0;
     }
     .unclicked::after{
         content: '';
