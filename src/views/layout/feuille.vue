@@ -45,7 +45,8 @@
   import { 
     defineAsyncComponent, 
     ref, watch,
-    onBeforeUpdate } from 'vue'
+    onBeforeUpdate, 
+    onMounted} from 'vue'
   
   import meNu  from '../auxiliaire/menu.vue';
   import showPic from '../operations/show-pic.vue'
@@ -99,5 +100,24 @@
     actualMenu()
     console.log("The actual Value is : ", actual.value)
 })
+
+// targetting the menu
+onMounted(()=>{
+  const targetM = document.getElementById("jo-menu")
+// targ
+const observer1 = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+    entry.target.classList.toggle('bg-green', entry.isIntersecting)
+  })
+},{
+  rootMargin: '-180px -80px -80px -80px',
+})
+// targetM.forEach((btn)=>{
+//   observer1.observe(btn)
+// })
+observer1.observe(targetM)
+
+})
+
 </script>
 

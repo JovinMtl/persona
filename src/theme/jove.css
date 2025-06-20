@@ -351,7 +351,10 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #666;
+    color: transparent;
     margin-top: 10px;
+    transition: 500ms;
+    transform: translate(100px);
 }
 
 /* For showPic component */
@@ -570,4 +573,8 @@ body {
     display: flex;
     justify-content: center;
     padding: 0 5px;
+}
+.bg-green{
+    color: #666;
+    transform: translate(0);
 }
