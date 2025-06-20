@@ -353,7 +353,7 @@ body {
     color: #666;
     color: transparent;
     margin-top: 10px;
-    transition: 500ms;
+    transition: 300ms;
     transform: translate(100px);
 }
 

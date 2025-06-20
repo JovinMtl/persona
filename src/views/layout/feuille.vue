@@ -101,21 +101,18 @@
     console.log("The actual Value is : ", actual.value)
 })
 
-// targetting the menu
+// targetting the name of the author
 onMounted(()=>{
-  const targetM = document.getElementById("jo-menu")
-// targ
-const observer1 = new IntersectionObserver((entries)=>{
-  entries.forEach((entry)=>{
-    entry.target.classList.toggle('bg-green', entry.isIntersecting)
+  const joName = document.getElementById("jo-name")
+
+  const observerName = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+      entry.target.classList.toggle('bg-green', entry.isIntersecting)
+    })
+  },{
+    rootMargin: '-180px -80px -80px -80px',
   })
-},{
-  rootMargin: '-180px -80px -80px -80px',
-})
-// targetM.forEach((btn)=>{
-//   observer1.observe(btn)
-// })
-observer1.observe(targetM)
+  observerName.observe(joName)
 
 })
 

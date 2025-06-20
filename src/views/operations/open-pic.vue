@@ -5,7 +5,7 @@
             <span class="bq-1 v-a m-50 l-h c d-i">“</span>
             <span class="d-i">Before downloading one file, please delete two.</span>
             <span class="bq-2 v-a m-50 l-h c d-i">”</span>
-            <span id="jo-menu" class="author">— Th. Jov. Nsanzumukiza</span>
+            <span id="jo-name" class="author">— Th. Jov. Nsanzumukiza</span>
         </blockquote>            
     </div>
 </template>
