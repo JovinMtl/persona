@@ -9,3 +9,21 @@
         </blockquote>            
     </div>
 </template>
+
+<script setup lang="ts">
+import { onMounted } from 'vue'
+// targetting the name of the author
+onMounted(()=>{
+  const joName = document.getElementById("jo-name")
+
+  const observerName = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+      entry.target.classList.toggle('bg-green', entry.isIntersecting)
+    })
+  },{
+    rootMargin: '-180px -80px -80px -80px',
+  })
+  observerName.observe(joName)
+
+})
+</script>
